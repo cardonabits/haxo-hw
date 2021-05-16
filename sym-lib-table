@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name mcp3221)(type Legacy)(uri ${KIPRJMOD}/libs/mcp3221.lib)(options "")(descr ""))
+  (lib (name haxo001_library)(type Legacy)(uri ${KIPRJMOD}/haxo001_library.lib)(options "")(descr ""))
 )

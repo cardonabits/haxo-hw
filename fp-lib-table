@@ -3,4 +3,5 @@
   (lib (name Kailh_Choc)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/Kailh_Choc.pretty)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name Alps_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/Alps_Only.pretty)(options "")(descr ""))
+  (lib (name haxo001)(type KiCad)(uri ${KIPRJMOD}/haxo001.pretty)(options "")(descr ""))
 )
