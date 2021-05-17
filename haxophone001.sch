@@ -55,7 +55,7 @@ U 1 1 6096574F
 P 4550 1500
 F 0 "J5" H 4650 1650 50  0000 C CNN
 F 1 "Conn_01x02" H 4800 1300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4550 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4550 1500 50  0001 C CNN
 F 3 "~" H 4550 1500 50  0001 C CNN
 	1    4550 1500
 	-1   0    0    -1  
@@ -456,7 +456,11 @@ P 3350 1700
 F 0 "J6" H 3400 2017 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 3450 500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 3350 1700 50  0001 C CNN
-F 3 "~" H 3350 1700 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 3350 1700 50  0001 C CNN
+F 4 "Adam Tech" H 3350 1700 50  0001 C CNN "Field4"
+F 5 " PH2RA-40-UA" H 3350 1700 50  0001 C CNN "Field5"
+F 6 "CONNFLY" H 3350 1700 50  0001 C CNN "Field6"
+F 7 "ZL212-40KG" H 3350 1700 50  0001 C CNN "Field7"
 	1    3350 1700
 	1    0    0    -1  
 $EndComp
@@ -483,7 +487,9 @@ P 8900 1700
 F 0 "J10" H 8950 550 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 8950 450 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8900 1700 50  0001 C CNN
-F 3 "~" H 8900 1700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 8900 1700 50  0001 C CNN
+F 4 "TE Connectivity" H 8900 1700 50  0001 C CNN "Field4"
+F 5 "2-535542-0" H 8900 1700 50  0001 C CNN "Field5"
 	1    8900 1700
 	1    0    0    -1  
 $EndComp
@@ -497,7 +503,7 @@ U 1 1 609DDDEA
 P 4650 1600
 F 0 "J2" H 5050 1750 50  0000 R CNN
 F 1 "Conn_01x02" H 5250 1400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4650 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 1600 50  0001 C CNN
 F 3 "~" H 4650 1600 50  0001 C CNN
 	1    4650 1600
 	1    0    0    1   
@@ -913,66 +919,6 @@ F 3 "~" H 950 7450 50  0001 C CNN
 	1    950  7450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60AFE571
-P 1700 6750
-F 0 "TP1" H 1758 6868 50  0000 L CNN
-F 1 "TestPoint" H 1758 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1900 6750 50  0001 C CNN
-F 3 "~" H 1900 6750 50  0001 C CNN
-	1    1700 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1700 6750
-$Comp
-L Connector:TestPoint TP3
-U 1 1 60B00124
-P 1900 6750
-F 0 "TP3" H 1958 6868 50  0000 L CNN
-F 1 "TestPoint" H 1958 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2100 6750 50  0001 C CNN
-F 3 "~" H 2100 6750 50  0001 C CNN
-	1    1900 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 6750
-$Comp
-L Connector:TestPoint TP5
-U 1 1 60B01424
-P 2100 6750
-F 0 "TP5" H 2158 6868 50  0000 L CNN
-F 1 "TestPoint" H 2158 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2300 6750 50  0001 C CNN
-F 3 "~" H 2300 6750 50  0001 C CNN
-	1    2100 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2100 6750
-$Comp
-L Connector:TestPoint TP2
-U 1 1 60B05730
-P 1700 7050
-F 0 "TP2" H 1758 7168 50  0000 L CNN
-F 1 "TestPoint" H 1758 7077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1900 7050 50  0001 C CNN
-F 3 "~" H 1900 7050 50  0001 C CNN
-	1    1700 7050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1700 7050
-$Comp
-L Connector:TestPoint TP4
-U 1 1 60B0682C
-P 1900 7050
-F 0 "TP4" H 1958 7168 50  0000 L CNN
-F 1 "TestPoint" H 1958 7077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2100 7050 50  0001 C CNN
-F 3 "~" H 2100 7050 50  0001 C CNN
-	1    1900 7050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 7050
 Wire Wire Line
 	5200 850  5200 3750
 $Comp
@@ -982,7 +928,9 @@ P 2100 1700
 F 0 "J1" H 2150 1950 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 2100 500 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2100 1700 50  0001 C CNN
-F 3 "~" H 2100 1700 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 2100 1700 50  0001 C CNN
+F 4 "TE Connectivity" H 2100 1700 50  0001 C CNN "Field4"
+F 5 "2-535542-0" H 2100 1700 50  0001 C CNN "Field5"
 	1    2100 1700
 	1    0    0    -1  
 $EndComp
@@ -993,7 +941,7 @@ P 1900 5550
 F 0 "U2" H 2150 5350 60  0000 R CNN
 F 1 "MCP3221" H 2400 5250 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 1900 5550 60  0001 C CNN
-F 3 "" H 1900 5550 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001732e.pdf" H 1900 5550 60  0001 C CNN
 	1    1900 5550
 	1    0    0    -1  
 $EndComp
@@ -1004,7 +952,7 @@ P 1000 5150
 F 0 "U1" H 975 5275 50  0000 C CNN
 F 1 "MPXV7007DP" H 975 5184 50  0000 C CNN
 F 2 "haxo001:SOT1693" H 1000 5150 50  0001 C CNN
-F 3 "" H 1000 5150 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/MPXV7007.pdf" H 1000 5150 50  0001 C CNN
 	1    1000 5150
 	-1   0    0    -1  
 $EndComp
@@ -1061,6 +1009,8 @@ F 0 "J3" H 9550 6331 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 9550 6240 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9550 4850 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9550 4850 50  0001 C CNN
+F 4 "TE Connectivity" H 9550 4850 50  0001 C CNN "Field4"
+F 5 "2-535542-0" H 9550 4850 50  0001 C CNN "Field5"
 	1    9550 4850
 	-1   0    0    1   
 $EndComp
@@ -1100,6 +1050,8 @@ F 0 "R1" H 2420 5396 50  0000 L CNN
 F 1 "4.7K" H 2420 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2280 5350 50  0001 C CNN
 F 3 "~" H 2350 5350 50  0001 C CNN
+F 4 "Yageo" H 2350 5350 50  0001 C CNN "Field4"
+F 5 "RC0805JR-134K7L" H 2350 5350 50  0001 C CNN "Field5"
 	1    2350 5350
 	1    0    0    -1  
 $EndComp
@@ -1134,6 +1086,8 @@ F 0 "C1" H 1465 5746 50  0000 L CNN
 F 1 "470pF" H 1465 5655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1388 5550 50  0001 C CNN
 F 3 "~" H 1350 5700 50  0001 C CNN
+F 4 "AVX" H 1350 5700 50  0001 C CNN "Field4"
+F 5 "12067A471JAT1A" H 1350 5700 50  0001 C CNN "Field5"
 	1    1350 5700
 	1    0    0    -1  
 $EndComp
@@ -1319,7 +1273,9 @@ P 7650 1700
 F 0 "J8" H 7700 550 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 7700 450 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 7650 1700 50  0001 C CNN
-F 3 "~" H 7650 1700 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 7650 1700 50  0001 C CNN
+F 4 "Adam Tech" H 7650 1700 50  0001 C CNN "Field4"
+F 5 " PH2RA-40-UA" H 7650 1700 50  0001 C CNN "Field5"
 	1    7650 1700
 	1    0    0    -1  
 $EndComp
