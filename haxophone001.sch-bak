@@ -919,66 +919,6 @@ F 3 "~" H 950 7450 50  0001 C CNN
 	1    950  7450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60AFE571
-P 1700 6750
-F 0 "TP1" H 1758 6868 50  0000 L CNN
-F 1 "TestPoint" H 1758 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1900 6750 50  0001 C CNN
-F 3 "~" H 1900 6750 50  0001 C CNN
-	1    1700 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1700 6750
-$Comp
-L Connector:TestPoint TP3
-U 1 1 60B00124
-P 1900 6750
-F 0 "TP3" H 1958 6868 50  0000 L CNN
-F 1 "TestPoint" H 1958 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2100 6750 50  0001 C CNN
-F 3 "~" H 2100 6750 50  0001 C CNN
-	1    1900 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 6750
-$Comp
-L Connector:TestPoint TP5
-U 1 1 60B01424
-P 2100 6750
-F 0 "TP5" H 2158 6868 50  0000 L CNN
-F 1 "TestPoint" H 2158 6777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2300 6750 50  0001 C CNN
-F 3 "~" H 2300 6750 50  0001 C CNN
-	1    2100 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2100 6750
-$Comp
-L Connector:TestPoint TP2
-U 1 1 60B05730
-P 1700 7050
-F 0 "TP2" H 1758 7168 50  0000 L CNN
-F 1 "TestPoint" H 1758 7077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1900 7050 50  0001 C CNN
-F 3 "~" H 1900 7050 50  0001 C CNN
-	1    1700 7050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1700 7050
-$Comp
-L Connector:TestPoint TP4
-U 1 1 60B0682C
-P 1900 7050
-F 0 "TP4" H 1958 7168 50  0000 L CNN
-F 1 "TestPoint" H 1958 7077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2100 7050 50  0001 C CNN
-F 3 "~" H 2100 7050 50  0001 C CNN
-	1    1900 7050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1900 7050
 Wire Wire Line
 	5200 850  5200 3750
 $Comp
@@ -1454,15 +1394,4 @@ NoConn ~ 3650 2000
 NoConn ~ 3650 1900
 Wire Wire Line
 	6900 850  6900 4400
-$Comp
-L Connector:TestPoint TP6
-U 1 1 60A23CB7
-P 2150 7050
-F 0 "TP6" H 2208 7168 50  0000 L CNN
-F 1 "TestPoint" H 2208 7077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2350 7050 50  0001 C CNN
-F 3 "~" H 2350 7050 50  0001 C CNN
-	1    2150 7050
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

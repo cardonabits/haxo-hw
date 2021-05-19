@@ -1394,4 +1394,14 @@ NoConn ~ 3650 2000
 NoConn ~ 3650 1900
 Wire Wire Line
 	6900 850  6900 4400
+Wire Notes Line
+	550  4450 550  6350
+Wire Notes Line
+	550  6350 3250 6350
+Wire Notes Line
+	3250 6350 3250 4450
+Wire Notes Line
+	3250 4450 550  4450
+Text Notes 2550 6300 0    50   ~ 0
+Pressure Sensor
 $EndSCHEMATC
