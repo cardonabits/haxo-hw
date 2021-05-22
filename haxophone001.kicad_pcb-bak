@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 99)
+    (drawings 98)
     (tracks 598)
     (zones 0)
     (modules 78)
@@ -1326,7 +1326,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 609FD8A5)
+  (module MountingHole:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 60A8F6AC)
     (at 40.64 236.22)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -3734,9 +3734,8 @@
     )
   )
 
-  (gr_line (start 38.1 206.756) (end 38.1 236.22) (layer Edge.Cuts) (width 0.05) (tstamp 60A8F69C))
-  (gr_arc (start 38.1 202.184) (end 38.1 197.104) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60A8F677))
-  (gr_arc (start 38.1 201.676) (end 33.02 201.676) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60A8F65F))
+  (gr_line (start 38.1 207.264) (end 38.1 236.22) (layer Edge.Cuts) (width 0.05) (tstamp 60A8F69C))
+  (gr_arc (start 38.1 202.184) (end 38.1 197.104) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60A8F677))
   (gr_line (start 64.77 201.93) (end 68.072 207.01) (layer Dwgs.User) (width 0.15))
   (gr_line (start 91.186 199.136) (end 38.354 199.136) (layer Dwgs.User) (width 0.15) (tstamp 60A8EB58))
   (gr_line (start 91.186 199.39) (end 91.186 199.136) (layer Dwgs.User) (width 0.15))
