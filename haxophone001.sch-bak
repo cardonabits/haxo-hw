@@ -23,7 +23,7 @@ Text GLabel 7950 1700 2    50   Input ~ 0
 ROW1
 Text GLabel 7950 1800 2    50   Input ~ 0
 ROW2
-Text GLabel 7450 1800 0    50   Input ~ 0
+Text GLabel 7450 1700 0    50   Input ~ 0
 ROW0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8
@@ -447,7 +447,7 @@ Text Notes 1550 3050 0    50   ~ 0
 Upper Left Hand
 Text GLabel 3150 1700 0    50   Input ~ 0
 COL0
-Text GLabel 7450 1700 0    50   Input ~ 0
+Text GLabel 7450 1800 0    50   Input ~ 0
 COL2
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J6
@@ -1394,4 +1394,14 @@ NoConn ~ 3650 2000
 NoConn ~ 3650 1900
 Wire Wire Line
 	6900 850  6900 4400
+Wire Notes Line
+	550  4450 550  6350
+Wire Notes Line
+	550  6350 3250 6350
+Wire Notes Line
+	3250 6350 3250 4450
+Wire Notes Line
+	3250 4450 550  4450
+Text Notes 2550 6300 0    50   ~ 0
+Pressure Sensor
 $EndSCHEMATC

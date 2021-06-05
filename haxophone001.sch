@@ -23,7 +23,7 @@ Text GLabel 7950 1700 2    50   Input ~ 0
 ROW1
 Text GLabel 7950 1800 2    50   Input ~ 0
 ROW2
-Text GLabel 7450 1800 0    50   Input ~ 0
+Text GLabel 7450 1700 0    50   Input ~ 0
 ROW0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8
@@ -71,34 +71,34 @@ Front, lower right, and lower left keys
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX17
 U 1 1 60966C11
-P 10200 1400
-F 0 "MX17" H 10233 1623 60  0000 C CNN
-F 1 "palmE" H 10233 1549 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9575 1375 60  0001 C CNN
-F 3 "" H 9575 1375 60  0001 C CNN
-	1    10200 1400
+P 10300 1400
+F 0 "MX17" H 10333 1623 60  0000 C CNN
+F 1 "palmEb" H 10333 1549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9675 1375 60  0001 C CNN
+F 3 "" H 9675 1375 60  0001 C CNN
+	1    10300 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX18
 U 1 1 60966C26
-P 10200 2050
-F 0 "MX18" H 10233 2273 60  0000 C CNN
-F 1 "C" H 10233 2199 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9575 2025 60  0001 C CNN
-F 3 "" H 9575 2025 60  0001 C CNN
-	1    10200 2050
+P 10300 2050
+F 0 "MX18" H 10333 2273 60  0000 C CNN
+F 1 "palmD" H 10333 2199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9675 2025 60  0001 C CNN
+F 3 "" H 9675 2025 60  0001 C CNN
+	1    10300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX19
 U 1 1 60966C3B
-P 10200 2700
-F 0 "MX19" H 10233 2923 60  0000 C CNN
-F 1 "Bb" H 10233 2849 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9575 2675 60  0001 C CNN
-F 3 "" H 9575 2675 60  0001 C CNN
-	1    10200 2700
+P 10300 2700
+F 0 "MX19" H 10333 2923 60  0000 C CNN
+F 1 "palmF" H 10333 2849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9675 2675 60  0001 C CNN
+F 3 "" H 9675 2675 60  0001 C CNN
+	1    10300 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -134,20 +134,20 @@ F 3 "" H 6125 5725 60  0001 C CNN
 	1    6750 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 10350 1050 2    50   Input ~ 0
-COL2_UR
+Text GLabel 10450 1050 2    50   Input ~ 0
+COL2_LHP
 Text GLabel 6600 6100 0    50   Input ~ 0
 ROW6
 Text GLabel 6600 5450 0    50   Input ~ 0
 ROW5
 Text GLabel 6600 4800 0    50   Input ~ 0
 ROW4
-Text GLabel 10050 3050 0    50   Input ~ 0
-ROW2_UR
-Text GLabel 10050 2400 0    50   Input ~ 0
-ROW1_UR
-Text GLabel 10050 1750 0    50   Input ~ 0
-ROW0_UR
+Text GLabel 10150 3050 0    50   Input ~ 0
+ROW2_LHP
+Text GLabel 10150 2400 0    50   Input ~ 0
+ROW1_LHP
+Text GLabel 10150 1750 0    50   Input ~ 0
+ROW0_LHP
 Wire Wire Line
 	6900 5050 6900 5700
 Connection ~ 6900 5050
@@ -155,13 +155,13 @@ Wire Wire Line
 	6900 4400 6900 5050
 Connection ~ 6900 4400
 Wire Wire Line
-	10350 2000 10350 2650
-Connection ~ 10350 2000
+	10450 2000 10450 2650
+Connection ~ 10450 2000
 Wire Wire Line
-	10350 1350 10350 2000
-Connection ~ 10350 1350
+	10450 1350 10450 2000
+Connection ~ 10450 1350
 Wire Wire Line
-	10350 1050 10350 1350
+	10450 1050 10450 1350
 Wire Wire Line
 	6600 5900 6700 5900
 $Comp
@@ -202,42 +202,42 @@ F 3 "~" V 6600 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10050 2850 10150 2850
+	10150 2850 10250 2850
 $Comp
 L Device:D_Small D19
 U 1 1 60966C45
-P 10050 2950
-F 0 "D19" V 10096 2880 50  0000 R CNN
-F 1 "D_Small" V 10005 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 10050 2950 50  0001 C CNN
-F 3 "~" V 10050 2950 50  0001 C CNN
-	1    10050 2950
+P 10150 2950
+F 0 "D19" V 10196 2880 50  0000 R CNN
+F 1 "D_Small" V 10105 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 10150 2950 50  0001 C CNN
+F 3 "~" V 10150 2950 50  0001 C CNN
+	1    10150 2950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10050 2200 10150 2200
+	10150 2200 10250 2200
 $Comp
 L Device:D_Small D18
 U 1 1 60966C30
-P 10050 2300
-F 0 "D18" V 10096 2230 50  0000 R CNN
-F 1 "D_Small" V 10005 2230 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 10050 2300 50  0001 C CNN
-F 3 "~" V 10050 2300 50  0001 C CNN
-	1    10050 2300
+P 10150 2300
+F 0 "D18" V 10196 2230 50  0000 R CNN
+F 1 "D_Small" V 10105 2230 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 10150 2300 50  0001 C CNN
+F 3 "~" V 10150 2300 50  0001 C CNN
+	1    10150 2300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10050 1550 10150 1550
+	10150 1550 10250 1550
 $Comp
 L Device:D_Small D17
 U 1 1 60966C1B
-P 10050 1650
-F 0 "D17" V 10096 1580 50  0000 R CNN
-F 1 "D_Small" V 10005 1580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 10050 1650 50  0001 C CNN
-F 3 "~" V 10050 1650 50  0001 C CNN
-	1    10050 1650
+P 10150 1650
+F 0 "D17" V 10196 1580 50  0000 R CNN
+F 1 "D_Small" V 10105 1580 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 10150 1650 50  0001 C CNN
+F 3 "~" V 10150 1650 50  0001 C CNN
+	1    10150 1650
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4900 6100 0    50   Input ~ 0
@@ -249,13 +249,13 @@ ROW4
 Text GLabel 4900 4150 0    50   Input ~ 0
 ROW3
 Text GLabel 1000 2900 0    50   Input ~ 0
-ROW2_UL
+ROW2_RHK
 Text GLabel 1000 2250 0    50   Input ~ 0
-ROW1_UL
+ROW1_RHK
 Text GLabel 1000 1600 0    50   Input ~ 0
-ROW0_UL
+ROW0_RHK
 Text GLabel 1300 750  2    50   Input ~ 0
-COL0_UL
+COL0_RHK
 Wire Wire Line
 	5200 5050 5200 5700
 Connection ~ 5200 5050
@@ -384,7 +384,7 @@ L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 60951601
 P 1150 2550
 F 0 "MX3" H 1183 2773 60  0000 C CNN
-F 1 "palmF" H 1183 2699 20  0000 C CNN
+F 1 "Bb" H 1183 2699 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 525 2525 60  0001 C CNN
 F 3 "" H 525 2525 60  0001 C CNN
 	1    1150 2550
@@ -408,7 +408,7 @@ L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 609433CE
 P 1150 1900
 F 0 "MX2" H 1183 2123 60  0000 C CNN
-F 1 "palmD" H 1183 2049 20  0000 C CNN
+F 1 "C" H 1183 2049 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 525 1875 60  0001 C CNN
 F 3 "" H 525 1875 60  0001 C CNN
 	1    1150 1900
@@ -432,7 +432,7 @@ L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 6093634D
 P 1150 1250
 F 0 "MX1" H 1183 1473 60  0000 C CNN
-F 1 "palmEb" H 1183 1399 20  0000 C CNN
+F 1 "palmE" H 1183 1399 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 525 1225 60  0001 C CNN
 F 3 "" H 525 1225 60  0001 C CNN
 	1    1150 1250
@@ -444,10 +444,10 @@ Connection ~ 5200 3750
 Text GLabel 6900 850  2    50   Input ~ 0
 COL2
 Text Notes 1550 3050 0    50   ~ 0
-Upper Left Hand
+Righ Hand Knuckle
 Text GLabel 3150 1700 0    50   Input ~ 0
 COL0
-Text GLabel 7450 1700 0    50   Input ~ 0
+Text GLabel 7450 1800 0    50   Input ~ 0
 COL2
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J6
@@ -465,21 +465,21 @@ F 7 "ZL212-40KG" H 3350 1700 50  0001 C CNN "Field7"
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 1700 2    50   Input ~ 0
-ROW1_UL
+ROW1_RHK
 Text GLabel 2400 1800 2    50   Input ~ 0
-ROW2_UL
+ROW2_RHK
 Text GLabel 1900 1800 0    50   Input ~ 0
-ROW0_UL
+ROW0_RHK
 Text GLabel 1900 1700 0    50   Input ~ 0
-COL0_UL
+COL0_RHK
 Wire Wire Line
 	1300 750  1300 1200
 Text GLabel 9200 1800 2    50   Input ~ 0
-ROW2_UR
+ROW2_LHP
 Text GLabel 8700 1700 0    50   Input ~ 0
-ROW0_UR
+ROW0_LHP
 Text GLabel 8700 1800 0    50   Input ~ 0
-COL2_UR
+COL2_LHP
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J10
 U 1 1 609D213B
@@ -494,7 +494,7 @@ F 5 "2-535542-0" H 8900 1700 50  0001 C CNN "Field5"
 	1    0    0    -1  
 $EndComp
 Text GLabel 9200 1700 2    50   Input ~ 0
-ROW1_UR
+ROW1_LHP
 Text Notes 4450 2000 2    50   ~ 0
 Octave key
 $Comp
@@ -793,11 +793,11 @@ Wire Wire Line
 	6100 850  6100 1150
 Connection ~ 6100 1150
 Wire Notes Line
-	10800 600  10800 3250
+	10950 600  10950 3250
 Wire Notes Line
 	8250 3250 8250 600 
 Text Notes 8850 3200 0    50   ~ 0
-Upper Right Hand
+Left Hand Palm
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60A86AD7
@@ -1352,10 +1352,6 @@ NoConn ~ 2400 2200
 NoConn ~ 2400 2100
 NoConn ~ 2400 2000
 NoConn ~ 2400 1900
-Wire Notes Line
-	8250 600  10800 600 
-Wire Notes Line
-	8250 3250 10800 3250
 NoConn ~ 3150 800 
 NoConn ~ 3150 900 
 NoConn ~ 3150 1000
@@ -1404,4 +1400,8 @@ Wire Notes Line
 	3250 4450 550  4450
 Text Notes 2550 6300 0    50   ~ 0
 Pressure Sensor
+Wire Notes Line
+	8250 3250 10950 3250
+Wire Notes Line
+	8250 600  10950 600 
 $EndSCHEMATC
