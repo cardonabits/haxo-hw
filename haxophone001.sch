@@ -23,7 +23,7 @@ Text GLabel 7950 1700 2    50   Input ~ 0
 ROW1
 Text GLabel 7950 1800 2    50   Input ~ 0
 ROW2
-Text GLabel 7450 1700 0    50   Input ~ 0
+Text GLabel 7450 1800 0    50   Input ~ 0
 ROW0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8
@@ -447,18 +447,18 @@ Text Notes 1550 3050 0    50   ~ 0
 Righ Hand Knuckle
 Text GLabel 3150 1700 0    50   Input ~ 0
 COL0
-Text GLabel 7450 1800 0    50   Input ~ 0
+Text GLabel 7450 1700 0    50   Input ~ 0
 COL2
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J6
+L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 609837CE
 P 3350 1700
-F 0 "J6" H 3400 2017 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 3450 500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 3350 1700 50  0001 C CNN
+F 0 "J6" H 3400 1850 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 3450 1450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 3350 1700 50  0001 C CNN
 F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 3350 1700 50  0001 C CNN
 F 4 "Adam Tech" H 3350 1700 50  0001 C CNN "Field4"
-F 5 " PH2RA-40-UA" H 3350 1700 50  0001 C CNN "Field5"
+F 5 " PH2RA-04-UA" H 3350 1700 50  0001 C CNN "Field5"
 F 6 "CONNFLY" H 3350 1700 50  0001 C CNN "Field6"
 F 7 "ZL212-40KG" H 3350 1700 50  0001 C CNN "Field7"
 	1    3350 1700
@@ -476,20 +476,20 @@ Wire Wire Line
 	1300 750  1300 1200
 Text GLabel 9200 1800 2    50   Input ~ 0
 ROW2_LHP
-Text GLabel 8700 1700 0    50   Input ~ 0
-ROW0_LHP
 Text GLabel 8700 1800 0    50   Input ~ 0
+ROW0_LHP
+Text GLabel 8700 1700 0    50   Input ~ 0
 COL2_LHP
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J10
+L Connector_Generic:Conn_02x02_Odd_Even J10
 U 1 1 609D213B
 P 8900 1700
 F 0 "J10" H 8950 550 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 8950 450 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8900 1700 50  0001 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8950 450 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 8900 1700 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 8900 1700 50  0001 C CNN
 F 4 "TE Connectivity" H 8900 1700 50  0001 C CNN "Field4"
-F 5 "2-535542-0" H 8900 1700 50  0001 C CNN "Field5"
+F 5 "5-535542-2" H 8900 1700 50  0001 C CNN "Field5"
 	1    8900 1700
 	1    0    0    -1  
 $EndComp
@@ -525,8 +525,6 @@ Wire Notes Line
 NoConn ~ 10350 4850
 NoConn ~ 10350 4950
 NoConn ~ 10350 5050
-NoConn ~ 8750 4050
-NoConn ~ 8750 4150
 NoConn ~ 8750 4350
 NoConn ~ 8750 4450
 NoConn ~ 8750 4550
@@ -555,9 +553,9 @@ Text GLabel 10350 5350 2    50   Input ~ 0
 ROW3
 Text GLabel 10350 5450 2    50   Input ~ 0
 ROW2
-Text GLabel 10350 5650 2    50   Input ~ 0
+Text GLabel 8750 4150 0    50   Input ~ 0
 ROW1
-Text GLabel 10350 5750 2    50   Input ~ 0
+Text GLabel 8750 4050 0    50   Input ~ 0
 ROW0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX9
@@ -801,8 +799,19 @@ Left Hand Palm
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60A86AD7
+P 3900 6650
+F 0 "H1" H 4000 6696 50  0000 L CNN
+F 1 "MountingHole" H 4000 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 6650 50  0001 C CNN
+F 3 "~" H 3900 6650 50  0001 C CNN
+	1    3900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60A86E0F
 P 650 6650
-F 0 "H1" H 750 6696 50  0000 L CNN
+F 0 "H2" H 750 6696 50  0000 L CNN
 F 1 "MountingHole" H 750 6605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 6650 50  0001 C CNN
 F 3 "~" H 650 6650 50  0001 C CNN
@@ -810,58 +819,47 @@ F 3 "~" H 650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 60A86E0F
-P 650 6850
-F 0 "H2" H 750 6896 50  0000 L CNN
-F 1 "MountingHole" H 750 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 6850 50  0001 C CNN
-F 3 "~" H 650 6850 50  0001 C CNN
-	1    650  6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H3
 U 1 1 60A87081
-P 650 7050
-F 0 "H3" H 750 7096 50  0000 L CNN
-F 1 "MountingHole" H 750 7005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 7050 50  0001 C CNN
-F 3 "~" H 650 7050 50  0001 C CNN
-	1    650  7050
+P 3900 6850
+F 0 "H3" H 4000 6896 50  0000 L CNN
+F 1 "MountingHole" H 4000 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 6850 50  0001 C CNN
+F 3 "~" H 3900 6850 50  0001 C CNN
+	1    3900 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60A87285
-P 650 7250
-F 0 "H4" H 750 7296 50  0000 L CNN
-F 1 "MountingHole" H 750 7205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 7250 50  0001 C CNN
-F 3 "~" H 650 7250 50  0001 C CNN
-	1    650  7250
+P 3450 7450
+F 0 "H4" H 3550 7496 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 7405 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 7450 50  0001 C CNN
+F 3 "~" H 3450 7450 50  0001 C CNN
+	1    3450 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 60A875A2
-P 650 7450
-F 0 "H5" H 750 7496 50  0000 L CNN
-F 1 "MountingHole" H 750 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 7450 50  0001 C CNN
-F 3 "~" H 650 7450 50  0001 C CNN
-	1    650  7450
+P 3900 7050
+F 0 "H5" H 4000 7096 50  0000 L CNN
+F 1 "MountingHole" H 4000 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 7050 50  0001 C CNN
+F 3 "~" H 3900 7050 50  0001 C CNN
+	1    3900 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 60A878A7
-P 650 7650
-F 0 "H6" H 750 7696 50  0000 L CNN
-F 1 "MountingHole" H 750 7605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 7650 50  0001 C CNN
-F 3 "~" H 650 7650 50  0001 C CNN
-	1    650  7650
+P 650 7050
+F 0 "H6" H 750 7096 50  0000 L CNN
+F 1 "MountingHole" H 750 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 7050 50  0001 C CNN
+F 3 "~" H 650 7050 50  0001 C CNN
+	1    650  7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -878,8 +876,19 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 60A8812F
+P 3900 7250
+F 0 "H8" H 4000 7296 50  0000 L CNN
+F 1 "MountingHole" H 4000 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 7250 50  0001 C CNN
+F 3 "~" H 3900 7250 50  0001 C CNN
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60A88550
 P 950 6850
-F 0 "H8" H 1050 6896 50  0000 L CNN
+F 0 "H9" H 1050 6896 50  0000 L CNN
 F 1 "MountingHole" H 1050 6805 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 6850 50  0001 C CNN
 F 3 "~" H 950 6850 50  0001 C CNN
@@ -887,50 +896,39 @@ F 3 "~" H 950 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H9
-U 1 1 60A88550
-P 950 7050
-F 0 "H9" H 1050 7096 50  0000 L CNN
-F 1 "MountingHole" H 1050 7005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 7050 50  0001 C CNN
-F 3 "~" H 950 7050 50  0001 C CNN
-	1    950  7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H10
 U 1 1 60A8874B
-P 950 7250
-F 0 "H10" H 1050 7296 50  0000 L CNN
-F 1 "MountingHole" H 1050 7205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 7250 50  0001 C CNN
-F 3 "~" H 950 7250 50  0001 C CNN
-	1    950  7250
+P 3450 7650
+F 0 "H10" H 3550 7696 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 7605 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 7650 50  0001 C CNN
+F 3 "~" H 3450 7650 50  0001 C CNN
+	1    3450 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H11
 U 1 1 60A88AB8
-P 950 7450
-F 0 "H11" H 1050 7496 50  0000 L CNN
-F 1 "MountingHole" H 1050 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 7450 50  0001 C CNN
-F 3 "~" H 950 7450 50  0001 C CNN
-	1    950  7450
+P 650 6850
+F 0 "H11" H 750 6896 50  0000 L CNN
+F 1 "MountingHole" H 750 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 6850 50  0001 C CNN
+F 3 "~" H 650 6850 50  0001 C CNN
+	1    650  6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 850  5200 3750
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
+L Connector_Generic:Conn_02x02_Odd_Even J1
 U 1 1 609941A0
 P 2100 1700
-F 0 "J1" H 2150 1950 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 2100 500 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2100 1700 50  0001 C CNN
+F 0 "J1" H 2150 1850 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 2200 1450 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 2100 1700 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 2100 1700 50  0001 C CNN
 F 4 "TE Connectivity" H 2100 1700 50  0001 C CNN "Field4"
-F 5 "2-535542-0" H 2100 1700 50  0001 C CNN "Field5"
+F 5 "5-535542-2" H 2100 1700 50  0001 C CNN "Field5"
 	1    2100 1700
 	1    0    0    -1  
 $EndComp
@@ -1223,171 +1221,27 @@ $EndComp
 Connection ~ 8800 6150
 Wire Wire Line
 	8800 6150 9350 6150
-Text Notes 2450 3550 0    50   ~ 0
-40-pin right angle connectors used \nto join main PCB with both upper \nright and upper left PCBs.  \nThe excess/unused pins are used \nfor mechanical rigidity.
+Text Notes 2950 2500 0    50   ~ 0
+4-pin right angle connectors used \nto join main PCB with both upper \nright and upper left PCBs.
 Wire Notes Line
 	550  600  2850 600 
 Wire Notes Line
 	2850 600  2850 3100
 Wire Notes Line
 	2850 3100 550  3100
-NoConn ~ 7450 800 
-NoConn ~ 7450 900 
-NoConn ~ 7450 1000
-NoConn ~ 7450 1100
-NoConn ~ 7450 1200
-NoConn ~ 7450 1300
-NoConn ~ 7450 1400
-NoConn ~ 7450 1500
-NoConn ~ 7450 1600
-NoConn ~ 7450 1900
-NoConn ~ 7450 2000
-NoConn ~ 7450 2100
-NoConn ~ 7450 2200
-NoConn ~ 7450 2300
-NoConn ~ 7450 2400
-NoConn ~ 7450 2500
-NoConn ~ 7450 2600
-NoConn ~ 7450 2700
-NoConn ~ 7950 2700
-NoConn ~ 7950 2600
-NoConn ~ 7950 2500
-NoConn ~ 7950 2400
-NoConn ~ 7950 2300
-NoConn ~ 7950 2200
-NoConn ~ 7950 2100
-NoConn ~ 7950 2000
-NoConn ~ 7950 1900
-NoConn ~ 7950 1600
-NoConn ~ 7950 1500
-NoConn ~ 7950 1400
-NoConn ~ 7950 1300
-NoConn ~ 7950 1200
-NoConn ~ 7950 1100
-NoConn ~ 7950 1000
-NoConn ~ 7950 900 
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J8
+L Connector_Generic:Conn_02x02_Odd_Even J8
 U 1 1 60983BDA
 P 7650 1700
 F 0 "J8" H 7700 550 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 7700 450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 7650 1700 50  0001 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7700 450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 7650 1700 50  0001 C CNN
 F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 7650 1700 50  0001 C CNN
 F 4 "Adam Tech" H 7650 1700 50  0001 C CNN "Field4"
-F 5 " PH2RA-40-UA" H 7650 1700 50  0001 C CNN "Field5"
+F 5 " PH2RA-04-UA" H 7650 1700 50  0001 C CNN "Field5"
 	1    7650 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7950 800 
-NoConn ~ 8700 800 
-NoConn ~ 8700 900 
-NoConn ~ 8700 1000
-NoConn ~ 8700 1100
-NoConn ~ 8700 1200
-NoConn ~ 8700 1300
-NoConn ~ 8700 1400
-NoConn ~ 8700 1500
-NoConn ~ 8700 1600
-NoConn ~ 8700 1900
-NoConn ~ 8700 2000
-NoConn ~ 8700 2100
-NoConn ~ 8700 2200
-NoConn ~ 8700 2300
-NoConn ~ 8700 2400
-NoConn ~ 8700 2500
-NoConn ~ 8700 2600
-NoConn ~ 8700 2700
-NoConn ~ 9200 800 
-NoConn ~ 9200 900 
-NoConn ~ 9200 1000
-NoConn ~ 9200 1100
-NoConn ~ 9200 1200
-NoConn ~ 9200 1300
-NoConn ~ 9200 1400
-NoConn ~ 9200 1500
-NoConn ~ 9200 1600
-NoConn ~ 9200 1900
-NoConn ~ 9200 2000
-NoConn ~ 9200 2100
-NoConn ~ 9200 2200
-NoConn ~ 9200 2300
-NoConn ~ 9200 2400
-NoConn ~ 9200 2500
-NoConn ~ 9200 2600
-NoConn ~ 9200 2700
-NoConn ~ 2400 800 
-NoConn ~ 2400 900 
-NoConn ~ 2400 1000
-NoConn ~ 2400 1100
-NoConn ~ 2400 1200
-NoConn ~ 2400 1300
-NoConn ~ 2400 1400
-NoConn ~ 2400 1500
-NoConn ~ 2400 1600
-NoConn ~ 1900 800 
-NoConn ~ 1900 900 
-NoConn ~ 1900 1000
-NoConn ~ 1900 1100
-NoConn ~ 1900 1200
-NoConn ~ 1900 1300
-NoConn ~ 1900 1400
-NoConn ~ 1900 1500
-NoConn ~ 1900 1600
-NoConn ~ 1900 1900
-NoConn ~ 1900 2000
-NoConn ~ 1900 2100
-NoConn ~ 1900 2200
-NoConn ~ 1900 2300
-NoConn ~ 1900 2400
-NoConn ~ 1900 2500
-NoConn ~ 1900 2600
-NoConn ~ 1900 2700
-NoConn ~ 2400 2700
-NoConn ~ 2400 2600
-NoConn ~ 2400 2500
-NoConn ~ 2400 2400
-NoConn ~ 2400 2300
-NoConn ~ 2400 2200
-NoConn ~ 2400 2100
-NoConn ~ 2400 2000
-NoConn ~ 2400 1900
-NoConn ~ 3150 800 
-NoConn ~ 3150 900 
-NoConn ~ 3150 1000
-NoConn ~ 3150 1100
-NoConn ~ 3150 1200
-NoConn ~ 3150 1300
-NoConn ~ 3150 1400
-NoConn ~ 3150 1500
-NoConn ~ 3150 1600
-NoConn ~ 3650 800 
-NoConn ~ 3650 900 
-NoConn ~ 3650 1000
-NoConn ~ 3650 1100
-NoConn ~ 3650 1200
-NoConn ~ 3650 1300
-NoConn ~ 3650 1400
-NoConn ~ 3650 1500
-NoConn ~ 3650 1600
-NoConn ~ 3150 1900
-NoConn ~ 3150 2000
-NoConn ~ 3150 2100
-NoConn ~ 3150 2200
-NoConn ~ 3150 2300
-NoConn ~ 3150 2400
-NoConn ~ 3150 2500
-NoConn ~ 3150 2600
-NoConn ~ 3150 2700
-NoConn ~ 3650 2700
-NoConn ~ 3650 2600
-NoConn ~ 3650 2500
-NoConn ~ 3650 2400
-NoConn ~ 3650 2300
-NoConn ~ 3650 2200
-NoConn ~ 3650 2100
-NoConn ~ 3650 2000
-NoConn ~ 3650 1900
 Wire Wire Line
 	6900 850  6900 4400
 Wire Notes Line
@@ -1404,4 +1258,118 @@ Wire Notes Line
 	8250 3250 10950 3250
 Wire Notes Line
 	8250 600  10950 600 
+Text GLabel 2450 7150 1    50   Input ~ 0
+UART_TXD
+Text GLabel 2550 7150 1    50   Input ~ 0
+UART_RXD
+$Comp
+L power:GND #PWR08
+U 1 1 60BC18F3
+P 2750 7000
+F 0 "#PWR08" H 2750 6750 50  0001 C CNN
+F 1 "GND" H 2755 6827 50  0000 C CNN
+F 2 "" H 2750 7000 50  0001 C CNN
+F 3 "" H 2750 7000 50  0001 C CNN
+	1    2750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 60BC2B80
+P 2450 7350
+F 0 "J4" V 2450 7000 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3150 7000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2450 7350 50  0001 C CNN
+F 3 "~" H 2450 7350 50  0001 C CNN
+	1    2450 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 7150 2650 7000
+Wire Wire Line
+	2650 7000 2750 7000
+$Comp
+L power:+3.3V #PWR07
+U 1 1 60BC879F
+P 2250 7000
+F 0 "#PWR07" H 2250 6850 50  0001 C CNN
+F 1 "+3.3V" H 2265 7173 50  0000 C CNN
+F 2 "" H 2250 7000 50  0001 C CNN
+F 3 "" H 2250 7000 50  0001 C CNN
+	1    2250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7000 2350 7000
+Wire Wire Line
+	2350 7000 2350 7150
+Text Notes 2250 7500 0    50   ~ 0
+Raspberry UART
+Text GLabel 10350 5750 2    50   Input ~ 0
+UART_TXD
+Text GLabel 10350 5650 2    50   Input ~ 0
+UART_RXD
+Wire Notes Line
+	1900 6450 3050 6450
+Wire Notes Line
+	3050 6450 3050 7600
+Wire Notes Line
+	3050 7600 1900 7600
+Wire Notes Line
+	1900 7600 1900 6450
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 60BBDFEB
+P 3450 6650
+F 0 "H12" H 3550 6696 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 6605 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 6650 50  0001 C CNN
+F 3 "~" H 3450 6650 50  0001 C CNN
+	1    3450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60BC8885
+P 3450 6850
+F 0 "H13" H 3550 6896 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 6805 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 6850 50  0001 C CNN
+F 3 "~" H 3450 6850 50  0001 C CNN
+	1    3450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 60BC8B2B
+P 3450 7050
+F 0 "H14" H 3550 7096 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 7005 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 7050 50  0001 C CNN
+F 3 "~" H 3450 7050 50  0001 C CNN
+	1    3450 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 60BC8DA9
+P 3450 7250
+F 0 "H15" H 3550 7296 50  0000 L CNN
+F 1 "RightAngleBracketHole" H 3550 7205 50  0000 L CNN
+F 2 "haxo001:L-ShapeBracket" H 3450 7250 50  0001 C CNN
+F 3 "~" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L haxo001_library:neck neck1
+U 1 1 60BFA641
+P 650 7500
+F 0 "neck1" H 778 7646 50  0000 L CNN
+F 1 "neck" H 778 7555 50  0000 L CNN
+F 2 "haxo001:neck" H 650 7500 50  0001 C CNN
+F 3 "" H 650 7500 50  0001 C CNN
+	1    650  7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
