@@ -139,54 +139,18 @@
             53627.5 -113265  53848 -113284  54068.5 -113265  54282.4 -113207
             54483 -113114  54664.3 -112987  54820.9 -112830  54947.9 -112649
             55041.4 -112448  55098.7 -112235  55118 -112014  55118 -108712
-            55098.7 -108491  55041.4 -108278  54947.9 -108077  54820.9 -107896
-            54664.3 -107739  54483 -107612  54282.4 -107519  54068.5 -107461
-            53627.5 -107423  53413.6 -107365  53213 -107272  53031.7 -107145
-            52875.1 -106988  52748.1 -106807  52654.6 -106606  52597.3 -106393
-            52578 -106172  52578 -89408  52597.3 -89187.5  52654.6 -88973.6
-            52748.1 -88773  52875.1 -88591.7  53031.7 -88435.1  53213 -88308.1
-            53413.6 -88214.6  53627.5 -88157.3  53848 -88138  58928 -88138
-            59148.5 -88118.7  59362.4 -88061.4  59563 -87967.9  59744.3 -87840.9
-            59900.9 -87684.3  60027.9 -87503  60121.4 -87302.4  60178.7 -87088.5
-            60198 -86868  60198 -76200  60178.7 -75979.5  60121.4 -75765.6
-            60027.9 -75565  59900.9 -75383.7  59744.3 -75227.1  59563 -75100.1
-            59362.4 -75006.6  59148.5 -74949.3  58928 -74930  55880 -74930
-            55880 -80772  55860.7 -81214.8  55802.8 -81654.1  55706.9 -82086.8
-            55573.6 -82509.5  55404 -82918.9  55199.4 -83312  54961.3 -83685.8
-            54691.5 -84037.4  54392.1 -84364.1  54065.4 -84663.5  53713.8 -84933.3
-            53340 -85171.4  52946.9 -85376  52537.5 -85545.6  52114.8 -85678.9
-            51682.1 -85774.8  51242.8 -85832.7  50800 -85852  36830 -85852
-            36387.2 -85832.7  35947.9 -85774.8  35515.2 -85678.9  35092.5 -85545.6
-            34683.1 -85376  34290 -85171.4  33916.2 -84933.3  33564.6 -84663.5
-            33237.9 -84364.1  32938.5 -84037.4  32668.7 -83685.8  32430.6 -83312
-            32226 -82918.9  32056.4 -82509.5  31923.1 -82086.8  31827.2 -81654.1
-            31769.3 -81214.8  31750 -80772  31750 -65532  31769.3 -65089.2
-            31827.2 -64649.9  31923.1 -64217.2  32056.4 -63794.5  32226 -63385.1
-            32430.6 -62992  32668.7 -62618.2  32938.5 -62266.6  33237.9 -61939.9
-            33564.6 -61640.5  33916.2 -61370.7  34290 -61132.6  34683.1 -60928
-            35092.5 -60758.4  35515.2 -60625.1  35947.9 -60529.2  36387.2 -60471.3
-            36830 -60452  50800 -60452  51242.8 -60471.3  51682.1 -60529.2
-            52114.8 -60625.1  52537.5 -60758.4  52946.9 -60928  53340 -61132.6
-            53713.8 -61370.7  54065.4 -61640.5  54392.1 -61939.9  54691.5 -62266.6
-            54961.3 -62618.2  55199.4 -62992  55404 -63385.1  55573.6 -63794.5
-            55706.9 -64217.2  55802.8 -64649.9  55860.7 -65089.2  55880 -65532
-            55880 -69850  58928 -69850  59148.5 -69830.7  59362.4 -69773.4
-            59563 -69679.9  59744.3 -69552.9  59900.9 -69396.3  60027.9 -69215
-            60121.4 -69014.4  60178.7 -68800.5  60198 -68580  60198 -64516
-            60178.7 -64073.2  60120.8 -63633.9  60024.9 -63201.2  59891.6 -62778.5
-            59722 -62369.1  59517.4 -61976  59279.3 -61602.2  59009.5 -61250.6
-            58710.1 -60923.9  58383.4 -60624.5  58031.8 -60354.7  57658 -60116.6
-            57264.9 -59912  56855.5 -59742.4  56432.8 -59609.1  56000.1 -59513.2
-            55560.8 -59455.3  54675.2 -59416.7  54235.9 -59358.8  53803.2 -59262.9
-            53380.5 -59129.6  52971.1 -58960  52578 -58755.4  52204.2 -58517.3
-            51852.6 -58247.5  51525.9 -57948.1  51226.5 -57621.4  50956.7 -57269.8
-            50718.6 -56896  50514 -56502.9  50344.4 -56093.5  50211.1 -55670.8
-            50115.2 -55238.1  50057.3 -54798.8  50038 -54356  50038 -52070
-            50057.3 -51627.2  50115.2 -51187.9  50211.1 -50755.2  50344.4 -50332.5
-            50514 -49923.1  50718.6 -49530  50956.7 -49156.2  51226.5 -48804.6
-            51525.9 -48477.9  51852.6 -48178.5  52204.2 -47908.7  52578 -47670.6
-            52971.1 -47466  53380.5 -47296.4  53803.2 -47163.1  54235.9 -47067.2
-            54675.2 -47009.3  55118 -46990  119380 -46990  119823 -47009.3)
+            55096.1 -108434  55031 -108163  54924.2 -107905  54778.4 -107667
+            54597.2 -107455  54385.1 -107274  54147.2 -107128  53889.4 -107021
+            53618.1 -106956  53340 -106934  52970.3 -106913  52605.2 -106851
+            52249.4 -106749  51907.3 -106607  51583.2 -106428  51281.2 -106214
+            51005.1 -105967  50758.4 -105691  50544.1 -105389  50365 -105065
+            50223.3 -104723  50120.8 -104367  50058.8 -104002  50038 -103632
+            50038 -52070  50057.3 -51627.2  50115.2 -51187.9  50211.1 -50755.2
+            50344.4 -50332.5  50514 -49923.1  50718.6 -49530  50956.7 -49156.2
+            51226.5 -48804.6  51525.9 -48477.9  51852.6 -48178.5  52204.2 -47908.7
+            52578 -47670.6  52971.1 -47466  53380.5 -47296.4  53803.2 -47163.1
+            54235.9 -47067.2  54675.2 -47009.3  55118 -46990  119380 -46990
+            119823 -47009.3)
     )
     (keepout "" (polygon signal 0  101346 -197612  100903 -197631  100464 -197689  100031 -197785
             99608.5 -197918  99199.1 -198088  98806 -198293  98432.2 -198531
@@ -235,21 +199,23 @@
       (place H4 89916 -54864 back 180 (PN RightAngleBracketHole))
     )
     (component "haxo001:L-ShapeBracket::1"
-      (place H15 61468 -155816 back 180 (PN RightAngleBracketHole))
-      (place H14 61468 -123316 back 180 (PN RightAngleBracketHole))
+      (place H15 61518.8 -155828 back 180 (PN RightAngleBracketHole))
+    )
+    (component "haxo001:L-ShapeBracket::2"
+      (place H14 61518.8 -123316 back 180 (PN RightAngleBracketHole))
       (place H13 118110 -88138 back 0 (PN RightAngleBracketHole))
       (place H12 118110 -55626 back 0 (PN RightAngleBracketHole))
     )
     (component MountingHole:MountingHole_3.2mm_M3
-      (place H3 108204 -236220 front 270 (PN MountingHole))
-      (place H1 75692 -236220 front 270 (PN MountingHole))
-      (place H5 47500 -123316 front 0 (PN MountingHole))
+      (place H3 108204 -236169 front 270 (PN MountingHole))
+      (place H1 75692 -236169 front 270 (PN MountingHole))
+      (place H5 47456.8 -123316 front 0 (PN MountingHole))
     )
     (component MountingHole:MountingHole_3.2mm_M3::1
-      (place H8 47500 -155816 front 0 (PN MountingHole))
+      (place H8 47456.8 -155828 front 0 (PN MountingHole))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical
-      (place J10 90678 -236220 back 270 (PN Conn_02x02_Odd_Even))
+      (place J10 90690 -236220 back 270 (PN Conn_02x02_Odd_Even))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal
       (place J8 109728 -70612 back 180 (PN Conn_02x02_Odd_Even))
@@ -271,16 +237,10 @@
       (place TAB7 77216 -208788 front 0 (PN "Breakout tab"))
       (place TAB4 54610 -115824 front 270 (PN "Breakout tab"))
       (place TAB5 54610 -162814 front 270 (PN "Breakout tab"))
-      (place TAB1 55880 -72390 front 90 (PN "Breakout tab"))
     )
     (component "haxo001:Breakout tab::1"
       (place TAB3 53086 -115824 front 90 (PN "Breakout tab"))
       (place TAB6 53086 -162814 front 90 (PN "Breakout tab"))
-      (place TAB2 59690 -72390 front 270 (PN "Breakout tab"))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-      (place J2 62230 -78200 back 180 (PN Conn_01x02))
-      (place J5 53340 -75692 back 180 (PN Conn_01x02))
     )
     (component "MX_Only:MXOnly-1U-NoLED"
       (place MX10 62230 -97790 front 0 (PN bis))
@@ -312,7 +272,7 @@
       (place D2 28448 -148844 back 180 (PN D_Small))
       (place D3 28448 -167894 back 180 (PN D_Small))
       (place D1 28448 -129794 back 180 (PN D_Small))
-      (place D8 39370 -83312 back 180 (PN D_Small))
+      (place D8 85852 -114300 back 180 (PN D_Small))
       (place D4 99060 -147320 back 180 (PN D_Small))
       (place D5 106680 -166370 back 180 (PN D_Small))
       (place D6 88900 -166370 back 180 (PN D_Small))
@@ -326,9 +286,9 @@
       (place D23 45720 -240030 back 180 (PN D_Small))
     )
     (component MountingHole:MountingHole_2.2mm_M2
-      (place H11 83820 -116840 front 0 (PN MountingHole))
+      (place H11 78740 -122174 front 0 (PN MountingHole))
       (place H9 35768 -201930 front 0 (PN MountingHole))
-      (place H7 36830 -64262 front 0 (PN MountingHole))
+      (place H7 86868 -122174 front 0 (PN MountingHole))
       (place H6 40640 -236220 front 0 (PN MountingHole))
       (place H2 93772 -201930 front 0 (PN MountingHole))
     )
@@ -342,13 +302,13 @@
     (component "Diode_SMD:D_SOD-123::2"
       (place D9 67310 -85090 back 180 (PN D_Small))
       (place D10 58420 -105410 back 180 (PN D_Small))
-      (place D11 77470 -105410 back 180 (PN D_Small))
+      (place D11 74422 -89662 back 180 (PN D_Small))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical
       (place J3 40640 -203200 back 90 (PN Raspberry_Pi_2_3))
     )
     (component "MX_Only:MXOnly-1U-NoLED::2"
-      (place MX8 43335 -75227 front 0 (PN T))
+      (place MX8 81026 -105918 back 180 (PN T))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder
       (place C1 104394 -73660 back 270 (PN 470pF))
@@ -406,6 +366,29 @@
       (pin Round[A]Pad_5000_um @1 0 0)
     )
     (image "haxo001:L-ShapeBracket::1"
+      (outline (path signal 120  -4800 -2500  -5500 -3200))
+      (outline (path signal 120  -4800 -1700  -6400 -3200))
+      (outline (path signal 120  -5700 -1700  -6400 -2400))
+      (outline (path signal 120  -4800 2400  -5500 1700))
+      (outline (path signal 120  -4800 3200  -6400 1700))
+      (outline (path signal 120  -5700 3200  -6400 2500))
+      (outline (path signal 120  -4800 -1700  -6400 -1700))
+      (outline (path signal 120  -4800 1700  -6400 1700))
+      (outline (path signal 120  -4800 3200  -4800 -3200))
+      (outline (path signal 120  3200 3200  3200 -3200))
+      (outline (path signal 120  -6400 3200  3200 3200))
+      (outline (path signal 120  -6400 -3200  -6400 3200))
+      (outline (path signal 120  3200 -3200  -6400 -3200))
+      (outline (path signal 120  2500 0  2421.46 -621.725  2190.77 -1204.38  1822.42 -1711.37
+            1339.57 -2110.82  772.542 -2377.64  156.976 -2495.07  -468.453 -2455.72
+            -1064.45 -2262.07  -1593.56 -1926.28  -2022.54 -1469.46  -2324.44 -920.311
+            -2480.29 -313.333  -2480.29 313.333  -2324.44 920.311  -2022.54 1469.46
+            -1593.56 1926.28  -1064.45 2262.07  -468.453 2455.72  156.976 2495.07
+            772.542 2377.64  1339.57 2110.82  1822.42 1711.37  2190.77 1204.38
+            2421.46 621.725  2500 0))
+      (pin Round[A]Pad_5000_um @1 0 12)
+    )
+    (image "haxo001:L-ShapeBracket::2"
       (outline (path signal 120  -4800 -2500  -5500 -3200))
       (outline (path signal 120  -4800 -1700  -6400 -3200))
       (outline (path signal 120  -5700 -1700  -6400 -2400))
@@ -652,25 +635,6 @@
       (keepout "" (circle B.Cu 800 -1270 0))
       (keepout "" (circle F.Cu 800 -2540 0))
       (keepout "" (circle B.Cu 800 -2540 0))
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -3810))
-      (outline (path signal 100  1270 -3810  -1270 -3810))
-      (outline (path signal 100  -1270 -3810  -1270 635))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 120  -1330 -3870  1330 -3870))
-      (outline (path signal 120  -1330 -1270  -1330 -3870))
-      (outline (path signal 120  1330 -1270  1330 -3870))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 50  -1800 1800  -1800 -4350))
-      (outline (path signal 50  -1800 -4350  1800 -4350))
-      (outline (path signal 50  1800 -4350  1800 1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image "MX_Only:MXOnly-1U-NoLED"
       (outline (path signal 150  -9525 -9525  -9525 9525))
@@ -1089,25 +1053,25 @@
   )
   (network
     (net ROW0
-      (pins J8-3 J6-3 J2-2 D9-1 J3-33)
+      (pins J8-3 D8-1 D9-1 J3-33)
     )
     (net "Net-(D1-Pad2)"
       (pins D1-2 MX1-2)
     )
     (net ROW1
-      (pins J8-2 J6-2 D10-1 J3-32)
+      (pins J8-2 J6-3 D10-1 J3-32)
     )
     (net "Net-(D2-Pad2)"
       (pins MX2-2 D2-2)
     )
     (net ROW2
-      (pins J8-4 J6-4 D11-1 J3-36)
+      (pins J8-4 J6-2 D11-1 J3-36)
     )
     (net "Net-(D3-Pad2)"
       (pins D3-2 MX3-2)
     )
     (net ROW3
-      (pins D4-1 D12-1 J3-11)
+      (pins J6-4 D12-1 J3-11)
     )
     (net "Net-(D4-Pad2)"
       (pins MX4-2 D4-2)
@@ -1116,25 +1080,25 @@
       (pins D5-2 MX5-2)
     )
     (net ROW4
-      (pins D5-1 D13-1 D21-1 J3-12)
+      (pins D4-1 D13-1 D21-1 J3-12)
     )
     (net "Net-(D6-Pad2)"
       (pins D6-2 MX6-2)
     )
     (net ROW5
-      (pins D6-1 D14-1 D22-1 J3-15)
+      (pins D5-1 D14-1 D22-1 J3-15)
     )
     (net "Net-(D7-Pad2)"
       (pins MX7-2 D7-2)
     )
     (net ROW6
-      (pins D7-1 D15-1 D23-1 J3-16)
+      (pins D6-1 D15-1 D23-1 J3-16)
     )
     (net "Net-(D8-Pad2)"
       (pins D8-2 MX8-2)
     )
     (net ROW7
-      (pins D16-1 J3-18)
+      (pins D16-1 D7-1 J3-18)
     )
     (net "Net-(D9-Pad2)"
       (pins D9-2 MX9-2)
@@ -1182,19 +1146,10 @@
       (pins J8-1 MX23-1 MX22-1 MX21-1 J3-13)
     )
     (net COL0
-      (pins J6-1 MX7-1 MX4-1 J3-22 MX6-1 MX5-1)
+      (pins J6-1 MX7-1 MX4-1 J3-22 MX8-1 MX6-1 MX5-1)
     )
     (net COL1
       (pins MX10-1 MX16-1 MX15-1 MX14-1 MX13-1 MX12-1 J3-37 MX11-1 MX9-1)
-    )
-    (net "Net-(D8-Pad1)"
-      (pins J5-1 D8-1)
-    )
-    (net COL3
-      (pins J2-1 J3-7)
-    )
-    (net "Net-(J5-Pad2)"
-      (pins J5-2 MX8-1)
     )
     (net "Net-(C1-Pad1)"
       (pins C1-1 U1-4 U2-3)
@@ -1214,14 +1169,11 @@
     (net +3V3
       (pins J4-1 J3-17 R1-1 R2-1)
     )
-    (net ROW0_RHK
+    (net ROW1_RHK
       (pins J1-3 D1-1)
     )
-    (net ROW1_RHK
-      (pins J1-2 D2-1)
-    )
     (net ROW2_RHK
-      (pins J1-4 D3-1)
+      (pins J1-2 D2-1)
     )
     (net ROW0_LHP
       (pins J10-3 D17-1)
@@ -1244,6 +1196,9 @@
     (net UART_RXD
       (pins J4-3 J3-10)
     )
+    (net ROW3_RHK
+      (pins J1-4 D3-1)
+    )
     (class kicad_default "" +3V3 +5V COL0 COL0_RHK COL1 COL2 COL2_LHP COL3
       GND "Net-(C1-Pad1)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
@@ -1253,10 +1208,10 @@
       "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(J3-Pad1)" "Net-(J3-Pad19)" "Net-(J3-Pad21)"
       "Net-(J3-Pad23)" "Net-(J3-Pad24)" "Net-(J3-Pad26)" "Net-(J3-Pad27)"
       "Net-(J3-Pad28)" "Net-(J3-Pad29)" "Net-(J3-Pad31)" "Net-(J3-Pad35)"
-      "Net-(J3-Pad38)" "Net-(J3-Pad4)" "Net-(J3-Pad40)" "Net-(J5-Pad2)" "Net-(U1-Pad1)"
-      "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" ROW0
-      ROW0_LHP ROW0_RHK ROW1 ROW1_LHP ROW1_RHK ROW2 ROW2_LHP ROW2_RHK ROW3
-      ROW4 ROW5 ROW6 ROW7 SCL SDA UART_RXD UART_TXD
+      "Net-(J3-Pad38)" "Net-(J3-Pad4)" "Net-(J3-Pad40)" "Net-(J3-Pad7)" "Net-(J5-Pad2)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
+      ROW0 ROW0_LHP ROW0_RHK ROW1 ROW1_LHP ROW1_RHK ROW2 ROW2_LHP ROW2_RHK
+      ROW3 ROW3_RHK ROW4 ROW5 ROW6 ROW7 SCL SDA UART_RXD UART_TXD
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

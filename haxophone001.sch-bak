@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 3650 1700 2    50   Input ~ 0
-ROW1
-Text GLabel 3650 1800 2    50   Input ~ 0
 ROW2
+Text GLabel 3650 1800 2    50   Input ~ 0
+ROW3
 Text GLabel 3150 1800 0    50   Input ~ 0
-ROW0
+ROW1
 Text GLabel 7950 1700 2    50   Input ~ 0
 ROW1
 Text GLabel 7950 1800 2    50   Input ~ 0
@@ -28,44 +28,33 @@ ROW0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8
 U 1 1 6094AFDC
-P 4200 850
-F 0 "MX8" H 4233 1073 60  0000 C CNN
-F 1 "T" H 4233 999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 3575 825 60  0001 C CNN
-F 3 "" H 3575 825 60  0001 C CNN
-	1    4200 850 
+P 4350 850
+F 0 "MX8" H 4383 1073 60  0000 C CNN
+F 1 "T" H 4383 999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 3725 825 60  0001 C CNN
+F 3 "" H 3725 825 60  0001 C CNN
+	1    4350 850 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D8
 U 1 1 6094AFE6
-P 4350 1100
-F 0 "D8" V 4396 1030 50  0000 R CNN
-F 1 "D_Small" V 4305 1030 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 4350 1100 50  0001 C CNN
-F 3 "~" V 4350 1100 50  0001 C CNN
-	1    4350 1100
+P 4500 1100
+F 0 "D8" V 4546 1030 50  0000 R CNN
+F 1 "D_Small" V 4455 1030 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4500 1100 50  0001 C CNN
+F 3 "~" V 4500 1100 50  0001 C CNN
+	1    4500 1100
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4350 1000 4250 1000
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 6096574F
-P 4550 1500
-F 0 "J5" H 4650 1650 50  0000 C CNN
-F 1 "Conn_01x02" H 4800 1300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4550 1500 50  0001 C CNN
-F 3 "~" H 4550 1500 50  0001 C CNN
-	1    4550 1500
-	-1   0    0    -1  
-$EndComp
+	4500 1000 4400 1000
 Wire Wire Line
-	4350 1200 4350 1500
+	4500 1200 4500 1500
 Wire Wire Line
-	4050 1600 4350 1600
+	4200 1600 4500 1600
 Wire Wire Line
-	4050 800  4050 1600
+	4200 800  4200 1600
 Text Notes 5350 6500 0    50   ~ 0
 Front, lower right, and lower left keys
 $Comp
@@ -241,19 +230,19 @@ F 3 "~" V 10150 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4900 6100 0    50   Input ~ 0
-ROW6
+ROW7
 Text GLabel 4900 5450 0    50   Input ~ 0
-ROW5
+ROW6
 Text GLabel 4900 4800 0    50   Input ~ 0
-ROW4
+ROW5
 Text GLabel 4900 4150 0    50   Input ~ 0
-ROW3
+ROW4
 Text GLabel 1000 2900 0    50   Input ~ 0
-ROW2_RHK
+ROW3_RHK
 Text GLabel 1000 2250 0    50   Input ~ 0
-ROW1_RHK
+ROW2_RHK
 Text GLabel 1000 1600 0    50   Input ~ 0
-ROW0_RHK
+ROW1_RHK
 Text GLabel 1300 750  2    50   Input ~ 0
 COL0_RHK
 Wire Wire Line
@@ -458,18 +447,16 @@ F 1 "Conn_02x02_Odd_Even" H 3450 1450 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 3350 1700 50  0001 C CNN
 F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 3350 1700 50  0001 C CNN
 F 4 "Adam Tech" H 3350 1700 50  0001 C CNN "Field4"
-F 5 " PH2RA-04-UA" H 3350 1700 50  0001 C CNN "Field5"
-F 6 "CONNFLY" H 3350 1700 50  0001 C CNN "Field6"
-F 7 "ZL212-40KG" H 3350 1700 50  0001 C CNN "Field7"
+F 5 "TSW-102-25-T-D-RA" H 3350 1700 50  0001 C CNN "Field5"
 	1    3350 1700
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 1700 2    50   Input ~ 0
-ROW1_RHK
-Text GLabel 2400 1800 2    50   Input ~ 0
 ROW2_RHK
+Text GLabel 2400 1800 2    50   Input ~ 0
+ROW3_RHK
 Text GLabel 1900 1800 0    50   Input ~ 0
-ROW0_RHK
+ROW1_RHK
 Text GLabel 1900 1700 0    50   Input ~ 0
 COL0_RHK
 Wire Wire Line
@@ -484,8 +471,8 @@ $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J10
 U 1 1 609D213B
 P 8900 1700
-F 0 "J10" H 8950 550 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 8950 450 50  0000 C CNN
+F 0 "J10" H 8900 1450 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8950 1350 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 8900 1700 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 8900 1700 50  0001 C CNN
 F 4 "TE Connectivity" H 8900 1700 50  0001 C CNN "Field4"
@@ -495,33 +482,18 @@ F 5 "5-535542-2" H 8900 1700 50  0001 C CNN "Field5"
 $EndComp
 Text GLabel 9200 1700 2    50   Input ~ 0
 ROW1_LHP
-Text Notes 4450 2000 2    50   ~ 0
+Text Notes 4600 2000 2    50   ~ 0
 Octave key
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 609DDDEA
-P 4650 1600
-F 0 "J2" H 5050 1750 50  0000 R CNN
-F 1 "Conn_01x02" H 5250 1400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 1600 50  0001 C CNN
-F 3 "~" H 4650 1600 50  0001 C CNN
-	1    4650 1600
-	1    0    0    1   
-$EndComp
-Text GLabel 4850 1600 2    50   Input ~ 0
-COL3
-Text GLabel 4850 1500 2    50   Input ~ 0
+Text GLabel 4500 1600 2    50   Input ~ 0
+COL0
+Text GLabel 4500 1500 2    50   Input ~ 0
 ROW0
 Wire Notes Line
 	550  600  550  3100
 Wire Notes Line
-	4600 550  3950 550 
+	4100 550  4100 2050
 Wire Notes Line
-	3950 550  3950 2050
-Wire Notes Line
-	3950 2050 4600 2050
-Wire Notes Line
-	4600 2050 4600 550 
+	4850 2050 4850 550 
 NoConn ~ 10350 4850
 NoConn ~ 10350 4950
 NoConn ~ 10350 5050
@@ -928,7 +900,7 @@ F 1 "Conn_02x02_Odd_Even" H 2200 1450 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 2100 1700 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 2100 1700 50  0001 C CNN
 F 4 "TE Connectivity" H 2100 1700 50  0001 C CNN "Field4"
-F 5 "5-535542-2" H 2100 1700 50  0001 C CNN "Field5"
+F 5 " 215309-2" H 2100 1700 50  0001 C CNN "Field5"
 	1    2100 1700
 	1    0    0    -1  
 $EndComp
@@ -999,21 +971,6 @@ Wire Wire Line
 	1500 5450 1350 5450
 Wire Wire Line
 	1450 5550 1350 5550
-$Comp
-L Connector:Raspberry_Pi_2_3 J3
-U 1 1 6092ED96
-P 9550 4850
-F 0 "J3" H 9550 6331 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 9550 6240 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9550 4850 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9550 4850 50  0001 C CNN
-F 4 "TE Connectivity" H 9550 4850 50  0001 C CNN "Field4"
-F 5 "2-535542-0" H 9550 4850 50  0001 C CNN "Field5"
-	1    9550 4850
-	-1   0    0    1   
-$EndComp
-Text GLabel 8750 5150 0    50   Input ~ 0
-COL3
 Text GLabel 8750 5450 0    50   Input ~ 0
 SDA
 Text GLabel 8750 5350 0    50   Input ~ 0
@@ -1131,10 +1088,6 @@ Connection ~ 9350 3550
 Wire Wire Line
 	9350 3550 9450 3550
 Connection ~ 9450 3550
-Wire Wire Line
-	9450 3550 9550 3550
-Wire Wire Line
-	9950 3550 10150 3550
 NoConn ~ 9650 6150
 $Comp
 L power:+5V #PWR0102
@@ -1163,22 +1116,9 @@ $EndComp
 Wire Wire Line
 	8700 6050 8700 6150
 Wire Wire Line
-	9550 3550 9650 3550
-Connection ~ 9550 3550
-Connection ~ 9950 3550
-Connection ~ 9650 3550
-Wire Wire Line
 	9650 3550 9750 3550
-Connection ~ 9750 3550
-Wire Wire Line
-	9750 3550 9850 3550
-Connection ~ 9850 3550
-Wire Wire Line
-	9850 3550 9950 3550
 Wire Wire Line
 	8700 6150 8800 6150
-Wire Wire Line
-	9750 6150 10300 6150
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60A0E533
@@ -1219,8 +1159,6 @@ F 3 "~" H 8800 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8800 6150
-Wire Wire Line
-	8800 6150 9350 6150
 Text Notes 2950 2500 0    50   ~ 0
 4-pin right angle connectors used \nto join main PCB with both upper \nright and upper left PCBs.
 Wire Notes Line
@@ -1233,12 +1171,12 @@ $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J8
 U 1 1 60983BDA
 P 7650 1700
-F 0 "J8" H 7700 550 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 7700 450 50  0000 C CNN
+F 0 "J8" H 7700 1450 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7700 1350 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 7650 1700 50  0001 C CNN
 F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 7650 1700 50  0001 C CNN
 F 4 "Adam Tech" H 7650 1700 50  0001 C CNN "Field4"
-F 5 " PH2RA-04-UA" H 7650 1700 50  0001 C CNN "Field5"
+F 5 "TSW-102-25-T-D-RA" H 7650 1700 50  0001 C CNN "Field5"
 	1    7650 1700
 	1    0    0    -1  
 $EndComp
@@ -1361,4 +1299,52 @@ F 3 "~" H 3450 7250 50  0001 C CNN
 	1    3450 7250
 	1    0    0    -1  
 $EndComp
+$Comp
+L haxo001_library:neck neck1
+U 1 1 60BFA641
+P 650 7500
+F 0 "neck1" H 778 7646 50  0000 L CNN
+F 1 "neck" H 778 7555 50  0000 L CNN
+F 2 "haxo001:neck" H 650 7500 50  0001 C CNN
+F 3 "" H 650 7500 50  0001 C CNN
+	1    650  7500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4100 550  4850 550 
+Wire Notes Line
+	4100 2050 4850 2050
+Connection ~ 9750 3550
+Connection ~ 9650 3550
+Connection ~ 9850 3550
+Wire Wire Line
+	9750 3550 9850 3550
+Connection ~ 9950 3550
+Connection ~ 9550 3550
+Wire Wire Line
+	9850 3550 9950 3550
+Wire Wire Line
+	9950 3550 10150 3550
+Wire Wire Line
+	9550 3550 9650 3550
+Wire Wire Line
+	9450 3550 9550 3550
+Wire Wire Line
+	8800 6150 9350 6150
+Wire Wire Line
+	9750 6150 10300 6150
+$Comp
+L Connector:Raspberry_Pi_2_3 J3
+U 1 1 6092ED96
+P 9550 4850
+F 0 "J3" H 9550 6331 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 9550 6240 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9550 4850 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9550 4850 50  0001 C CNN
+F 4 "Samtec" H 9550 4850 50  0001 C CNN "Field4"
+F 5 "SSW-120-01-F-D" H 9550 4850 50  0001 C CNN "Field5"
+	1    9550 4850
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8750 5150
 $EndSCHEMATC
