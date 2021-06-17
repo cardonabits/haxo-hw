@@ -1054,7 +1054,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1089,7 +1089,7 @@
     (pad "" np_thru_hole circle (at 0 0 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08 270) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 25 "Net-(D17-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1124,7 +1124,7 @@
     (pad "" np_thru_hole circle (at 0 0 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08 270) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 26 "Net-(D18-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1159,7 +1159,7 @@
     (pad "" np_thru_hole circle (at 0 0 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08 270) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 27 "Net-(D19-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1326,7 +1326,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 4 "Net-(D2-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1493,7 +1493,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 2 "Net-(D1-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1528,7 +1528,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask)
       (net 6 "Net-(D3-Pad2)"))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1667,7 +1667,7 @@
     (pad "" np_thru_hole circle (at 11.90625 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1702,7 +1702,7 @@
       (net 31 COL2))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1781,7 +1781,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1864,7 +1864,7 @@
     (pad "" np_thru_hole circle (at 11.90625 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 11.90625 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1899,7 +1899,7 @@
       (net 31 COL2))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1934,7 +1934,7 @@
       (net 31 COL2))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1969,7 +1969,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2004,7 +2004,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2039,7 +2039,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2074,7 +2074,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2828,7 +2828,7 @@
       (net 32 COL0))
     (pad "" np_thru_hole circle (at -5.08 0 311.9004) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 311.9004) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2863,7 +2863,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2898,7 +2898,7 @@
       (net 32 COL0))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2933,7 +2933,7 @@
       (net 33 COL1))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2968,7 +2968,7 @@
       (net 32 COL0))
     (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/keyswitch-kicad-library/modules/packages3d/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.step
+    (model ${KIPRJMOD}/models/cherry-mx-with-keycap-Cherry_MX_with_keycap.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
