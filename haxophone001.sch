@@ -774,7 +774,7 @@ U 1 1 60A86AD7
 P 3900 6650
 F 0 "H1" H 4000 6696 50  0000 L CNN
 F 1 "MountingHole" H 4000 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 6650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3900 6650 50  0001 C CNN
 F 3 "~" H 3900 6650 50  0001 C CNN
 	1    3900 6650
 	1    0    0    -1  
@@ -796,7 +796,7 @@ U 1 1 60A87081
 P 3900 6850
 F 0 "H3" H 4000 6896 50  0000 L CNN
 F 1 "MountingHole" H 4000 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 6850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3900 6850 50  0001 C CNN
 F 3 "~" H 3900 6850 50  0001 C CNN
 	1    3900 6850
 	1    0    0    -1  
@@ -818,7 +818,7 @@ U 1 1 60A875A2
 P 3900 7050
 F 0 "H5" H 4000 7096 50  0000 L CNN
 F 1 "MountingHole" H 4000 7005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 7050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3900 7050 50  0001 C CNN
 F 3 "~" H 3900 7050 50  0001 C CNN
 	1    3900 7050
 	1    0    0    -1  
@@ -851,7 +851,7 @@ U 1 1 60A8812F
 P 3900 7250
 F 0 "H8" H 4000 7296 50  0000 L CNN
 F 1 "MountingHole" H 4000 7205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3900 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3900 7250 50  0001 C CNN
 F 3 "~" H 3900 7250 50  0001 C CNN
 	1    3900 7250
 	1    0    0    -1  
