@@ -1347,4 +1347,26 @@ F 5 "SSW-120-01-F-D" H 9550 4850 50  0001 C CNN "Field5"
 	-1   0    0    1   
 $EndComp
 NoConn ~ 8750 5150
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 60D73383
+P 950 7050
+F 0 "H16" H 1050 7096 50  0000 L CNN
+F 1 "MountingHole" H 1050 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 7050 50  0001 C CNN
+F 3 "~" H 950 7050 50  0001 C CNN
+	1    950  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H17
+U 1 1 60D73EB6
+P 1250 6650
+F 0 "H17" H 1350 6696 50  0000 L CNN
+F 1 "MountingHole" H 1350 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1250 6650 50  0001 C CNN
+F 3 "~" H 1250 6650 50  0001 C CNN
+	1    1250 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
