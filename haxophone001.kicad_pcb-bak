@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 102)
+    (drawings 103)
     (tracks 573)
     (zones 0)
     (modules 82)
@@ -3212,6 +3212,18 @@
     )
   )
 
+  (dimension 49.022022 (width 0.15) (layer Dwgs.User)
+    (gr_text "49.022 mm" (at 25.902201 226.450279 -89.94623628) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 35.768 201.93) (xy 26.592779 201.93861)))
+    (feature2 (pts (xy 35.814 250.952) (xy 26.638779 250.96061)))
+    (crossbar (pts (xy 27.2252 250.960059) (xy 27.1792 201.938059)))
+    (arrow1a (pts (xy 27.1792 201.938059) (xy 27.766678 203.064012)))
+    (arrow1b (pts (xy 27.1792 201.938059) (xy 26.593837 203.065113)))
+    (arrow2a (pts (xy 27.2252 250.960059) (xy 27.810563 249.833005)))
+    (arrow2b (pts (xy 27.2252 250.960059) (xy 26.637722 249.834106)))
+  )
   (gr_line (start 58.42 254.254) (end 38.1 254.254) (layer Edge.Cuts) (width 0.05) (tstamp 60D52C5F))
   (dimension 58.004 (width 0.15) (layer Dwgs.User)
     (gr_text "58.004 mm" (at 64.77 207.548) (layer Dwgs.User)
