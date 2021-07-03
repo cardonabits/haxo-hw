@@ -835,17 +835,6 @@ F 3 "~" H 650 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
-U 1 1 60A87BFF
-P 950 6650
-F 0 "H7" H 1050 6696 50  0000 L CNN
-F 1 "MountingHole" H 1050 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 6650 50  0001 C CNN
-F 3 "~" H 950 6650 50  0001 C CNN
-	1    950  6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H8
 U 1 1 60A8812F
 P 3900 7250
@@ -859,12 +848,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 60A88550
-P 950 6850
-F 0 "H9" H 1050 6896 50  0000 L CNN
-F 1 "MountingHole" H 1050 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 6850 50  0001 C CNN
-F 3 "~" H 950 6850 50  0001 C CNN
-	1    950  6850
+P 650 6850
+F 0 "H9" H 750 6896 50  0000 L CNN
+F 1 "MountingHole" H 750 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 6850 50  0001 C CNN
+F 3 "~" H 650 6850 50  0001 C CNN
+	1    650  6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -876,17 +865,6 @@ F 1 "RightAngleBracketHole" H 3550 7605 50  0000 L CNN
 F 2 "haxo001:L-ShapeBracket" H 3450 7650 50  0001 C CNN
 F 3 "~" H 3450 7650 50  0001 C CNN
 	1    3450 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 60A88AB8
-P 650 6850
-F 0 "H11" H 750 6896 50  0000 L CNN
-F 1 "MountingHole" H 750 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 650 6850 50  0001 C CNN
-F 3 "~" H 650 6850 50  0001 C CNN
-	1    650  6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1348,25 +1326,25 @@ F 5 "SSW-120-01-F-D" H 9550 4850 50  0001 C CNN "Field5"
 $EndComp
 NoConn ~ 8750 5150
 $Comp
-L Mechanical:MountingHole H16
-U 1 1 60D73383
-P 950 7050
-F 0 "H16" H 1050 7096 50  0000 L CNN
-F 1 "MountingHole" H 1050 7005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 950 7050 50  0001 C CNN
-F 3 "~" H 950 7050 50  0001 C CNN
-	1    950  7050
+L haxo001_library:thumb_rest thumb2
+U 1 1 60DF3CAA
+P 4850 7250
+F 0 "thumb2" H 5102 7296 50  0000 L CNN
+F 1 "thumb_rest" H 5102 7205 50  0000 L CNN
+F 2 "haxo001:thumb_rest" H 4850 7250 50  0001 C CNN
+F 3 "" H 4850 7250 50  0001 C CNN
+	1    4850 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H17
-U 1 1 60D73EB6
-P 1250 6650
-F 0 "H17" H 1350 6696 50  0000 L CNN
-F 1 "MountingHole" H 1350 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 1250 6650 50  0001 C CNN
-F 3 "~" H 1250 6650 50  0001 C CNN
-	1    1250 6650
+L haxo001_library:thumb_rest thumb1
+U 1 1 60DF53EE
+P 4850 6750
+F 0 "thumb1" H 5102 6796 50  0000 L CNN
+F 1 "thumb_rest" H 5102 6705 50  0000 L CNN
+F 2 "haxo001:thumb_rest" H 5102 6659 50  0001 L CNN
+F 3 "" H 4850 6750 50  0001 C CNN
+	1    4850 6750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

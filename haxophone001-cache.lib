@@ -261,12 +261,24 @@ ENDDEF
 DEF haxo001_library_neck neck 0 40 Y Y 1 F N
 F0 "neck" 0 0 50 H V C CNN
 F1 "haxo001_library_neck" 0 0 50 H V C CNN
-F2 "haxo001:neck" 0 0 50 H I C CNN
+F2 "haxo001:neck" 0 -100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 200 50 0 1 0 N
 S -100 50 100 -50 0 1 0 N
 S -50 200 50 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# haxo001_library_thumb_rest
+#
+DEF haxo001_library_thumb_rest thumb 0 40 Y Y 1 F N
+F0 "thumb" 0 -100 50 H V C CNN
+F1 "haxo001_library_thumb_rest" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 224 0 1 0 N
 ENDDRAW
 ENDDEF
 #
