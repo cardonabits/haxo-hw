@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX98357
+F https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf
+$ENDCMP
+#
 #End Doc Library
