@@ -23,7 +23,7 @@ horn.
 4. Easy to manufacture.
 5. Keep the design simple, sturdy and repairable to minimize maintenance cost.
    Using widely available and battle-tested mechanical keys from computer
-keyboards is on example of this principle in use.
+keyboards is one example of this principle in use.
 6. Fully hackable and customizable. 
 
 ## Non-Goals
