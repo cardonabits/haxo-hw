@@ -107,6 +107,14 @@ The circuit boards were manufactured by JLPCB, who also assembled the surface mo
 
 TBD
 
+## License and Contributions
+
+See [License](License).
+We'll gladly accept contributions via Pull Requests.  Contributions are
+accepted under the same [License](License) of the project, as captured in
+[github's terms of
+service](https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license).
+
 ## Acknowledgements
 
 [Ben Gonzales](https://gonzos.net/projects) has been a great source of inspiration and encouragement.  His [midi-Sax](https://gonzos.net/projects/midi-wind-controller-building-my-own/) is a great project worth checking out.
