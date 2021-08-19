@@ -126,7 +126,7 @@ amplifier, I2S.
 
 ![](docs/images/hat-pinout.png)
 
-You can refer to the diagram below from Raspberry Pi Spi if you need to locate
+You can refer to the diagram below from Raspberry Pi Spy if you need to locate
 those pins on the Raspberry Pi header.
 ![](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png)
 
