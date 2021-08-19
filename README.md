@@ -1,6 +1,24 @@
+## Table of Contents
+
+- [What is a haxophone?](#what-is-a-haxophone)
+- [Project Goals](#project-goals)
+  * [Goals](#goals)
+  * [Non-Goals](#non-goals)
+- [How does it work?](#how-does-it-work)
+- [Mechanical Design](#mechanical-design)
+- [Electrical Design](#electrical-design)
+  * [Keyboard](#keyboard)
+  * [Pinout](#pinout)
+- [Tools/Stack](#toolsstack)
+- [Software](#software)
+- [Manufacturing](#manufacturing)
+- [Bill of Materials](#bill-of-materials)
+- [License and Contributions](#license-and-contributions)
+- [Acknowledgements](#acknowledgements)
+
 ## What is a haxophone?
 
-A haxophone is an electronic musical instrument that resembles a saxophone.   
+A haxophone is an electronic musical instrument that resembles a saxophone.
 It is designed to be an inexpensive and fully customizable travel saxophone.
 You will never get the same expressiveness or depth of sound of a real
 saxophone.  But with a haxophone you should be able to play alone or with
@@ -15,6 +33,8 @@ instrument mappings.
 
 ## Project Goals
 
+### Goals
+
 1. Build a travel saxophone that is fun and satisfying to play.
 2. Build an instrument with the same fingering as a saxophone so that muscle
    memory developed on the haxophone is directly transferrable to your main
@@ -24,9 +44,9 @@ horn.
 5. Keep the design simple, sturdy and repairable to minimize maintenance cost.
    Using widely available and battle-tested mechanical keys from computer
 keyboards is one example of this principle in use.
-6. Fully hackable and customizable. 
+6. Fully hackable and customizable.
 
-## Non-Goals
+### Non-Goals
 
 1. A haxophone will never be a saxophone replacement.  A travel instrument, a
    fun jam horn, or a starting instrument to try out playing sax. But
@@ -36,7 +56,7 @@ eventually you will want to buy a full-size brass horn.
 ## How does it work?
 
 The haxophone is designed as a HAT (Hardware Attached on Top) for the Raspberry
-Pi family of single-board computers.  
+Pi family of single-board computers.
 
 The haxophone HAT is a special type of keyboard laid out in the same way as
 saxophones are.  It also includes a mouthpiece and a pressure sensor to detect
@@ -77,6 +97,39 @@ in the repository.
 
 ![3dparts](docs/images/3dparts.png)
 
+## Electrical Design
+
+The haxophone hat is comprised of three subsystems:  a keyboard, a pressure
+sensor and an audio amplifier.
+
+### Keyboard
+
+The keyboard is organized as a 3x8 matrix.  The diagram below shows the mapping
+from saxophone keys to keyboard column/row values.
+
+![matrix](docs/images/fingering-matrix.png)
+
+Note that due to PCB size constraints, a design decision was made to not
+include an F# side key.  This key is not present in all saxophones, as that
+note can be played using alternate fingerings with other keys.  The most common
+mappings of the high-F# are already configured on the haxophone.  If you are
+used to a less common configuration, the software is easy to extend.
+
+Also note that at the moment there matrix is not completely used:  keys (col 0,
+row 7) and (col 2, row 3) are not used.
+
+### Pinout
+
+The diagram below shows how the HAT connects to the Raspberry Pi.  The keyboard
+matrix uses discrete GPIOs, the pressure sensor uses I2C and the audio
+amplifier, I2S.
+
+![](docs/images/hat-pinout.png)
+
+You can refer to the diagram below from Raspberry Pi Spi if you need to locate
+those pins on the Raspberry Pi header.
+![](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png)
+
 ## Tools/Stack
 
 The circuit board is designed with awesome [Kicad](https://www.kicad.org/).
@@ -87,17 +140,9 @@ open source 3D parametric modeler.
 The code is written in [Rust](https://www.rust-lang.org) just for the pleasure
 and reliability of it.
 
-## Software Development Setup
+## Software
 
-Software is developed on a headless (i.e. no display) Raspberry Pi.  The
-development host runs VSCode and connects to the headless Pi over ssh.  For
-reliability, we keep the root file system as read-only on the SD card.  The
-development takes place on a writable USB drive.
-
-![vscode](docs/images/vscode.png)
-
-An alternative setup could be to go full native on the Raspberry Pi, running
-your IDE there.
+See [haxo-rs](https://github.com/jcard0na/haxo-rs) for details about the software.
 
 ## Manufacturing
 
@@ -105,7 +150,26 @@ The circuit boards were manufactured by JLPCB, who also assembled the surface mo
 
 ## Bill of Materials
 
-TBD
+The table below shows the main parts required to build a full Haxophone.  Prices are rough estimates based on purchases made for prototypes.  Shipping costs or taxes not included.
+
+| Qty | Part Description | Manufacturer | MPN | Supplier | Estimated cost USD (at quantity 5) |
+| :--- | :---        |     :---:      |          :---: |  :---: | ---: |
+| 1 | Partially-assembled Haxo HAT PCB (small SMD parts populated) | N/A | N/A | Several  | $15 |
+| 1 | Differential pressure SMD sensor | NXP | MPXV7007DP | Arrow |  $10     |
+| 1 | Set of 3D printed parts | N/A | N/A | Several  | $4 |
+| 1 | 30cm Food grade Silicon Tube ID:3mm/OD:6mm | JUNZHIDA | N/A | Amazon | $2 |
+| 22 | Tactile-feedback 5-pin mechanical switches | Cherry MX | MX-Brown | Banggood | $11 |
+| 22 | Keycaps For Mechanical Keyboards | [Many options!](https://esckeyboard.com/) |  | | $10  |
+| 2 | 4-pin 0.1in Pin Header Con Right Angle | TSW-102-25-T-D-RA | Samtec | Arrow | $2 |
+| 2 | 4-pin 0.1in Pin Socket Con Straight |  215309-2 | TE Connectivity | Arrow | $2 |
+| 1 | 40-pin 0.1in Pin Header Connector | 2-535542-0 | TE Connectivity | Arrow | $2 |
+| 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $2 |
+| 12 | 4-40 1/4 screws and nuts stainless | 9900, 4694 | Keystone | Mouser | $1 |
+| 1 | Sax Mouthpiece + Reed | N/A | N/A | N/A | Bring your own (but optional) |
+| 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |
+| 1 | Raspberry Pi Zero | Broadcom | Raspberry Pi Zero | Many | $5 |
+| 1 | 16 GB SD Card | Many | N/A | Many | $6 |
+| **Total** | | | | | **$72** |
 
 ## License and Contributions
 
