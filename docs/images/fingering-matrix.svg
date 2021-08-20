@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="fingering.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77682379"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1"
+     style="display:inline" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884"
+     cx="90.39032"
+     cy="80.934021"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-0"
+     cx="90.39032"
+     cy="107.05359"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-4"
+     cx="90.39032"
+     cy="133.17316"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-6"
+     cx="90.39032"
+     cy="167.57339"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-03"
+     cx="90.39032"
+     cy="193.28842"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-2"
+     cx="90.39032"
+     cy="219.00343"
+     r="8.9991055"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-69"
+     sodipodi:type="arc"
+     sodipodi:cx="71.184677"
+     sodipodi:cy="241.1422"
+     sodipodi:rx="8.9991055"
+     sodipodi:ry="8.9991055"
+     sodipodi:start="0"
+     sodipodi:end="3.1415927"
+     sodipodi:arc-type="slice"
+     d="m 80.183783,241.1422 a 8.9991055,8.9991055 0 0 1 -4.499553,7.79345 8.9991055,8.9991055 0 0 1 -8.999106,0 8.9991055,8.9991055 0 0 1 -4.499552,-7.79345 h 8.999105 z"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect951"
+     width="4.7683482"
+     height="12.261468"
+     x="68.113052"
+     y="157.01491"
+     ry="2.3841741"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect951-3"
+     width="4.7683482"
+     height="12.261468"
+     x="68.113052"
+     y="180.51605"
+     ry="2.3841741"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect951-8"
+     width="4.7683482"
+     height="12.261468"
+     x="68.113052"
+     y="168.76546"
+     ry="2.3841741"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:#ffffff;stroke:#035dae;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 58.923165,106.94725 6.811926,-18.732802 5.108945,7.493119 1.702983,11.580273 -5.790139,-3.74656 z"
+     id="path982"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path984"
+     cx="90.39032"
+     cy="64.543007"
+     r="3.9168577"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path986"
+     cx="100.98681"
+     cy="94.174889"
+     r="3.9168577"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <ellipse
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path988"
+     cx="113.55232"
+     cy="72.565292"
+     rx="2.5544724"
+     ry="7.6634173"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <ellipse
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path988-1"
+     cx="113.57061"
+     cy="89.784416"
+     rx="2.5544724"
+     ry="7.6634173"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <ellipse
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path988-8"
+     cx="121.50811"
+     cy="81.846909"
+     rx="2.5544724"
+     ry="7.6634173"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1019"
+     width="26.566513"
+     height="9.1961002"
+     x="107.53382"
+     y="142.02867"
+     ry="2.3841736"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1019-0"
+     width="26.566513"
+     height="9.1961002"
+     x="107.53382"
+     y="160.38487"
+     ry="2.3841736"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <g
+     id="g1094"
+     transform="translate(0.04357793)"
+     style="stroke-width:0.52916667;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.52916667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1019-4"
+       width="12.761316"
+       height="6.4513631"
+       x="107.27409"
+       y="152.45392"
+       ry="1.6725754" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.52916667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1019-4-2"
+       width="12.761316"
+       height="6.4513631"
+       x="121.5116"
+       y="152.45392"
+       ry="1.6725754" />
+  </g>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect951-5"
+     width="4.7683482"
+     height="12.261468"
+     x="68.113052"
+     y="211.55487"
+     ry="2.3841741"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:none;stroke:#035dae;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8"
+     d="M 80.683324,149.86238 H 100.09731"
+     id="path1090"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#035dae;stroke-width:0.58256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path884-69-7"
+     sodipodi:type="arc"
+     sodipodi:cx="-74.303764"
+     sodipodi:cy="-238.74121"
+     sodipodi:rx="8.9991055"
+     sodipodi:ry="8.9991055"
+     sodipodi:start="0"
+     sodipodi:end="3.1415927"
+     sodipodi:arc-type="slice"
+     d="m -65.304659,-238.74121 a 8.9991055,8.9991055 0 0 1 -4.499553,7.79345 8.9991055,8.9991055 0 0 1 -8.999105,0 8.9991055,8.9991055 0 0 1 -4.499553,-7.79345 h 8.999106 z"
+     transform="rotate(-179.2533)"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.11666389,1.05833194;stroke-dashoffset:0"
+       d="M 76.634172,54.154815 V 225.47477 l 6.127459,10.61307 v 18.67821"
+       id="path1208"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.11666389,1.05833194;stroke-dashoffset:0"
+       d="m 103.20069,54.495411 v 31.675458 l 5.44954,3.06537 0,9.5367 -4.42776,3.746561 0,152.24655"
+       id="path1210"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="54.428162"
+       y="56.379635"
+       id="text1214"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212"
+         x="54.428162"
+         y="56.379635"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">column 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="80.991547"
+       y="56.379635"
+       id="text1214-8"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-3"
+         x="80.991547"
+         y="56.379635"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">column 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.04999"
+       y="56.379635"
+       id="text1214-2"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-4"
+         x="106.04999"
+         y="56.379635"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">column 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.677067"
+       y="99.214767"
+       id="text1214-1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9"
+         x="63.677067"
+         y="99.214767"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="87.859253"
+       y="66.024673"
+       id="text1214-1-4"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-5"
+         x="87.859253"
+         y="66.024673"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.640305"
+       y="82.436852"
+       id="text1214-1-9"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-7"
+         x="88.640305"
+         y="82.436852"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="98.804985"
+       y="95.667137"
+       id="text1214-1-5"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-3"
+         x="98.804985"
+         y="95.667137"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.612785"
+       y="108.50986"
+       id="text1214-1-8"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-1"
+         x="88.612785"
+         y="108.50986"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="118.89137"
+       y="148.11897"
+       id="text1214-1-7"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-0"
+         x="118.89137"
+         y="148.11897"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.597969"
+       y="169.02966"
+       id="text1214-1-0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-6"
+         x="88.597969"
+         y="169.02966"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.53447"
+       y="194.77008"
+       id="text1214-1-6"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-66"
+         x="88.53447"
+         y="194.77008"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.627602"
+       y="220.48509"
+       id="text1214-1-81"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-4"
+         x="88.627602"
+         y="220.48509"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.844574"
+       y="164.63789"
+       id="text1214-1-5-5"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-3-5"
+         x="68.844574"
+         y="164.63789"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.21804"
+       y="176.39902"
+       id="text1214-1-9-6"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-7-1"
+         x="68.21804"
+         y="176.39902"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.190521"
+       y="188.10306"
+       id="text1214-1-8-5"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-1-9"
+         x="68.190521"
+         y="188.10306"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.042358"
+       y="219.17786"
+       id="text1214-1-7-0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-0-3"
+         x="68.042358"
+         y="219.17786"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.863159"
+       y="236.70659"
+       id="text1214-1-0-5"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-6-7"
+         x="68.863159"
+         y="236.70659"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.799614"
+       y="247.12332"
+       id="text1214-1-6-2"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-66-9"
+         x="68.799614"
+         y="247.12332"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="111.02126"
+       y="74.046959"
+       id="text1214-1-4-7"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-5-1"
+         x="111.02126"
+         y="74.046959"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="119.85545"
+       y="83.339157"
+       id="text1214-1-5-0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-3-4"
+         x="119.85545"
+         y="83.339157"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="111.29142"
+       y="91.287247"
+       id="text1214-1-9-2"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-7-3"
+         x="111.29142"
+         y="91.287247"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="125.18776"
+       y="157.3457"
+       id="text1214-1-0-4"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-6-1"
+         x="125.18776"
+         y="157.3457"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="111.00578"
+       y="157.37111"
+       id="text1214-1-6-9"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-66-5"
+         x="111.00578"
+         y="157.37111"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="119.05436"
+       y="166.46458"
+       id="text1214-1-81-4"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-4-1"
+         x="119.05436"
+         y="166.46458"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.464615"
+       y="134.66541"
+       id="text1214-1-7-01"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1212-9-0-1"
+         x="88.464615"
+         y="134.66541"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:'Gotham, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"> 4</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.227722;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.8"
+       id="rect1758"
+       width="102.65426"
+       height="219.0275"
+       x="44.493237"
+       y="44.603928"
+       ry="2.2781458"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
