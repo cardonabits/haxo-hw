@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Haxophone"
-Date "2021-07-03"
-Rev "0.5"
+Date "2021-08-27"
+Rev "0.6"
 Comp "Javier Cardona"
 Comment1 ""
 Comment2 ""
@@ -934,45 +934,28 @@ UART_RXD
 $Comp
 L power:GND #PWR08
 U 1 1 60BC18F3
-P 6500 7100
-F 0 "#PWR08" H 6500 6850 50  0001 C CNN
-F 1 "GND" H 6505 6927 50  0000 C CNN
-F 2 "" H 6500 7100 50  0001 C CNN
-F 3 "" H 6500 7100 50  0001 C CNN
-	1    6500 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J4
-U 1 1 60BC2B80
-P 6200 7450
-F 0 "J4" V 6200 7100 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 6900 7100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6200 7450 50  0001 C CNN
-F 3 "~" H 6200 7450 50  0001 C CNN
-	1    6200 7450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6400 7250 6400 7100
-Wire Wire Line
-	6400 7100 6500 7100
-$Comp
-L power:+3.3V #PWR07
-U 1 1 60BC879F
 P 6000 7100
-F 0 "#PWR07" H 6000 6950 50  0001 C CNN
-F 1 "+3.3V" H 6015 7273 50  0000 C CNN
+F 0 "#PWR08" H 6000 6850 50  0001 C CNN
+F 1 "GND" H 6005 6927 50  0000 C CNN
 F 2 "" H 6000 7100 50  0001 C CNN
 F 3 "" H 6000 7100 50  0001 C CNN
 	1    6000 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 7100 6100 7100
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 60BC2B80
+P 6200 7450
+F 0 "J4" V 6200 7200 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 6900 7100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 7450 50  0001 C CNN
+F 3 "~" H 6200 7450 50  0001 C CNN
+	1    6200 7450
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	6100 7100 6100 7250
-Text Notes 6000 7600 0    50   ~ 0
+Text Notes 5950 7600 0    50   ~ 0
 Raspberry UART
 Text GLabel 10350 5750 2    50   Input ~ 0
 UART_TXD
@@ -1594,4 +1577,6 @@ F 3 "~" H 1350 3850 50  0001 C CNN
 	1    1350 3850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6000 7100 6100 7100
 $EndSCHEMATC

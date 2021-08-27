@@ -1270,6 +1270,7 @@ F 0 "U4" H 2325 5215 50  0000 C CNN
 F 1 "MAX98357" H 2325 5124 50  0000 C CNN
 F 2 "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm_ThermalVias" H 2300 4600 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf" H 2300 4600 50  0001 C CNN
+F 4 "C910544" H 2300 4600 50  0001 C CNN "LCSC"
 	1    2300 4600
 	1    0    0    -1  
 $EndComp
