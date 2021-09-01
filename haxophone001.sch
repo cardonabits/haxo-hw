@@ -744,12 +744,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60A86E0F
-P 4100 7250
-F 0 "H2" H 4200 7296 50  0000 L CNN
-F 1 "MountingHole" H 4200 7205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4100 7250 50  0001 C CNN
-F 3 "~" H 4100 7250 50  0001 C CNN
-	1    4100 7250
+P 2600 7200
+F 0 "H2" H 2700 7246 50  0000 L CNN
+F 1 "MountingHole" H 2700 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7200 50  0001 C CNN
+F 3 "~" H 2600 7200 50  0001 C CNN
+	1    2600 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -788,12 +788,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 60A878A7
-P 4100 7650
-F 0 "H6" H 4200 7696 50  0000 L CNN
-F 1 "MountingHole" H 4200 7605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4100 7650 50  0001 C CNN
-F 3 "~" H 4100 7650 50  0001 C CNN
-	1    4100 7650
+P 2600 7600
+F 0 "H6" H 2700 7646 50  0000 L CNN
+F 1 "MountingHole" H 2700 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7600 50  0001 C CNN
+F 3 "~" H 2600 7600 50  0001 C CNN
+	1    2600 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -810,12 +810,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 60A88550
-P 4100 7450
-F 0 "H9" H 4200 7496 50  0000 L CNN
-F 1 "MountingHole" H 4200 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4100 7450 50  0001 C CNN
-F 3 "~" H 4100 7450 50  0001 C CNN
-	1    4100 7450
+P 2600 7400
+F 0 "H9" H 2700 7446 50  0000 L CNN
+F 1 "MountingHole" H 2700 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7400 50  0001 C CNN
+F 3 "~" H 2600 7400 50  0001 C CNN
+	1    2600 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1579,4 +1579,19 @@ F 3 "~" H 1350 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 7100 6100 7100
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6133F63E
+P 2600 7000
+F 0 "H7" H 2700 7046 50  0000 L CNN
+F 1 "MountingHole" H 2700 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7000 50  0001 C CNN
+F 3 "~" H 2600 7000 50  0001 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 6850 0    50   ~ 0
+Raspberry Pi Mounting Holes
+Text Notes 3550 6250 0    50   ~ 0
+L-Brackets Mounting Holes
 $EndSCHEMATC
