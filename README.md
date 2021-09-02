@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of Contents 📋
 
 <!-- toc -->
 
@@ -20,7 +20,7 @@
 
 <!-- tocstop -->
 
-## What is a haxophone?
+## What is a haxophone ⁉️
 
 A haxophone is an electronic musical instrument that resembles a saxophone.
 It is designed to be an inexpensive and fully customizable travel saxophone.
@@ -35,9 +35,9 @@ instrument mappings.
 
 ![Haxophone Prototype v0.4](docs/images/IMG_1851.JPG?s=50)
 
-## Project Goals
+## Project Goals 🥅
 
-### Goals
+### Goals 🎯
 
 1. Build a travel saxophone that is fun and satisfying to play.
 2. Build an instrument with the same fingering as a saxophone so that muscle
@@ -50,14 +50,14 @@ horn.
 keyboards is one example of this principle in use.
 6. Fully hackable and customizable.
 
-### Non-Goals
+### Non-Goals 💥
 
 1. A haxophone will never be a saxophone replacement.  A travel instrument, a
    fun jam horn, or a starting instrument to try out playing sax. But
 eventually you will want to buy a full-size brass horn.
 
 
-## How does it work?
+## How does it work? ⚙️
 
 The haxophone is designed as a HAT (Hardware Attached on Top) for the Raspberry
 Pi family of single-board computers.
@@ -83,7 +83,7 @@ The software that runs on the Raspberry Pi is:
    synthesizer software that will convert notes into sounds.
 
 
-## Mechanical Design
+## Mechanical Design 🏗
 
 In order to keep costs down, the HAT PCB (printed circuit board) is an integral
 part of the physical structure of the Haxophone.  This means that key switches,
@@ -102,12 +102,12 @@ in the repository.
 
 ![3dparts](docs/images/3dparts.png)
 
-## Electrical Design
+## Electrical Design ⚡️
 
 The haxophone hat is comprised of three subsystems:  a keyboard, a pressure
 sensor and an audio amplifier.
 
-### Keyboard
+### Keyboard ⌨️
 
 The keyboard is organized as a 3x8 matrix.  The diagram below shows the mapping
 from saxophone keys to keyboard column/row values.
@@ -123,12 +123,12 @@ used to a less common configuration, the software is easy to extend.
 Also note that at the moment there matrix is not completely used:  keys (col 0,
 row 7) and (col 2, row 3) are unused.
 
-### Audio Amplifier
+### Audio Amplifier 🔊
 
 The haxophone HAT includes an audio amplifier and a 3.5mm mini-jack.  This
 allows connecting the haxophone to headphones or to an external amplifier.
 
-### Pinout
+### Pinout 🔌
 
 The diagram below shows how the HAT connects to the Raspberry Pi.  The keyboard
 matrix uses discrete GPIOs, the pressure sensor uses I2C and the audio
@@ -140,7 +140,7 @@ You can refer to the diagram below from Raspberry Pi Spy if you need to locate
 those pins on the Raspberry Pi header.
 ![](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png)
 
-## Tools/Stack
+## Tools/Stack 🛠
 
 The circuit board is designed with awesome [Kicad](https://www.kicad.org/).
 
@@ -150,15 +150,15 @@ open source 3D parametric modeler.
 The code is written in [Rust](https://www.rust-lang.org) just for the pleasure
 and reliability of it.
 
-## Software
+## Software 💾
 
 See [haxo-rs](https://github.com/jcard0na/haxo-rs) for details about the software.
 
-## Manufacturing
+## Manufacturing 🏭
 
 The circuit boards were manufactured by JLPCB, who also assembled the surface mount parts.
 
-## Bill of Materials
+## Bill of Materials 🧾
 
 The table below shows the main parts required to build a full Haxophone.  Prices are rough estimates based on purchases made for prototypes.  Shipping costs or taxes not included.
 
@@ -182,12 +182,12 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 1 | 16 GB SD Card | Many | N/A | Many | $6 |
 | **Total** | | | | | **$73** |
 
-## TODO list
+## TODO list ☑️
 
 If you would like to help claim one of [the open issues](https://github.com/jcard0na/haxo-hw/issues) or [create a new one](https://github.com/jcard0na/haxo-hw/issues/new/choose) for yourself.
 If you prefere to stay in software land, head out to [the software issues](https://github.com/jcard0na/haxo-rs/issues).
 
-## License and Contributions
+## License and Contributions 🧱
 
 See [License](License).
 We'll gladly accept contributions via Pull Requests.  Contributions are
@@ -195,6 +195,6 @@ accepted under the same [License](License) of the project, as captured in
 [github's terms of
 service](https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license).
 
-## Acknowledgements
+## Acknowledgements 🙏
 
 [Ben Gonzales](https://gonzos.net/projects) has been a great source of inspiration and encouragement.  His [midi-Sax](https://gonzos.net/projects/midi-wind-controller-building-my-own/) is a great project worth checking out.
