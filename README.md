@@ -1,5 +1,7 @@
 ## Table of Contents
 
+<!-- toc -->
+
 - [What is a haxophone?](#what-is-a-haxophone)
 - [Project Goals](#project-goals)
   * [Goals](#goals)
@@ -15,6 +17,8 @@
 - [Bill of Materials](#bill-of-materials)
 - [License and Contributions](#license-and-contributions)
 - [Acknowledgements](#acknowledgements)
+
+<!-- tocstop -->
 
 ## What is a haxophone?
 
@@ -60,12 +64,13 @@ Pi family of single-board computers.
 
 The haxophone HAT is a special type of keyboard laid out in the same way as
 saxophones are.  It also includes a mouthpiece and a pressure sensor to detect
-breath intensity.  Finally, the HAT also includes an audio amplifier so it does
-not rely on the amplifier that is built into the [Raspberry
-Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) and
-[Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).  Because of
-that, the HAT will also work with the least expensive of the Pi's, the
-[Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/).
+breath intensity.  The HAT also includes an audio amplifier so it does not rely
+on the amplifier that is built into the [Raspberry Pi
+3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) and
+[Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
+Because of that, the HAT will also work with the least expensive of the Pi's,
+the [Raspberry Pi
+Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/).
 
 ![Block Diagram](docs/images/block-diagram.png)
 
@@ -110,13 +115,18 @@ from saxophone keys to keyboard column/row values.
 ![matrix](docs/images/fingering-matrix.png)
 
 Note that due to PCB size constraints, a design decision was made to not
-include an F# side key.  This key is not present in all saxophones, as that
+include a high F# key.  This key is not present in all saxophones, as that
 note can be played using alternate fingerings with other keys.  The most common
-mappings of the high-F# are already configured on the haxophone.  If you are
+mappings of the high F# are already configured on the haxophone.  If you are
 used to a less common configuration, the software is easy to extend.
 
 Also note that at the moment there matrix is not completely used:  keys (col 0,
-row 7) and (col 2, row 3) are not used.
+row 7) and (col 2, row 3) are unused.
+
+### Audio Amplifier
+
+The haxophone HAT includes an audio amplifier and a 3.5mm mini-jack.  This
+allows connecting the haxophone to headphones or to an external amplifier.
 
 ### Pinout
 
@@ -164,12 +174,18 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 2 | 4-pin 0.1in Pin Socket Con Straight |  215309-2 | TE Connectivity | Arrow | $2 |
 | 1 | 40-pin 0.1in Pin Header Connector | 2-535542-0 | TE Connectivity | Arrow | $2 |
 | 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $2 |
-| 12 | 4-40 1/4 screws and nuts stainless | 9900, 4694 | Keystone | Mouser | $1 |
+| 18 | 4-40 1/4 screws and nuts stainless | 9900, 4694 | Keystone | Mouser | $1 |
+| 3 | 7/16in aluminum spacers | FC1636-440-A | Fascomp | Mouser | $1 |
 | 1 | Sax Mouthpiece + Reed | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Raspberry Pi Zero | Broadcom | Raspberry Pi Zero | Many | $5 |
 | 1 | 16 GB SD Card | Many | N/A | Many | $6 |
-| **Total** | | | | | **$72** |
+| **Total** | | | | | **$73** |
+
+## TODO list
+
+If you would like to help claim one of [the open issues](https://github.com/jcard0na/haxo-hw/issues) or [create a new one](https://github.com/jcard0na/haxo-hw/issues/new/choose) for yourself.
+If you prefere to stay in software land, head out to [the software issues](https://github.com/jcard0na/haxo-rs/issues).
 
 ## License and Contributions
 
