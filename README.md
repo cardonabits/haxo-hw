@@ -35,7 +35,8 @@ The design is fully open, software and hardware.  This means that you can make
 it your own, from changing the type of key switches to making your own note and
 instrument mappings.
 
-![Haxophone Prototype v0.4](docs/images/IMG_1851.JPG?s=50)
+![Haxophone Prototype v0.5](docs/images/haxophone-main.png)
+![Haxophone Prototype v0.5](docs/images/haxophone-black.png)
 
 ## Project Goals 🥅
 
@@ -96,6 +97,8 @@ PCBs are detachable pannels from the design.  This brings down the
 manufacturing cost.
 
 ![renders](docs/images/renders.png)
+
+![renders](docs/images/haxophone-pcb.png)
 
 For improved ergonomics, a few parts are designed to be 3D printed.  These are
 the mouthpiece neck, the left thumb rest, and the right thumb rest, that also
@@ -196,6 +199,8 @@ We'll gladly accept contributions via Pull Requests.  Contributions are
 accepted under the same [License](License) of the project, as captured in
 [github's terms of
 service](https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license).
+
+If you plan to contribute a major feature or improvement, consider posting your proposed design as an issue before implementing it.
 
 ## Acknowledgements 🙏
 
