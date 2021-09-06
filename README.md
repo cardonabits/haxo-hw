@@ -172,12 +172,12 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 1 | 30cm Food grade Silicon Tube ID:3mm/OD:6mm | JUNZHIDA | N/A | Amazon | $2 |
 | 22 | Tactile-feedback 5-pin mechanical switches | Cherry MX | MX-Brown | Banggood | $11 |
 | 22 | Keycaps For Mechanical Keyboards | [Many options!](https://esckeyboard.com/) |  | | $10  |
-| 2 | 4-pin 0.1in Pin Header Con Right Angle | TSW-102-25-T-D-RA | Samtec | Arrow | $2 |
-| 2 | 4-pin 0.1in Pin Socket Con Straight |  215309-2 | TE Connectivity | Arrow | $2 |
-| 1 | 40-pin 0.1in Pin Header Connector | 2-535542-0 | TE Connectivity | Arrow | $2 |
+| 2 | 4-pin 0.1in Pin Header Con Right Angle | Samtec | TSW-102-25-T-D-RA | Arrow | $2 |
+| 2 | 4-pin 0.1in Pin Socket Con Straight |  TE Connectivity | 215309-2 | Arrow | $2 |
+| 1 | 40-pin 0.1in Pin Header Connector | TE Connectivity | 2-535542-0 |  Arrow | $2 |
 | 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $2 |
-| 18 | 4-40 1/4 screws and nuts stainless | 9900, 4694 | Keystone | Mouser | $1 |
-| 3 | 7/16in aluminum spacers | FC1636-440-A | Fascomp | Mouser | $1 |
+| 18 | 4-40 1/4 screws and nuts stainless | Keystone | 9900, 4694 | Mouser | $1 |
+| 3 | 7/16in aluminum spacers | Fascomp | FC1636-440-A | Mouser | $1 |
 | 1 | Sax Mouthpiece + Reed | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Raspberry Pi Zero | Broadcom | Raspberry Pi Zero | Many | $5 |
