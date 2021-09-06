@@ -2,21 +2,24 @@
 
 <!-- toc -->
 
-- [What is a haxophone?](#what-is-a-haxophone)
-- [Project Goals](#project-goals)
-  * [Goals](#goals)
-  * [Non-Goals](#non-goals)
-- [How does it work?](#how-does-it-work)
-- [Mechanical Design](#mechanical-design)
-- [Electrical Design](#electrical-design)
-  * [Keyboard](#keyboard)
-  * [Pinout](#pinout)
-- [Tools/Stack](#toolsstack)
-- [Software](#software)
-- [Manufacturing](#manufacturing)
-- [Bill of Materials](#bill-of-materials)
-- [License and Contributions](#license-and-contributions)
-- [Acknowledgements](#acknowledgements)
+- [What is a haxophone ⁉️](#what-is-a-haxophone-%E2%81%89%EF%B8%8F)
+- [Project Goals 🥅](#project-goals-%F0%9F%A5%85)
+  * [Goals 🎯](#goals-%F0%9F%8E%AF)
+  * [Non-Goals 💥](#non-goals-%F0%9F%92%A5)
+- [How does it work? ⚙️](#how-does-it-work-%E2%9A%99%EF%B8%8F)
+- [Mechanical Design 🏗](#mechanical-design-%F0%9F%8F%97)
+- [Electrical Design ⚡️](#electrical-design-%E2%9A%A1%EF%B8%8F)
+  * [Keyboard ⌨️](#keyboard-%E2%8C%A8%EF%B8%8F)
+  * [Audio Amplifier 🔊](#audio-amplifier-%F0%9F%94%8A)
+  * [Pinout 🔌](#pinout-%F0%9F%94%8C)
+- [Tools/Stack 🛠](#toolsstack-%F0%9F%9B%A0)
+- [Software 💾](#software-%F0%9F%92%BE)
+- [Manufacturing 🏭](#manufacturing-%F0%9F%8F%AD)
+- [Bill of Materials 🧾](#bill-of-materials-%F0%9F%A7%BE)
+- [Assembly Instructions 🔨](#assembly-instructions-%F0%9F%94%A8)
+- [TODO list ☑️](#todo-list-%E2%98%91%EF%B8%8F)
+- [License and Contributions 🧱](#license-and-contributions-%F0%9F%A7%B1)
+- [Acknowledgements 🙏](#acknowledgements-%F0%9F%99%8F)
 
 <!-- tocstop -->
 
@@ -175,14 +178,19 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 2 | 4-pin 0.1in Pin Header Con Right Angle | Samtec | TSW-102-25-T-D-RA | Arrow | $2 |
 | 2 | 4-pin 0.1in Pin Socket Con Straight |  TE Connectivity | 215309-2 | Arrow | $2 |
 | 1 | 40-pin 0.1in Pin Header Connector | TE Connectivity | 2-535542-0 |  Arrow | $2 |
-| 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $2 |
+| 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $1.5 |
 | 18 | 4-40 1/4 screws and nuts stainless | Keystone | 9900, 4694 | Mouser | $1 |
+| 4 | M2/7mm machine screws cone head stainless | Master-Carr | 92010A003 | $0.5 |
 | 3 | 7/16in aluminum spacers | Fascomp | FC1636-440-A | Mouser | $1 |
 | 1 | Sax Mouthpiece + Reed | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Raspberry Pi Zero | Broadcom | Raspberry Pi Zero | Many | $5 |
 | 1 | 16 GB SD Card | Many | N/A | Many | $6 |
 | **Total** | | | | | **$73** |
+
+## Assembly Instructions 🔨  
+
+See [Assembly Guide](docs/assembly.md)
 
 ## TODO list ☑️
 
