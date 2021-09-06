@@ -180,7 +180,7 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 1 | 40-pin 0.1in Pin Header Connector | TE Connectivity | 2-535542-0 |  Arrow | $2 |
 | 6 | Mounting Bracket L-shape | Keystone | 612 | Mouser | $1.5 |
 | 18 | 4-40 1/4 screws and nuts stainless | Keystone | 9900, 4694 | Mouser | $1 |
-| 4 | M2/7mm machine screws cone head stainless | Master-Carr | 92010A003 | $0.5 |
+| 4 | M2/7mm machine screws flat head stainless | Master-Carr | 92010A003 | $0.5 |
 | 3 | 7/16in aluminum spacers | Fascomp | FC1636-440-A | Mouser | $1 |
 | 1 | Sax Mouthpiece + Reed | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |

@@ -12,7 +12,7 @@ To assemble a haxophone you will need:
 5. 2x Straight 4-positions female connector 
 6. 16x 4-40 1/4 inch stainless steel screws
 7. 4x 4-40 nuts
-8. 4x M2 cone head phillips 7mm stainless steel machine screws
+8. 4x M2 flat head phillips 7mm stainless steel machine screws
 9. 6x L-shape brackets
 10. 3x 7/16in aluminum spacers
 11. 30cm silicon tube ID:3mm, OD:6mm
@@ -46,7 +46,7 @@ Then solder all the remaining switches.
 
 ### 3. Attach thumb rests
 
-Using M2 cone head screws, attach octave thumb rest on top, lower thumb rest
+Using M2 flat head screws, attach octave thumb rest on top, lower thumb rest
 with hook on bottom.
 
 ### 4. Solder pressure sensor
