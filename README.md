@@ -55,10 +55,7 @@ keyboards is one example of this principle in use.
 
 ### Non-Goals 💥
 
-1. A haxophone will never be a saxophone replacement.  A travel instrument, a
-   fun jam horn, or a starting instrument to try out playing sax. But
-eventually you will want to buy a full-size brass horn.
-
+1. A haxophone is not designed to be a saxophone replacement.
 
 ## How does it work? ⚙️
 
