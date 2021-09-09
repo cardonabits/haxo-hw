@@ -1579,4 +1579,19 @@ F 3 "~" H 1350 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 7100 6100 7100
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6133F63E
+P 2600 7000
+F 0 "H7" H 2700 7046 50  0000 L CNN
+F 1 "MountingHole" H 2700 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 7000 50  0001 C CNN
+F 3 "~" H 2600 7000 50  0001 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 6850 0    50   ~ 0
+Raspberry Pi Mounting Holes
+Text Notes 3550 6250 0    50   ~ 0
+L-Brackets Mounting Holes
 $EndSCHEMATC
