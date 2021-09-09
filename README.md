@@ -195,7 +195,7 @@ See [Assembly Guide](docs/assembly.md)
 ## TODO list
 
 If you would like to help claim one of [the open issues](https://github.com/jcard0na/haxo-hw/issues) or [create a new one](https://github.com/jcard0na/haxo-hw/issues/new/choose) for yourself.
-If you prefere to stay in software land, head out to [the software issues](https://github.com/jcard0na/haxo-rs/issues).
+If you prefer to stay in software land, head out to [the software issues](https://github.com/jcard0na/haxo-rs/issues).
 
 ## License and Contributions
 
