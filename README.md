@@ -1,4 +1,4 @@
-## Table of Contents 📋
+## Table of Contents
 
 <!-- toc -->
 
@@ -32,7 +32,7 @@ saxophone.  But with a haxophone you should be able to play alone or with
 friends wherever you might be.  The mechanical keys and unique ergonomics give
 it a different kind of satisfying feel.
 
-https://user-images.githubusercontent.com/676181/132141991-e0247b0a-3ea0-4e81-99d9-4f284d05157a.mp4
+https://user-images.githubusercontent.com/676181/133919454-f654cb48-cca9-4b6e-bcb5-27de6ea2deb8.mp4
 
 The design is fully open, software and hardware.  This means that you can make
 it your own, from changing the type of key switches to making your own note and
