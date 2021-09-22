@@ -10,7 +10,7 @@ To assemble a haxophone you will need:
 3. 1x 40-positions female connector
 4. 2x Right-angle 4-positions male connector 
 5. 2x Straight 4-positions female connector 
-6. 16x 4-40 1/4 inch stainless steel screws
+6. 18x 4-40 1/4 inch stainless steel screws
 7. 4x 4-40 nuts
 8. 4x M2 flat head phillips 7mm stainless steel machine screws
 9. 6x L-shape brackets
