@@ -199,7 +199,7 @@ If you prefer to stay in software land, head out to [the software issues](https:
 
 ## License and Contributions
 
-See [License](License).
+See [License](LICENSE).
 We'll gladly accept contributions via Pull Requests.  Contributions are
 accepted under the same [License](License) of the project, as captured in
 [github's terms of
