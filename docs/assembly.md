@@ -90,7 +90,7 @@ Test that side panels can be connected to main panel.
 ### 5. Apply Conformant Coating to front side
 
 Now that all the thru-hole components on the back side have been soldered, apply conformant coating to the front side.
-This will protect the board against rust.  The coat needs to be applied before populating the front-side components.
+This will protect the board against rust.  The coat needs to be applied before populating the front-side components, which we will do in the next steps.
 
 ### 6. Solder pressure sensor
 
@@ -113,7 +113,7 @@ Solder the front-side switches.
 ### 8. Apply Conformant Coating to back side
 
 Now that all the thru-hole components on the front side have been soldered, apply conformant coating to the back side.
-This will protect the board against rust.  The coat needs to be applied before populating the front-side components.
+This will protect the board against rust.  The coat needs to be applied before attaching the mechanical parts (neck, thumb rests), which we do in the next steps.
 
 ### 9. Attach thumb rests
 
