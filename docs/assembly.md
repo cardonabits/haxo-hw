@@ -18,7 +18,7 @@ To assemble a haxophone you will need the following parts:
 * 30cm silicon tube ID:3mm, OD:6mm
 * 1x 3D printed neck
 * 2x 3D printed thumb rests
-* Acrylic Conformal Coating
+* [Acrylic Conformal Coating](https://www.mgchemicals.com/downloads/tds/tds-419d-l.pdf)
 
 You will use the following tools:
 
