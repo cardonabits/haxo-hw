@@ -57,8 +57,17 @@ read-only most of the time.
 2. Pick SSH password.
 3. Pick a network-unique hostname (`/etc/hostname`).
 4. On raspi-config, enable: `ssh`, `I2C` and (optional) `serial console`
-5. Install keys (under `~/.ssh`)
-6. Create `~/.gitconfig`
+5. enable audio card (edit /boot/config.txt to add)
+    ```
+    # dtparam=audio=on
+    dtoverlay=max98357a
+    ```
+6. Speed up I2C (edit /boot/config.txt to add)
+    ```
+    dtparam=i2c_arm_baudrate=400000
+    ```
+7. Install keys (under `~/.ssh`)
+8. Create `~/.gitconfig`
     ```
     [user]
             email = my@email.com
@@ -66,24 +75,24 @@ read-only most of the time.
     [core]
             editor = vi
     ```
-7. Install project dependencies
+9. Install project dependencies
     ```
     apt install libfluidsynth-dev
     ```
-8. Automount USB drive, if attached
+10. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     echo '/dev/sda1       /media/usb        vfat    defaults,nofail,uid=1000,gid=1000        0 2' >> /etc/fstab     
     ```
-9. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+11. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-10. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+12. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-11. [Highly recommended] Make SD Card read-only
+13. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
