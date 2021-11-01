@@ -70,7 +70,7 @@ opposide side.
 
 Solder the two right-angle 4-pos male connectors on the front side of main panel. The connectors are placed on the opposite (back) side.
 
-This must be done on the top side of the main pannel for the connector corresponding to the LHP side panel, and on the middle of the main pannel for the connector corresponding to the RHK side panel.
+This must be done on the top side of the main panel for the connector corresponding to the LHP side panel, and on the middle of the main panel for the connector corresponding to the RHK side panel.
 
 It helps to solder one pin of the connector from the back side to fix it in
 position while it is stable in place.
