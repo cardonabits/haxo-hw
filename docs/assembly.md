@@ -68,28 +68,37 @@ opposide side.
 
 ### 3. Solder right-angle 4-pos male connectors
 
-Solder right-angle 4-pos male connectors on the bottom side of main panel.
+Solder the two right-angle 4-pos male connectors on the front side of main panel. The connectors are placed on the opposite (back) side.
+
+This must be done on the top side of the main pannel for the connector corresponding to the LHP side panel, and on the middle of the main pannel for the connector corresponding to the RHK side panel.
 
 It helps to solder one pin of the connector from the back side to fix it in
 position while it is stable in place.
 
 ![](images/assembly/right_con_one.jpg)
 
-Then turn around the board and solder all four pins from the front side.
+Then turn around the board and solder all four pins from the front side. Do this twice, the same way for both connectors.
 
 ![](images/assembly/right_con_two.jpg)
 
 ### 4. Solder straight 4-pos female connectors
 
-Solder straight 4-pos female connectors on the bottom side of side panels.
-Test that side panels can be connected to main panel.
+Solder the two straight 4-pos female connectors on the bottom side of the two LHP and RHK side panels.
+
+Test that side panels can be connected to main panel. To do this, you have to detach the side panels from the main one, as described in step 10, unless you have some extra female connectors.
+
+This verification can be usefull since if you solder the right-angle male connectors to tightly on the main panel, the room left for the female straight connectors can be too small.  It could still be placed with some force, but better to check first.
 
 ![](images/assembly/sidecon_one.jpg)
+
 ![](images/assembly/sidecon_two.jpg)
 
 ### 5. Apply Conformant Coating to front side
 
-Now that all the thru-hole components on the back side have been soldered, apply conformant coating to the front side.
+Now that all the thru-hole components on the back side have been soldered, apply conformant coating to the front side. This can be done using a spray (eg.: ELECTROLUBE  AFA200) or a bottle (eg.: MG CHEMICALS  419D-55ML) and brush.
+
+In case you use a spray, this front side does not require special protection contrary to the the back side as described in step 8.
+
 This will protect the board against rust.  The coat needs to be applied before populating the front-side components, which we will do in the next steps.
 
 ### 6. Solder pressure sensor
@@ -97,7 +106,9 @@ This will protect the board against rust.  The coat needs to be applied before p
 Solder surface mount pressure sensor.
 
 Add solder to one pad and then solder one pin first to secure the sensor in the right position.
+
 ![](images/assembly/sensor_one.jpg)
+
 ![](images/assembly/sensor_two.jpg)
 
 Then solder the remaining 7 pins.
@@ -115,10 +126,16 @@ Solder the front-side switches.
 Now that all the thru-hole components on the front side have been soldered, apply conformant coating to the back side.
 This will protect the board against rust.  The coat needs to be applied before attaching the mechanical parts (neck, thumb rests), which we do in the next steps.
 
+If you use the conformant coating in spray, this is probably safer to protect some components before spraying with some tape (the octave keyswitch, 40 pin female connector, the 2 right-angle male and the 2 straight female connectors, the 2 holes of the pressure sensor and the female jack connector).
+
+![](images/assembly/sprayprotection2.jpg)
+
+![](images/assembly/sprayprotection1.jpg)
+
 ### 9. Attach thumb rests
 
 Using M2 flat head screws, attach octave thumb rest on top, lower thumb rest
-with hook on bottom.
+with hook on bottom.  Depending on the quality of the 3D printing of these parts you will probably have to clean the small triangle contact surface to make it flat, and the small male pin with the good diameter so that it can enter into the corresponding hole on the PCB.
 
 ![](images/assembly/thrests.jpg)
 
@@ -136,6 +153,7 @@ Then remove the screws, and repeat once attached to the PCB.
 Detach the side PCB panels by cutting along the mouse bite patterns with a cutter.
 
 ![](images/assembly/panels_one.jpg)
+
 ![](images/assembly/panels_two.jpg)
 
 ### 11. Attach side panels to main board
@@ -146,7 +164,10 @@ Attach L-brackets to side panels using screws and nuts.
 
 Connect side panels to main panel, and screw main panel screws.  The threaded side of all L-brackets sits on the main panel.
 
+In case it is difficult to connect the side panels to the main one, this is maybe due to the fact that the right-angle connectors were soldered tightly on the board, and the room for the female one is slightly too small.  By forcing a little, with care, you can probably manage to do it. 
+
 ![](images/assembly/lbracket_two.jpg)
+
 ![](images/assembly/lbracket_three.jpg)
 
 ### 12. Attach neck
@@ -154,6 +175,7 @@ Connect side panels to main panel, and screw main panel screws.  The threaded si
 Attach L-brackets to both sides of neck.  The neck does not need nuts.
 
 ![](images/assembly/neck_one.jpg)
+
 ![](images/assembly/neck_two.jpg)
 
 Then attach neck to main panel.
@@ -163,7 +185,7 @@ Then attach neck to main panel.
 ### 13. Connect pipes to neck
 
 Use one short section (~2cm) of the pipe to connect the neck to the pressure
-sensor.  Depending on your tube, you might need a bit of wire to tighten it.
+sensor.  Depending on your tube, you might need a bit of wire or a small cable-tie to tighten it.
 
 ![](images/assembly/pipes_one.jpg)
 
