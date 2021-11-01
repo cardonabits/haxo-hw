@@ -128,9 +128,9 @@ This will protect the board against rust.  The coat needs to be applied before a
 
 If you use the conformant coating in spray, this is probably safer to protect some components before spraying with some tape (the octave keyswitch, 40 pin female connector, the 2 right-angle male and the 2 straight female connectors, the 2 holes of the pressure sensor and the female jack connector).
 
-![](images/assembly/sprayprotection1.jpg)
-
 ![](images/assembly/sprayprotection2.jpg)
+
+![](images/assembly/sprayprotection1.jpg)
 
 ### 9. Attach thumb rests
 
