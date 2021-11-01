@@ -22,7 +22,7 @@
     * Components are sorted by ref and grouped by same value+footprint
     One value per line
     Fields are
-    Comment,Designator,Footprint,LCSC
+    Comment,Designator,Footprint,JLCPCB
 
     The command line is
         xsltproc -o "%O.csv" "full_path/bom2grouped_csv_jlcpcb.xsl" "%I"
@@ -47,7 +47,7 @@
 
 	    <!-- main part -->
 	<xsl:template match="/export">
-	    <xsl:text>Comment,Designator,Footprint,LCSC</xsl:text>
+	    <xsl:text>Comment,Designator,Footprint,JLCPCB</xsl:text>
 	    <!-- all table entries -->
 	    <xsl:apply-templates select="components"/>
 	</xsl:template>
@@ -68,7 +68,7 @@
 		<xsl:text>","</xsl:text>
 
 		<xsl:value-of select="footprint"/><xsl:text>","</xsl:text>
-		<xsl:value-of select="fields/field[@name='LCSC']"/><xsl:text>"</xsl:text>
+		<xsl:value-of select="fields/field[@name='JLCPCB']"/><xsl:text>"</xsl:text>
 	    </xsl:for-each>
 	</xsl:template>
 
