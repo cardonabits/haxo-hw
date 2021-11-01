@@ -85,7 +85,9 @@ Then turn around the board and solder all four pins from the front side. Do this
 
 Solder the two straight 4-pos female connectors on the bottom side of the two LHP and RHK side panels.
 
-Test that side panels can be connected to main panel. To do this, you have to detach the side panels from the main one, as described in step 10, unless you have some extra female connectors.  This verification can be usefull since if you solder the right-angle male connectors to tightly on the main panel, the room left for the female straight connectors can be too small.  It could still be placed with some force, but better to check first.
+Test that side panels can be connected to main panel. To do this, you have to detach the side panels from the main one, as described in step 10, unless you have some extra female connectors.
+
+This verification can be usefull since if you solder the right-angle male connectors to tightly on the main panel, the room left for the female straight connectors can be too small.  It could still be placed with some force, but better to check first.
 
 ![](images/assembly/sidecon_one.jpg)
 
@@ -93,7 +95,9 @@ Test that side panels can be connected to main panel. To do this, you have to de
 
 ### 5. Apply Conformant Coating to front side
 
-Now that all the thru-hole components on the back side have been soldered, apply conformant coating to the front side. This can be done using a spray (eg.: ELECTROLUBE  AFA200) or a bottle (eg.: MG CHEMICALS  419D-55ML) and brush.  In case you use a spray, this front side does not require special protection contrary to the the back side as described in step 8.
+Now that all the thru-hole components on the back side have been soldered, apply conformant coating to the front side. This can be done using a spray (eg.: ELECTROLUBE  AFA200) or a bottle (eg.: MG CHEMICALS  419D-55ML) and brush.
+
+In case you use a spray, this front side does not require special protection contrary to the the back side as described in step 8.
 
 This will protect the board against rust.  The coat needs to be applied before populating the front-side components, which we will do in the next steps.
 
@@ -121,6 +125,7 @@ Solder the front-side switches.
 
 Now that all the thru-hole components on the front side have been soldered, apply conformant coating to the back side.
 This will protect the board against rust.  The coat needs to be applied before attaching the mechanical parts (neck, thumb rests), which we do in the next steps.
+
 If you use the conformant coating in spray, this is probably safer to protect some components before spraying with some tape (the octave keyswitch, 40 pin female connector, the 2 right-angle male and the 2 straight female connectors, the 2 holes of the pressure sensor and the female jack connector).
 
 ![](images/assembly/sprayprotection1.jpg)
