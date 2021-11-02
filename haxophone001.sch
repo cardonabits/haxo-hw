@@ -428,10 +428,9 @@ U 1 1 609837CE
 P 3450 800
 F 0 "J6" H 3500 950 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 3550 550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 3450 800 50  0001 C CNN
-F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 3450 800 50  0001 C CNN
-F 4 "Adam Tech" H 3450 800 50  0001 C CNN "Field4"
-F 5 "TSW-102-25-T-D-RA" H 3450 800 50  0001 C CNN "Field5"
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Horizontal" H 3450 800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2010160403_CJT-Changjiang-Connectors-A2541HWR-2x2P_C239353.pdf" H 3450 800 50  0001 C CNN
+F 4 "C239353" H 3450 800 50  0001 C CNN "JLCPCB"
 	1    3450 800 
 	1    0    0    -1  
 $EndComp
@@ -449,10 +448,9 @@ U 1 1 609D213B
 P 9800 700
 F 0 "J10" H 9800 450 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 9850 350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 9800 700 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 9800 700 50  0001 C CNN
-F 4 "TE Connectivity" H 9800 700 50  0001 C CNN "Field4"
-F 5 "5-535542-2" H 9800 700 50  0001 C CNN "Field5"
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 9800 700 50  0001 C CNN
+F 3 "" H 9800 700 50  0001 C CNN
+F 4 "C66690" H 9800 700 50  0001 C CNN "JLCPCB"
 	1    9800 700 
 	1    0    0    -1  
 $EndComp
@@ -1089,10 +1087,9 @@ U 1 1 609941A0
 P 2150 800
 F 0 "J1" H 2200 950 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 2250 550 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 2150 800 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=535542&DocType=Customer+Drawing&DocLang=English" H 2150 800 50  0001 C CNN
-F 4 "TE Connectivity" H 2150 800 50  0001 C CNN "Field4"
-F 5 " 215309-2" H 2150 800 50  0001 C CNN "Field5"
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2150 800 50  0001 C CNN
+F 3 "" H 2150 800 50  0001 C CNN
+F 4 "C66690" H 2150 800 50  0001 C CNN "JLCPCB"
 	1    2150 800 
 	1    0    0    -1  
 $EndComp
@@ -1110,10 +1107,9 @@ U 1 1 60983BDA
 P 8400 700
 F 0 "J8" H 8450 450 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 8450 350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 8400 700 50  0001 C CNN
-F 3 "https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf" H 8400 700 50  0001 C CNN
-F 4 "Adam Tech" H 8400 700 50  0001 C CNN "Field4"
-F 5 "TSW-102-25-T-D-RA" H 8400 700 50  0001 C CNN "Field5"
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Horizontal" H 8400 700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2010160403_CJT-Changjiang-Connectors-A2541HWR-2x2P_C239353.pdf" H 8400 700 50  0001 C CNN
+F 4 "C239353" H 8400 700 50  0001 C CNN "JLCPCB"
 	1    8400 700 
 	1    0    0    -1  
 $EndComp
@@ -1417,9 +1413,8 @@ P 9550 4850
 F 0 "J3" H 9550 6331 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 9550 6240 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9550 4850 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9550 4850 50  0001 C CNN
-F 4 "Samtec" H 9550 4850 50  0001 C CNN "Field4"
-F 5 "SSW-120-01-F-D" H 9550 4850 50  0001 C CNN "Field5"
+F 3 "https://datasheet.lcsc.com/lcsc/1810291320_Ckmtw-Shenzhen-Cankemeng-B-2200S40P-B120_C169819.pdf" H 9550 4850 50  0001 C CNN
+F 4 "C169819" H 9550 4850 50  0001 C CNN "JLCPCB"
 	1    9550 4850
 	-1   0    0    1   
 $EndComp
