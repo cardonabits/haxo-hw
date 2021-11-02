@@ -31,7 +31,7 @@ F 3 "" H 4875 1125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D8
+L Device:D_Small D8
 U 1 1 6094AFE6
 P 5350 1400
 F 0 "D8" V 5396 1330 50  0000 R CNN
@@ -140,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 5850 5450 5850
 $Comp
-L haxophone001-rescue:D_Small-Device D23
+L Device:D_Small D23
 U 1 1 6096B8B9
 P 5350 5950
 F 0 "D23" V 5396 5880 50  0000 R CNN
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	5350 5200 5450 5200
 $Comp
-L haxophone001-rescue:D_Small-Device D22
+L Device:D_Small D22
 U 1 1 6096B8A4
 P 5350 5300
 F 0 "D22" V 5396 5230 50  0000 R CNN
@@ -166,7 +166,7 @@ $EndComp
 Wire Wire Line
 	5350 4550 5450 4550
 $Comp
-L haxophone001-rescue:D_Small-Device D21
+L Device:D_Small D21
 U 1 1 6096B88F
 P 5350 4650
 F 0 "D21" V 5396 4580 50  0000 R CNN
@@ -179,7 +179,7 @@ $EndComp
 Wire Wire Line
 	10150 2850 10250 2850
 $Comp
-L haxophone001-rescue:D_Small-Device D19
+L Device:D_Small D19
 U 1 1 60966C45
 P 10150 2950
 F 0 "D19" V 10196 2880 50  0000 R CNN
@@ -192,7 +192,7 @@ $EndComp
 Wire Wire Line
 	10150 2200 10250 2200
 $Comp
-L haxophone001-rescue:D_Small-Device D18
+L Device:D_Small D18
 U 1 1 60966C30
 P 10150 2300
 F 0 "D18" V 10196 2230 50  0000 R CNN
@@ -205,7 +205,7 @@ $EndComp
 Wire Wire Line
 	10150 1550 10250 1550
 $Comp
-L haxophone001-rescue:D_Small-Device D17
+L Device:D_Small D17
 U 1 1 60966C1B
 P 10150 1650
 F 0 "D17" V 10196 1580 50  0000 R CNN
@@ -248,7 +248,7 @@ Connection ~ 1400 1250
 Wire Wire Line
 	7050 5850 7150 5850
 $Comp
-L haxophone001-rescue:D_Small-Device D7
+L Device:D_Small D7
 U 1 1 6096B865
 P 7050 5950
 F 0 "D7" V 7096 5880 50  0000 R CNN
@@ -272,7 +272,7 @@ $EndComp
 Wire Wire Line
 	7050 5200 7150 5200
 $Comp
-L haxophone001-rescue:D_Small-Device D6
+L Device:D_Small D6
 U 1 1 6096B83B
 P 7050 5300
 F 0 "D6" V 7096 5230 50  0000 R CNN
@@ -296,7 +296,7 @@ $EndComp
 Wire Wire Line
 	7050 4550 7150 4550
 $Comp
-L haxophone001-rescue:D_Small-Device D5
+L Device:D_Small D5
 U 1 1 6096B811
 P 7050 4650
 F 0 "D5" V 7096 4580 50  0000 R CNN
@@ -320,7 +320,7 @@ $EndComp
 Wire Wire Line
 	7050 3900 7150 3900
 $Comp
-L haxophone001-rescue:D_Small-Device D4
+L Device:D_Small D4
 U 1 1 6096B7E7
 P 7050 4000
 F 0 "D4" V 7096 3930 50  0000 R CNN
@@ -344,7 +344,7 @@ $EndComp
 Wire Wire Line
 	1100 2750 1200 2750
 $Comp
-L haxophone001-rescue:D_Small-Device D3
+L Device:D_Small D3
 U 1 1 6095160B
 P 1100 2850
 F 0 "D3" V 1146 2780 50  0000 R CNN
@@ -368,7 +368,7 @@ $EndComp
 Wire Wire Line
 	1100 2100 1200 2100
 $Comp
-L haxophone001-rescue:D_Small-Device D2
+L Device:D_Small D2
 U 1 1 609433D8
 P 1100 2200
 F 0 "D2" V 1146 2130 50  0000 R CNN
@@ -392,7 +392,7 @@ $EndComp
 Wire Wire Line
 	1100 1450 1200 1450
 $Comp
-L haxophone001-rescue:D_Small-Device D1
+L Device:D_Small D1
 U 1 1 60939E46
 P 1100 1550
 F 0 "D1" V 1146 1480 50  0000 R CNN
@@ -423,7 +423,7 @@ Righ Hand Knuckle
 Text GLabel 3250 800  0    50   Input ~ 0
 COL0
 $Comp
-L haxophone001-rescue:Conn_02x02_Odd_Even-Connector_Generic J6
+L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 609837CE
 P 3450 800
 F 0 "J6" H 3500 950 50  0000 C CNN
@@ -444,7 +444,7 @@ ROW0_LHP
 Text GLabel 9600 700  0    50   Input ~ 0
 COL2_LHP
 $Comp
-L haxophone001-rescue:Conn_02x02_Odd_Even-Connector_Generic J10
+L Connector_Generic:Conn_02x02_Odd_Even J10
 U 1 1 609D213B
 P 9800 700
 F 0 "J10" H 9800 450 50  0000 C CNN
@@ -505,7 +505,7 @@ F 3 "" H 5775 1125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D9
+L Device:D_Small D9
 U 1 1 609433ED
 P 6250 1400
 F 0 "D9" V 6296 1330 50  0000 R CNN
@@ -529,7 +529,7 @@ F 3 "" H 5775 1775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D10
+L Device:D_Small D10
 U 1 1 60951620
 P 6250 2050
 F 0 "D10" V 6296 1980 50  0000 R CNN
@@ -553,7 +553,7 @@ F 3 "" H 5775 2425 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D11
+L Device:D_Small D11
 U 1 1 6095164A
 P 6250 2700
 F 0 "D11" V 6296 2630 50  0000 R CNN
@@ -577,7 +577,7 @@ F 3 "" H 5775 3075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D12
+L Device:D_Small D12
 U 1 1 6096B7FC
 P 6250 3350
 F 0 "D12" V 6296 3280 50  0000 R CNN
@@ -601,7 +601,7 @@ F 3 "" H 5775 3725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D13
+L Device:D_Small D13
 U 1 1 6096B826
 P 6250 4000
 F 0 "D13" V 6296 3930 50  0000 R CNN
@@ -625,7 +625,7 @@ F 3 "" H 5775 4375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D14
+L Device:D_Small D14
 U 1 1 6096B850
 P 6250 4650
 F 0 "D14" V 6296 4580 50  0000 R CNN
@@ -649,7 +649,7 @@ F 3 "" H 5775 5025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D15
+L Device:D_Small D15
 U 1 1 6096B87A
 P 6250 5300
 F 0 "D15" V 6296 5230 50  0000 R CNN
@@ -706,7 +706,7 @@ F 3 "" H 5775 5675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:D_Small-Device D16
+L Device:D_Small D16
 U 1 1 60B02B8D
 P 6250 5950
 F 0 "D16" V 6296 5880 50  0000 R CNN
@@ -731,7 +731,7 @@ Wire Notes Line
 Text Notes 9850 3200 0    50   ~ 0
 Left Hand Palm
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H1
+L Mechanical:MountingHole H1
 U 1 1 60A86AD7
 P 4100 6450
 F 0 "H1" H 4200 6496 50  0000 L CNN
@@ -742,7 +742,7 @@ F 3 "~" H 4100 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H2
+L Mechanical:MountingHole H2
 U 1 1 60A86E0F
 P 2600 7200
 F 0 "H2" H 2700 7246 50  0000 L CNN
@@ -753,7 +753,7 @@ F 3 "~" H 2600 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H3
+L Mechanical:MountingHole H3
 U 1 1 60A87081
 P 4100 6650
 F 0 "H3" H 4200 6696 50  0000 L CNN
@@ -764,7 +764,7 @@ F 3 "~" H 4100 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H4
+L Mechanical:MountingHole H4
 U 1 1 60A87285
 P 3650 7250
 F 0 "H4" H 3750 7296 50  0000 L CNN
@@ -775,7 +775,7 @@ F 3 "~" H 3650 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H5
+L Mechanical:MountingHole H5
 U 1 1 60A875A2
 P 4100 6850
 F 0 "H5" H 4200 6896 50  0000 L CNN
@@ -786,7 +786,7 @@ F 3 "~" H 4100 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H6
+L Mechanical:MountingHole H6
 U 1 1 60A878A7
 P 2600 7600
 F 0 "H6" H 2700 7646 50  0000 L CNN
@@ -797,7 +797,7 @@ F 3 "~" H 2600 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H8
+L Mechanical:MountingHole H8
 U 1 1 60A8812F
 P 4100 7050
 F 0 "H8" H 4200 7096 50  0000 L CNN
@@ -808,7 +808,7 @@ F 3 "~" H 4100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H9
+L Mechanical:MountingHole H9
 U 1 1 60A88550
 P 2600 7400
 F 0 "H9" H 2700 7446 50  0000 L CNN
@@ -819,7 +819,7 @@ F 3 "~" H 2600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H10
+L Mechanical:MountingHole H10
 U 1 1 60A8874B
 P 3650 7450
 F 0 "H10" H 3750 7496 50  0000 L CNN
@@ -836,7 +836,7 @@ SDA
 Text GLabel 8750 5350 0    50   Input ~ 0
 SCL
 $Comp
-L haxophone001-rescue:GND-power #PWR0101
+L power:GND #PWR0101
 U 1 1 609EF389
 P 10400 3550
 F 0 "#PWR0101" H 10400 3300 50  0001 C CNN
@@ -846,15 +846,9 @@ F 3 "" H 10400 3550 50  0001 C CNN
 	1    10400 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 3550 9350 3550
-Connection ~ 9350 3550
-Wire Wire Line
-	9350 3550 9450 3550
-Connection ~ 9450 3550
 NoConn ~ 9650 6150
 $Comp
-L haxophone001-rescue:+5V-power #PWR0102
+L power:+5V #PWR0102
 U 1 1 609F993B
 P 10400 6050
 F 0 "#PWR0102" H 10400 5900 50  0001 C CNN
@@ -866,25 +860,10 @@ F 3 "" H 10400 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10400 6050 10400 6150
-$Comp
-L haxophone001-rescue:+3.3V-power #PWR0103
-U 1 1 609FD8CC
-P 8700 6050
-F 0 "#PWR0103" H 8700 5900 50  0001 C CNN
-F 1 "+3.3V" H 8715 6223 50  0000 C CNN
-F 2 "" H 8700 6050 50  0001 C CNN
-F 3 "" H 8700 6050 50  0001 C CNN
-	1    8700 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 6050 8700 6150
-Wire Wire Line
-	9650 3550 9750 3550
-Wire Wire Line
-	8700 6150 8800 6150
 $Comp
-L haxophone001-rescue:PWR_FLAG-power #FLG0101
+L power:PWR_FLAG #FLG0101
 U 1 1 60A0E533
 P 10150 3550
 F 0 "#FLG0101" H 10150 3625 50  0001 C CNN
@@ -894,11 +873,8 @@ F 3 "~" H 10150 3550 50  0001 C CNN
 	1    10150 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 10150 3550
-Wire Wire Line
-	10150 3550 10400 3550
 $Comp
-L haxophone001-rescue:PWR_FLAG-power #FLG0102
+L power:PWR_FLAG #FLG0102
 U 1 1 60A0ED3C
 P 10300 6150
 F 0 "#FLG0102" H 10300 6225 50  0001 C CNN
@@ -908,11 +884,8 @@ F 3 "~" H 10300 6150 50  0001 C CNN
 	1    10300 6150
 	1    0    0    -1  
 $EndComp
-Connection ~ 10300 6150
-Wire Wire Line
-	10300 6150 10400 6150
 $Comp
-L haxophone001-rescue:PWR_FLAG-power #FLG0103
+L power:PWR_FLAG #FLG0103
 U 1 1 60A1028A
 P 8800 6150
 F 0 "#FLG0103" H 8800 6225 50  0001 C CNN
@@ -922,7 +895,6 @@ F 3 "~" H 8800 6150 50  0001 C CNN
 	1    8800 6150
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 6150
 Text Notes 3050 1450 0    50   ~ 0
 4-pin right angle connectors used \nto join main PCB with both upper \nright and upper left PCBs.
 Wire Wire Line
@@ -932,7 +904,7 @@ UART_TXD
 Text GLabel 6300 7250 1    50   Input ~ 0
 UART_RXD
 $Comp
-L haxophone001-rescue:GND-power #PWR08
+L power:GND #PWR08
 U 1 1 60BC18F3
 P 6000 7100
 F 0 "#PWR08" H 6000 6850 50  0001 C CNN
@@ -941,17 +913,6 @@ F 2 "" H 6000 7100 50  0001 C CNN
 F 3 "" H 6000 7100 50  0001 C CNN
 	1    6000 7100
 	1    0    0    -1  
-$EndComp
-$Comp
-L haxophone001-rescue:Conn_01x03_Male-Connector J4
-U 1 1 60BC2B80
-P 6200 7450
-F 0 "J4" V 6200 7200 50  0000 L CNN
-F 1 "Conn_01x03_Male" V 6900 7100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 7450 50  0001 C CNN
-F 3 "~" H 6200 7450 50  0001 C CNN
-	1    6200 7450
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6100 7100 6100 7250
@@ -970,7 +931,7 @@ Wire Notes Line
 Wire Notes Line
 	5650 7700 5650 6550
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H12
+L Mechanical:MountingHole H12
 U 1 1 60BBDFEB
 P 3650 6450
 F 0 "H12" H 3750 6496 50  0000 L CNN
@@ -981,7 +942,7 @@ F 3 "~" H 3650 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H13
+L Mechanical:MountingHole H13
 U 1 1 60BC8885
 P 3650 6650
 F 0 "H13" H 3750 6696 50  0000 L CNN
@@ -992,7 +953,7 @@ F 3 "~" H 3650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H14
+L Mechanical:MountingHole H14
 U 1 1 60BC8B2B
 P 3650 6850
 F 0 "H14" H 3750 6896 50  0000 L CNN
@@ -1003,7 +964,7 @@ F 3 "~" H 3650 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H15
+L Mechanical:MountingHole H15
 U 1 1 60BC8DA9
 P 3650 7050
 F 0 "H15" H 3750 7096 50  0000 L CNN
@@ -1024,8 +985,6 @@ F 3 "" H 4900 7000 50  0001 C CNN
 	1    4900 7000
 	1    0    0    -1  
 $EndComp
-Connection ~ 9750 3550
-Connection ~ 9650 3550
 NoConn ~ 8750 5150
 $Comp
 L haxo001_library:thumb_rest thumb2
@@ -1055,7 +1014,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 1300 5450 1300
 $Comp
-L haxophone001-rescue:C-Device C3
+L Device:C C3
 U 1 1 60E765E3
 P 1100 4850
 F 0 "C3" H 1150 4950 50  0000 L CNN
@@ -1066,7 +1025,7 @@ F 3 "~" H 1100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:C-Device C2
+L Device:C C2
 U 1 1 60E77466
 P 850 4850
 F 0 "C2" H 900 4950 50  0000 L CNN
@@ -1079,7 +1038,7 @@ $EndComp
 Wire Wire Line
 	850  4700 850  4600
 $Comp
-L haxophone001-rescue:GND-power #PWR010
+L power:GND #PWR010
 U 1 1 60E83831
 P 850 5000
 F 0 "#PWR010" H 850 4750 50  0001 C CNN
@@ -1092,7 +1051,7 @@ $EndComp
 Wire Wire Line
 	850  5000 1100 5000
 $Comp
-L haxophone001-rescue:C-Device C4
+L Device:C C4
 U 1 1 60F0AE5E
 P 3300 5100
 F 0 "C4" H 3200 5200 50  0000 C CNN
@@ -1104,13 +1063,9 @@ F 4 "C1603" V 3300 5100 50  0001 C CNN "JLCPCB"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	850  4700 1100 4700
-Wire Wire Line
 	1800 4850 1700 4850
 Wire Wire Line
 	1700 4850 1700 4700
-Connection ~ 850  4700
-Connection ~ 850  5000
 Wire Wire Line
 	1700 4850 1700 4950
 Connection ~ 1700 4850
@@ -1129,7 +1084,7 @@ Wire Notes Line
 Wire Notes Line
 	9050 600  10950 600 
 $Comp
-L haxophone001-rescue:Conn_02x02_Odd_Even-Connector_Generic J1
+L Connector_Generic:Conn_02x02_Odd_Even J1
 U 1 1 609941A0
 P 2150 800
 F 0 "J1" H 2200 950 50  0000 C CNN
@@ -1150,7 +1105,7 @@ ROW3_RHK
 Text GLabel 2450 800  2    50   Input ~ 0
 ROW2_RHK
 $Comp
-L haxophone001-rescue:Conn_02x02_Odd_Even-Connector_Generic J8
+L Connector_Generic:Conn_02x02_Odd_Even J8
 U 1 1 60983BDA
 P 8400 700
 F 0 "J8" H 8450 450 50  0000 C CNN
@@ -1170,9 +1125,6 @@ Text GLabel 8700 800  2    50   Input ~ 0
 ROW2
 Text GLabel 8700 700  2    50   Input ~ 0
 ROW1
-Wire Wire Line
-	1100 4700 1700 4700
-Connection ~ 1100 4700
 Text Notes 3800 5350 0    50   ~ 0
 Audio Codec + Amp
 Text GLabel 10350 5250 2    50   Input ~ 0
@@ -1200,7 +1152,7 @@ Wire Notes Line
 Wire Notes Line
 	2950 550  2950 1600
 $Comp
-L haxophone001-rescue:+5V-power #PWR09
+L power:+5V #PWR09
 U 1 1 60EAAC23
 P 850 4600
 F 0 "#PWR09" H 850 4450 50  0001 C CNN
@@ -1213,7 +1165,7 @@ $EndComp
 Wire Wire Line
 	2850 4350 3350 4350
 $Comp
-L haxophone001-rescue:GND-power #PWR014
+L power:GND #PWR014
 U 1 1 60F07FAE
 P 2300 5150
 F 0 "#PWR014" H 2300 4900 50  0001 C CNN
@@ -1224,7 +1176,7 @@ F 3 "" H 2300 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:GND-power #PWR015
+L power:GND #PWR015
 U 1 1 60F08C7D
 P 3350 4600
 F 0 "#PWR015" H 3350 4350 50  0001 C CNN
@@ -1235,7 +1187,7 @@ F 3 "" H 3350 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:GND-power #PWR012
+L power:GND #PWR012
 U 1 1 60F12CF5
 P 1500 4450
 F 0 "#PWR012" H 1500 4200 50  0001 C CNN
@@ -1259,28 +1211,26 @@ F 4 "C910544" H 2300 4600 50  0001 C CNN "JLCPCB"
 $EndComp
 Wire Wire Line
 	1800 4450 1500 4450
-Wire Wire Line
-	1350 4000 1350 4350
 $Comp
-L haxophone001-rescue:+5V-power #PWR013
+L power:+5V #PWR013
 U 1 1 60F36C6E
-P 1750 3850
-F 0 "#PWR013" H 1750 3700 50  0001 C CNN
-F 1 "+5V" H 1765 4023 50  0000 C CNN
-F 2 "" H 1750 3850 50  0001 C CNN
-F 3 "" H 1750 3850 50  0001 C CNN
-	1    1750 3850
+P 1100 3850
+F 0 "#PWR013" H 1100 3700 50  0001 C CNN
+F 1 "+5V" H 1115 4023 50  0000 C CNN
+F 2 "" H 1100 3850 50  0001 C CNN
+F 3 "" H 1100 3850 50  0001 C CNN
+	1    1100 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:GND-power #PWR011
+L power:GND #PWR011
 U 1 1 60F3CD37
-P 1150 3850
-F 0 "#PWR011" H 1150 3600 50  0001 C CNN
-F 1 "GND" H 1155 3677 50  0000 C CNN
-F 2 "" H 1150 3850 50  0001 C CNN
-F 3 "" H 1150 3850 50  0001 C CNN
-	1    1150 3850
+P 1600 3850
+F 0 "#PWR011" H 1600 3600 50  0001 C CNN
+F 1 "GND" H 1605 3677 50  0000 C CNN
+F 2 "" H 1600 3850 50  0001 C CNN
+F 3 "" H 1600 3850 50  0001 C CNN
+	1    1600 3850
 	1    0    0    -1  
 $EndComp
 Text Notes 1950 3800 0    50   ~ 0
@@ -1288,16 +1238,12 @@ Gain config\n2-1:   6dB\n2-3: 12dB\n2-x:    9dB
 Wire Wire Line
 	1350 4350 1800 4350
 Wire Wire Line
-	1550 3850 1750 3850
-Wire Wire Line
 	1800 4550 1700 4550
 Wire Wire Line
 	1700 4550 1700 4700
 Connection ~ 1700 4700
 Wire Notes Line
 	4700 3450 4700 5500
-Wire Wire Line
-	3800 2450 4350 2450
 Text Notes 4000 2700 0    50   ~ 0
 I2C addr: 0x4d
 Wire Notes Line
@@ -1311,7 +1257,7 @@ Wire Notes Line
 Wire Notes Line
 	2000 3300 4700 3300
 $Comp
-L haxophone001-rescue:R-Device R2
+L Device:R R2
 U 1 1 60A6860E
 P 4100 2300
 F 0 "R2" H 4170 2346 50  0000 L CNN
@@ -1322,7 +1268,7 @@ F 3 "~" H 4100 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:GND-power #PWR01
+L power:GND #PWR01
 U 1 1 60A67A23
 P 2800 2800
 F 0 "#PWR01" H 2800 2550 50  0001 C CNN
@@ -1332,9 +1278,8 @@ F 3 "" H 2800 2800 50  0001 C CNN
 	1    2800 2800
 	1    0    0    -1  
 $EndComp
-Connection ~ 2800 2500
 $Comp
-L haxophone001-rescue:C-Device C1
+L Device:C C1
 U 1 1 60A665AB
 P 2800 2650
 F 0 "C1" H 2915 2696 50  0000 L CNN
@@ -1350,9 +1295,6 @@ Text GLabel 4350 2550 2    50   Input ~ 0
 SCL
 Text GLabel 4350 2450 2    50   Input ~ 0
 SDA
-Connection ~ 3800 2450
-Wire Wire Line
-	3650 2450 3800 2450
 Connection ~ 4100 2550
 Wire Wire Line
 	4100 2550 4350 2550
@@ -1360,17 +1302,12 @@ Wire Wire Line
 	4100 2550 3650 2550
 Wire Wire Line
 	4100 2450 4100 2550
-Connection ~ 3950 2100
 Wire Wire Line
 	4100 2100 4100 2150
 Wire Wire Line
-	3950 2100 4100 2100
-Wire Wire Line
-	3800 2100 3950 2100
-Wire Wire Line
 	3800 2150 3800 2100
 $Comp
-L haxophone001-rescue:R-Device R1
+L Device:R R1
 U 1 1 60A58E22
 P 3800 2300
 F 0 "R1" H 3870 2346 50  0000 L CNN
@@ -1383,7 +1320,7 @@ F 5 "RC0805JR-134K7L" H 3800 2300 50  0001 C CNN "Field5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:+3.3V-power #PWR06
+L power:+3.3V #PWR06
 U 1 1 60A576ED
 P 3950 2100
 F 0 "#PWR06" H 3950 1950 50  0001 C CNN
@@ -1394,7 +1331,7 @@ F 3 "" H 3950 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:+5V-power #PWR04
+L power:+5V #PWR04
 U 1 1 60A56B4E
 P 3350 2200
 F 0 "#PWR04" H 3350 2050 50  0001 C CNN
@@ -1413,7 +1350,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2300 2950 2300
 $Comp
-L haxophone001-rescue:GND-power #PWR03
+L power:GND #PWR03
 U 1 1 60A4FA00
 P 3050 2300
 F 0 "#PWR03" H 3050 2050 50  0001 C CNN
@@ -1424,7 +1361,7 @@ F 3 "" H 3050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L haxophone001-rescue:GND-power #PWR05
+L power:GND #PWR05
 U 1 1 60A4CA7E
 P 3350 2700
 F 0 "#PWR05" H 3350 2450 50  0001 C CNN
@@ -1439,7 +1376,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2300 2900 2200
 $Comp
-L haxophone001-rescue:+5V-power #PWR02
+L power:+5V #PWR02
 U 1 1 60A482A7
 P 2900 2200
 F 0 "#PWR02" H 2900 2050 50  0001 C CNN
@@ -1473,25 +1410,8 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001732e.pdf" H 3350 2500 
 $EndComp
 Wire Notes Line
 	550  3450 550  5500
-Wire Wire Line
-	9450 3550 9550 3550
-Wire Wire Line
-	9550 3550 9650 3550
-Wire Wire Line
-	9950 3550 10150 3550
-Connection ~ 9550 3550
-Connection ~ 9950 3550
-Wire Wire Line
-	9850 3550 9950 3550
-Wire Wire Line
-	9750 3550 9850 3550
-Connection ~ 9850 3550
-Wire Wire Line
-	8800 6150 9350 6150
-Wire Wire Line
-	9750 6150 10300 6150
 $Comp
-L haxophone001-rescue:Raspberry_Pi_2_3-Connector J3
+L Connector:Raspberry_Pi_2_3 J3
 U 1 1 6092ED96
 P 9550 4850
 F 0 "J3" H 9550 6331 50  0000 C CNN
@@ -1508,9 +1428,8 @@ Wire Wire Line
 	2850 4600 2850 4750
 Wire Wire Line
 	2850 4950 2950 4950
-Connection ~ 3300 4950
 $Comp
-L haxophone001-rescue:Ferrite_Bead_Small-Device FB1
+L Device:Ferrite_Bead_Small FB1
 U 1 1 60FCF38D
 P 3050 4950
 F 0 "FB1" V 3250 4950 50  0000 C CNN
@@ -1521,10 +1440,8 @@ F 4 "C1017" V 3050 4950 50  0001 C CNN "JLCPCB"
 	1    3050 4950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3150 4950 3300 4950
 $Comp
-L haxophone001-rescue:GND-power #PWR016
+L power:GND #PWR016
 U 1 1 60FD07F4
 P 3300 5250
 F 0 "#PWR016" H 3300 5000 50  0001 C CNN
@@ -1541,7 +1458,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4900 3850 4900
 $Comp
-L haxophone001-rescue:AudioJack3-Connector J5
+L Connector:AudioJack3 J5
 U 1 1 60F0AE4A
 P 4050 4900
 F 0 "J5" H 3770 4833 50  0000 R CNN
@@ -1552,8 +1469,6 @@ F 4 "C18594" H 4050 4900 50  0001 C CNN "JLCPCB"
 	1    4050 4900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 4950 3750 4950
 Connection ~ 3750 4950
 Wire Wire Line
 	3750 4950 3750 5000
@@ -1561,26 +1476,14 @@ Wire Wire Line
 	2850 4600 3350 4600
 Wire Wire Line
 	3350 4350 3350 4600
-Connection ~ 3350 4600
 Wire Wire Line
 	3050 4850 3050 4800
 Wire Wire Line
 	3050 4800 3850 4800
-$Comp
-L haxophone001-rescue:SolderJumper_3_Open-Jumper JP1
-U 1 1 61019F12
-P 1350 3850
-F 0 "JP1" H 1350 4055 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 1350 3964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1350 3850 50  0001 C CNN
-F 3 "~" H 1350 3850 50  0001 C CNN
-	1    1350 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 7100 6100 7100
 $Comp
-L haxophone001-rescue:MountingHole-Mechanical H7
+L Mechanical:MountingHole H7
 U 1 1 6133F63E
 P 2600 7000
 F 0 "H7" H 2700 7046 50  0000 L CNN
@@ -1594,4 +1497,99 @@ Text Notes 2200 6850 0    50   ~ 0
 Raspberry Pi Mounting Holes
 Text Notes 3550 6250 0    50   ~ 0
 L-Brackets Mounting Holes
+Wire Wire Line
+	8700 6150 8800 6150
+Wire Wire Line
+	9750 6150 10300 6150
+Wire Wire Line
+	850  4700 1100 4700
+Wire Wire Line
+	3650 2450 3800 2450
+Wire Wire Line
+	3800 2100 3950 2100
+Wire Wire Line
+	3150 4950 3300 4950
+Wire Wire Line
+	9250 3550 9350 3550
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 609FD8CC
+P 8700 6050
+F 0 "#PWR0103" H 8700 5900 50  0001 C CNN
+F 1 "+3.3V" H 8715 6223 50  0000 C CNN
+F 2 "" H 8700 6050 50  0001 C CNN
+F 3 "" H 8700 6050 50  0001 C CNN
+	1    8700 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 10150 3550
+Wire Wire Line
+	10150 3550 10400 3550
+Connection ~ 10300 6150
+Wire Wire Line
+	10300 6150 10400 6150
+Connection ~ 8800 6150
+Wire Wire Line
+	8800 6150 9350 6150
+Connection ~ 1100 4700
+Wire Wire Line
+	1100 4700 1700 4700
+Connection ~ 3300 4950
+Wire Wire Line
+	3300 4950 3750 4950
+Connection ~ 3800 2450
+Wire Wire Line
+	3800 2450 4350 2450
+Connection ~ 9350 3550
+Wire Wire Line
+	9350 3550 9450 3550
+Connection ~ 9450 3550
+Wire Wire Line
+	9450 3550 9550 3550
+Connection ~ 9550 3550
+Wire Wire Line
+	9550 3550 9650 3550
+Connection ~ 9650 3550
+Wire Wire Line
+	9650 3550 9750 3550
+Connection ~ 9750 3550
+Wire Wire Line
+	9750 3550 9850 3550
+Connection ~ 9850 3550
+Wire Wire Line
+	9850 3550 9950 3550
+Connection ~ 9950 3550
+Wire Wire Line
+	9950 3550 10150 3550
+Wire Wire Line
+	1350 4000 1350 4350
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 61019F12
+P 1350 3850
+F 0 "JP1" H 1350 3950 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 1450 4150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1350 3850 50  0001 C CNN
+F 3 "~" H 1350 3850 50  0001 C CNN
+	1    1350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3850 1150 3850
+Wire Wire Line
+	1550 3850 1600 3850
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 60BC2B80
+P 6200 7450
+F 0 "J4" V 6200 7200 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 6900 7100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 7450 50  0001 C CNN
+F 3 "~" H 6200 7450 50  0001 C CNN
+	1    6200 7450
+	0    -1   1    0   
+$EndComp
+Connection ~ 3950 2100
+Wire Wire Line
+	3950 2100 4100 2100
 $EndSCHEMATC
