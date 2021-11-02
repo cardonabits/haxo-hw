@@ -1320,7 +1320,7 @@ F 5 "RC0805JR-134K7L" H 3800 2300 50  0001 C CNN "Field5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L power:+3.3V #PWR06
 U 1 1 60A576ED
 P 3950 2100
 F 0 "#PWR06" H 3950 1950 50  0001 C CNN
@@ -1506,7 +1506,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2450 3800 2450
 Wire Wire Line
-	3800 2100 4100 2100
+	3800 2100 3950 2100
 Wire Wire Line
 	3150 4950 3300 4950
 Wire Wire Line
@@ -1589,4 +1589,7 @@ F 3 "~" H 6200 7450 50  0001 C CNN
 	1    6200 7450
 	0    -1   1    0   
 $EndComp
+Connection ~ 3950 2100
+Wire Wire Line
+	3950 2100 4100 2100
 $EndSCHEMATC
