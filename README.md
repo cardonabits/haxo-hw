@@ -170,7 +170,7 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | Qty | Part Description | Manufacturer | MPN | Supplier | Estimated cost USD (at quantity 5) |
 | :--- | :---        |     :---:      |          :---: |  :---: | ---: |
 | 1 | Partially-assembled Haxo HAT PCB (small SMD parts populated) | N/A | N/A | Several  | $15 |
-| 1 | Differential pressure SMD sensor | NXP | MPXV7007DP | Arrow |  $10     |
+| 1 | Differential pressure SMD sensor | NXP | MPXV7007DP | Arrow |  ~$10~ Post-Covid: $24     |
 | 1 | Set of 3D printed parts | N/A | N/A | Several  | $4 |
 | 1 | 30cm Food grade Silicon Tube ID:3mm/OD:6mm | JUNZHIDA | N/A | Amazon | $2 |
 | 22 | Tactile-feedback 5-pin mechanical switches | Cherry MX | MX-Brown | Banggood | $11 |
@@ -186,7 +186,8 @@ The table below shows the main parts required to build a full Haxophone.  Prices
 | 1 | Neck Strap | N/A | N/A | N/A | Bring your own (but optional) |
 | 1 | Raspberry Pi Zero | Broadcom | Raspberry Pi Zero | Many | $5 |
 | 1 | 16 GB SD Card | Many | N/A | Many | $6 |
-| **Total** | | | | | **$73** |
+| ~**Total**~ | | | | | ~**$73**~ (Pre-Covid) |
+| **Total** | | | | | **$97** (Post-Covid) |
 
 ## Assembly Instructions
 
