@@ -125,7 +125,7 @@ note can be played using alternate fingerings with other keys.  The most common
 mappings of the high F# are already configured on the haxophone.  If you are
 used to a less common configuration, the software is easy to extend.
 
-Also note that at the moment there matrix is not completely used:  keys (col 0,
+Also note that at the moment the matrix is not completely used:  keys (col 0,
 row 7) and (col 2, row 3) are unused.
 
 ### Audio Amplifier
