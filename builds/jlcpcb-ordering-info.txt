@@ -1,0 +1,45 @@
+PCB Product Detail
+==================
+
+Gerber file: haxophone001-1.0_Y64
+Build Time: 3 days
+Base Material: FR-4
+Layers: 2
+Dimension: 102.36 mm* 207.26 mm
+PCB Qty: 5
+Product Type: Industrial/Consumer electronics
+Different Design: 3
+Delivery Format: Panel by Customer
+PCB Thickness: 1.6
+Impedance Control: no
+PCB Color: Black
+Silkscreen: White
+Via Covering: Tented
+Surface Finish: LeadFree HASL
+Deburring/Edge rounding: No
+Outer Copper Weight: 1
+Gold Fingers: No
+Flying Probe Test:Fully Test
+Castellated Holes:no
+Remove Order Number:No
+4-Wire Kelvin Test:No
+Material Type:FR4-Standard TG 135-140
+Paper between PCBs:No
+Appearance Quality:IPC Class 2 Standard
+Confirm Production file:Yes
+Silkscreen Technology:Ink-jet/Screen Printing Silkscreen
+X-out board:Accept
+Package Box:With JLCPCB logo
+Date: Dec 1 2022
+PCB price (qty 5): 20.71 EUR (excl. shipping + tax)
+
+Assembly Detail
+===============
+
+Bottom Side
+PCBA QTY: 5
+Tooling holes: Added by JLCPCB
+Confirm Parts Placement：Yes
+File provided as: Complete File, just proceed with my own files
+Panel Format: 1*1
+Assembyl + Parts price (qty 5): 189.79 EUR (excl. shipping + tax)
