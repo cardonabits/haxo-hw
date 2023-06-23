@@ -53,7 +53,7 @@ read-only most of the time.
 
 ## Initial Configuration
 
-1. Flash [image onto Raspberry Pi](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/).
+1. Flash [image onto Raspberry Pi](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/).  For faster boot, use the Lite version of the OS (no graphical environment)
 2. Pick SSH password.
 3. Pick a network-unique hostname (`/etc/hostname`).
 4. On raspi-config, enable: `ssh`, `I2C` and (optional) `serial console`
@@ -79,20 +79,24 @@ read-only most of the time.
     ```
     apt install libfluidsynth-dev
     ```
-10. Automount USB drive, if attached
+10. Install latest stable Rust
+    ```
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    ```
+11. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     echo '/dev/sda1       /media/usb        vfat    defaults,nofail,uid=1000,gid=1000        0 2' >> /etc/fstab     
     ```
-11. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+12. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-12. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+13. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-13. [Highly recommended] Make SD Card read-only
+14. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
