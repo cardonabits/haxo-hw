@@ -10,13 +10,22 @@
    
    ![mouthpiece](https://github.com/jcard0na/haxo-hw/assets/676181/a8588c33-c052-4ac0-933e-8d24fbb1174b)
 
-3. **Powering Up the Haxophone:**
+3. **Installing Software**
+   Download pre-compiled software image from the links below:
+
+   [Raspberry Pi Zero and Zero W](https://drive.google.com/uc?export=download&id=1VCFVa0-PJS1L7sZvM2c5khXlKgiwBScR)
+   
+   [Raspberry Pi 3 and 4](TODO)
+
+   Then flash it onto a 16MB SD Card.  Insert card into SD card slot of Raspberry Pi.
+   
+4. **Powering Up the Haxophone:**
    Insert the USB connector into the USB power port on the Raspberry Pi to power it up.
 
-4. **Waiting for Boot:**
+5. **Waiting for Boot:**
    Allow the haxophone a minute to complete the boot process.
 
-5. **Start Playing:**
+6. **Start Playing:**
    Blow air through the mouthpiece to begin playing.
 
 ### Maintenance
