@@ -39,7 +39,7 @@
 ### Safety Information
 
 1. **Proper Power Supply Connection:**
-   ALWAYS power up the haxophone by connecting a USB-compliant power supply to the Raspberry Pi USB power port. Do NOT apply voltage in any other way.
+   ALWAYS power up the haxophone by connecting a USB-compliant power supply to the Raspberry Pi USB power port. DO NOT apply voltage in any other way.
 
 2. **Mouth Insertion Warning:**
    DO NOT insert any part of the haxophone into your mouth except the tip of the neck or the mouthpiece, if you are using one.
