@@ -8,14 +8,14 @@
 2. **Optionale Befestigung des Saxophonmundstücks:**
    Wenn gewünscht, kannst du ein Saxophonmundstück am Haxophonhals befestigen. Verwende Klebeband oder Isolierband, um die Dicke des Halses an dein Mundstück anzupassen. Dies wird in Abbildung 2 dargestellt.
 
-   ![Mundstück befestigen](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772){ width=100px }
+   ![Mundstück befestigen](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772)
 
 3. **Installation der Software:**
    Lade die vorkompilierte Software-Image von den folgenden Link herunter:
 
-   Raspberry Pi Zero und Zero W: https://bit.ly/3rVAq5U
+   Raspberry Pi Zero und Zero W: [https://bit.ly/3rVAq5U](https://bit.ly/3rVAq5U)
 
-   Raspberry Pi 3 und 4: https://bit.ly/3Qq9h5d
+   Raspberry Pi 3 und 4: [https://bit.ly/3Qq9h5d](https://bit.ly/3Qq9h5d)
 
    Flashe sie dann auf eine 16-MB-SD-Karte und stecke die Karte in den SD-Kartensteckplatz des Raspberry Pi.
 
