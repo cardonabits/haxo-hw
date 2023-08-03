@@ -3,12 +3,12 @@
 1. **Connecting the Haxophone to Raspberry Pi:**
    Attach the haxophone to the Raspberry Pi 40-pin connector, ensuring that the USB power supply port on the Raspberry Pi faces the bottom of the haxophone, aligning with the mini-jack connector direction. Refer to the picture below for visual guidance:
    
-   ![haxophone-angle-02(1)](https://github.com/jcard0na/haxo-hw/assets/676181/fd236fc7-03f0-4922-8ee6-d6f73fe1bffc)
+   ![Attaching Raspberry Pi](https://github.com/jcard0na/haxo-hw/assets/676181/fd236fc7-03f0-4922-8ee6-d6f73fe1bffc)
 
 2. **Optional Saxophone Mouthpiece Attachment:**
    If desired, you can attach a saxophone mouthpiece to the haxophone's neck. Use masking or electrical tape to adjust the neck's thickness to match your mouthpiece. Refer to the image below:
    
-   ![256834376-a8588c33-c052-4ac0-933e-8d24fbb1174b](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772)
+   ![Attaching a mouthpiece](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772){ width=100px }
 
 
 3. **Installing Software**
@@ -47,3 +47,8 @@
 
 3. **Device Condition Alert:**
    If the haxophone shows any signs of damage, emits acrid smells, or exhibits mold growth, STOP USING the device immediately for safety reasons.
+
+
+| Document Version | Changes |
+| --- | --- |
+| 1.0 |     |
