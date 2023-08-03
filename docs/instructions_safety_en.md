@@ -12,7 +12,7 @@
 
 
 3. **Installing Software**
-   Download pre-compiled software image from the links below:
+   Download pre-compiled software image from the link below:
 
    Raspberry Pi Zero and Zero W: https://bit.ly/3rVAq5U
    

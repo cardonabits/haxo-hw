@@ -11,9 +11,9 @@
    ![Mundstück befestigen](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772){ width=100px }
 
 3. **Installation der Software:**
-   Lade die vorkompilierte Software-Image von den folgenden Links herunter:
+   Lade die vorkompilierte Software-Image von den folgenden Link herunter:
 
-   [Raspberry Pi Zero und Zero W](https://drive.google.com/uc?export=download&id=1VCFVa0-PJS1L7sZvM2c5khXlKgiwBScR)
+   Raspberry Pi Zero und Zero W: https://bit.ly/3rVAq5U
 
    [Raspberry Pi 3 und 4](TODO)
 
