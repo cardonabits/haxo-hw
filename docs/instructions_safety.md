@@ -8,7 +8,8 @@
 2. **Optional Saxophone Mouthpiece Attachment:**
    If desired, you can attach a saxophone mouthpiece to the haxophone's neck. Use masking or electrical tape to adjust the neck's thickness to match your mouthpiece. Refer to the image below:
    
-   ![mouthpiece](https://github.com/jcard0na/haxo-hw/assets/676181/a8588c33-c052-4ac0-933e-8d24fbb1174b)
+   ![256834376-a8588c33-c052-4ac0-933e-8d24fbb1174b](https://github.com/cardonabits/haxo-hw/assets/676181/8db66a9e-f830-46b4-ba5d-8c7589303772)
+
 
 3. **Installing Software**
    Download pre-compiled software image from the links below:
