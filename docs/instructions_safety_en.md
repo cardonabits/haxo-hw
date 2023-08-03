@@ -14,19 +14,17 @@
 3. **Installing Software**
    Download pre-compiled software image from the links below:
 
-   [Raspberry Pi Zero and Zero W](https://drive.google.com/uc?export=download&id=1VCFVa0-PJS1L7sZvM2c5khXlKgiwBScR)
+   Raspberry Pi Zero and Zero W: https://bit.ly/3rVAq5U
    
-   [Raspberry Pi 3 and 4](TODO)
-
    Then flash it onto a 16MB SD Card.  Insert card into SD card slot of Raspberry Pi.
    
-4. **Powering Up the Haxophone:**
+5. **Powering Up the Haxophone:**
    Insert the USB connector into the USB power port on the Raspberry Pi to power it up.
 
-5. **Waiting for Boot:**
+6. **Waiting for Boot:**
    Allow the haxophone a minute to complete the boot process.
 
-6. **Start Playing:**
+7. **Start Playing:**
    Blow air through the mouthpiece to begin playing.
 
 ### Maintenance
