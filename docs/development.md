@@ -67,7 +67,7 @@ read-only most of the time.
     dtparam=i2c_arm_baudrate=400000
     ```
 7. Install keys (under `~/.ssh`)
-8. Create `~/.gitconfig`
+9. Create `~/.gitconfig`
     ```
     [user]
             email = my@email.com
@@ -75,28 +75,32 @@ read-only most of the time.
     [core]
             editor = vi
     ```
-9. Install project dependencies
+10. Install project dependencies
     ```
     apt install libfluidsynth-dev
     ```
-10. Install latest stable Rust
+11. Install latest stable Rust
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
-11. Automount USB drive, if attached
+12. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
-    echo '/dev/sda1       /media/usb        vfat    defaults,nofail,uid=1000,gid=1000        0 2' >> /etc/fstab     
+    # for FAT32 formatted drive
+    echo '/dev/sda1       /media/usb        vfat    defaults,nofail,uid=1000,gid=1000        0 2' >> /etc/fstab
+    # for Linux formatted drive
+    sudo mkdir /media/usb
+    echo '/dev/sda1       /media/usb        ext4    defaults,nofail        0 2' >> /etc/fstab         
     ```
-12. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+13. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-13. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+14. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-14. [Highly recommended] Make SD Card read-only
+15. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
