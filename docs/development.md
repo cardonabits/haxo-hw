@@ -77,7 +77,7 @@ read-only most of the time.
     ```
 10. Install project dependencies
     ```
-    apt install libfluidsynth-dev
+    apt install libfluidsynth-dev git
     ```
 11. Install latest stable Rust
     ```
