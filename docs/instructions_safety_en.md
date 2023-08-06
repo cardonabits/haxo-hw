@@ -15,6 +15,7 @@
    Download pre-compiled software image from the link below:
 
    Raspberry Pi Zero and Zero W: https://bit.ly/3rVAq5U
+   Raspberry Pi 3 and 4: https://bit.ly/3Qq9h5d
    
    Then flash it onto a 16MB SD Card.  Insert card into SD card slot of Raspberry Pi.
    
