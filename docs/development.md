@@ -83,7 +83,21 @@ read-only most of the time.
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
-12. Automount USB drive, if attached
+
+    Note: On Raspberry Pi 4 rustup might detect an incorrect architecture.  See [this issue](https://github.com/rust-lang/rustup/issues/3342).  Check the default host:
+
+    ```
+    Current installation options:
+
+    default host triple: aarch64-unknown-linux-gnu
+    This is incorrect --------^^^^^^^
+    ```
+
+    To fix, pick '2. Customize installation' and set host to:
+    ```
+    arm-unknown-linux-gnueabihf
+    ```
+13. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     # for FAT32 formatted drive
@@ -92,15 +106,15 @@ read-only most of the time.
     sudo mkdir /media/usb
     echo '/dev/sda1       /media/usb        ext4    defaults,nofail        0 2' >> /etc/fstab         
     ```
-13. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+14. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-14. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+15. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-15. [Highly recommended] Make SD Card read-only
+16. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
