@@ -28,6 +28,29 @@
 6. **Starte das Spielen:**
    Blase Luft durch das Mundstück, um mit dem Spielen zu beginnen.
 
+### Ändern der Instrumentenklänge
+
+1. **Luft aus dem Mundstück ziehen und dabei eine tief Bb-Fingertechnik halten**
+   Nach weniger als einer Sekunde ertönt ein Piepton, der anzeigt, dass das Haxophon sich im Befehlsmodus befindet.
+
+![Luft ziehen mit Bb-Fingertechnik, um in den Befehlsmodus zu gelangen](https://github.com/cardonabits/haxo-hw/assets/676181/0b678629-7a11-4eca-ad1d-03019d156018)
+
+2. **Die Tasten R1 (oder R3) drücken, um verschiedene Instrumentenklänge auszuwählen**
+   Nach jedem Tastendruck hören Sie einen Ton mit dem neu ausgewählten Klang.
+
+![Nächstes Instrument](https://github.com/cardonabits/haxo-hw/assets/676181/8b8a66cb-ba73-491d-b95b-3d67136d7669)
+
+![Vorheriges Instrument](https://github.com/cardonabits/haxo-hw/assets/676181/9e6cf1ae-c568-4e71-96cb-6b74a0a08a94)
+
+![10 Instrumente vorspringen](https://github.com/cardonabits/haxo-hw/assets/676181/94c4fd41-5210-42db-a113-5e07d172d6bd)
+
+![10 Instrumente zurückgehen](https://github.com/cardonabits/haxo-hw/assets/676181/2c469639-7382-4c9e-8616-e5316430cb7d)
+
+3. **Auswahl bestätigen, indem Sie alle linken Handflächen-Tasten drücken**
+   Ein Piepton ertönt, der anzeigt, dass das Haxophon jetzt spielbereit ist.
+
+![Alle drei linken Handflächen-Tasten drücken, um den Befehlsmodus zu verlassen](https://github.com/cardonabits/haxo-hw/assets/676181/fef46a10-c650-462d-b551-602eeb497334)
+
 ### Wartung
 
 1. **Reinigung der Belüftungsrohre:**

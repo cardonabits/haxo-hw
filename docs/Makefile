@@ -5,10 +5,10 @@ PDF_FILES := $(MD_FILES:%.md=%.pdf)
 all: $(PDF_FILES) $(HTML_FILES)
 
 %.pdf: %.md
-	pandoc $< --toc -V geometry:margin=1in -s -o $@
+	pandoc $< -H disable-float.tex --toc -V geometry:margin=1in -s -o $@
 
 %.html: %.md
-	pandoc $< --toc --metadata title=% -V geometry:margin=1in -s -o $@
+	pandoc $< --metadata title=$* -V geometry:margin=1in -s -o $@
 
 clean:
 	rm -f $(PDF_FILES) $(HTML_FILES)
