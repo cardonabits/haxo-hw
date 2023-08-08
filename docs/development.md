@@ -94,7 +94,6 @@ read-only most of the time.
     # for FAT32 formatted drive
     echo '/dev/sda1       /media/usb        vfat    defaults,nofail,uid=1000,gid=1000        0 2' >> /etc/fstab
     # for Linux formatted drive
-    sudo mkdir /media/usb
     echo '/dev/sda1       /media/usb        ext4    defaults,nofail        0 2' >> /etc/fstab         
     ```
 11. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
