@@ -66,20 +66,11 @@ read-only most of the time.
     ```
     dtparam=i2c_arm_baudrate=400000
     ```
-7. Install keys (under `~/.ssh`)
-9. Create `~/.gitconfig`
-    ```
-    [user]
-            email = my@email.com
-            name = My Name
-    [core]
-            editor = vi
-    ```
-10. Install project dependencies
+7. Install project dependencies
     ```
     apt install libfluidsynth-dev git
     ```
-11. Install latest stable Rust
+9. Install latest stable Rust
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
@@ -97,7 +88,7 @@ read-only most of the time.
     ```
     arm-unknown-linux-gnueabihf
     ```
-13. Automount USB drive, if attached
+10. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     # for FAT32 formatted drive
@@ -106,15 +97,15 @@ read-only most of the time.
     sudo mkdir /media/usb
     echo '/dev/sda1       /media/usb        ext4    defaults,nofail        0 2' >> /etc/fstab         
     ```
-14. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+11. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-15. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+12. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-16. [Highly recommended] Make SD Card read-only
+13. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
@@ -146,22 +137,34 @@ compilation is easy:
     cd /media/usb
     git clone https://github.com/jcard0na/haxo-rs.git
     ```
-3. Compile
+3. Install keys (under `/media/usb`, not the SD card) and load them
+   ```
+   ssh-agent bash
+   ssh-add id_ed25519
+   ```
+4. Configure git
+    ```
+    git config --local user.email my@email.com
+    git config --local "My Name"
+    git config --local core.editor vim
+    ```
+
+5. Compile
     ```
     cd haxo-rs
     cargo build --release
     ```
-4. Only one `haxo` daemon can be running at a time.  Before running your build,
+6. Only one `haxo` daemon can be running at a time.  Before running your build,
    you need to stop the pre-installed daemon that is launched at boot.
     ```
    systemctl stop haxo
    ```
-5. Run the tests
+7. Run the tests
    ```
    cargo tests
    ```
 
-6. [Optional] Run the interactive tests
+8. [Optional] Run the interactive tests
    ```
    cargo test all_keys -- --nocapture --ignored
    ```
