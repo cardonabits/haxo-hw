@@ -202,7 +202,7 @@ If you prefer to stay in software land, head out to [the software issues](https:
 
 See [License](LICENSE).
 We'll gladly accept contributions via Pull Requests.  Contributions are
-accepted under the same [License](License) of the project, as captured in
+accepted under the same [License](LICENSE) of the project, as captured in
 [github's terms of
 service](https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license).
 
