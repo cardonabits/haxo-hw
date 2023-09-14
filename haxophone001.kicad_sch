@@ -6,9 +6,9 @@
 
   (title_block
     (title "Haxophone")
-    (date "2021-08-27")
-    (rev "0.6")
-    (company "Javier Cardona")
+    (date "2023-09-14")
+    (rev "1.1")
+    (company "Cardona Bits")
   )
 
   (lib_symbols
@@ -3724,6 +3724,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C881771" (id 4) (at 62.23 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Alternate" " MPXV7007GC6U, MPXV7007GP" (id 5) (at 62.23 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 356bc419-37a4-4781-99b4-a9faf8366546))
