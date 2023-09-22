@@ -68,7 +68,7 @@ read-only most of the time.
     ```
 7. Install project dependencies
     ```
-    apt install libfluidsynth-dev git
+    apt install libfluidsynth-dev git libasound2-dev
     ```
 9. Install latest stable Rust
     ```
