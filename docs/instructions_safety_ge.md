@@ -15,7 +15,9 @@
 
    Raspberry Pi Zero und Zero W: [https://bit.ly/3rVAq5U](https://bit.ly/3rVAq5U)
 
-   Raspberry Pi 3 und 4: [https://bit.ly/3Qq9h5d](https://bit.ly/3Qq9h5d)
+   Raspberry Pi 4: [https://bit.ly/3Qq9h5d](https://bit.ly/3Qq9h5d)
+
+   Raspberry Pi 3: *Demnächst*
 
    Flashe sie dann auf eine 16-MB-SD-Karte und stecke die Karte in den SD-Kartensteckplatz des Raspberry Pi.
 
