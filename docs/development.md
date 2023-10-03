@@ -57,26 +57,39 @@ read-only most of the time.
 2. Pick SSH password.
 3. Pick a network-unique hostname (`/etc/hostname`).
 4. On raspi-config, enable: `ssh`, `I2C` and (optional) `serial console`
-5. enable audio card (edit /boot/config.txt to add)
+5. [RP Zero Only] Enable MIDI gadget driver
+   ```
+   echo g_midi >> /etc/modules
+   ```
+6. [RP Zero Only] Enable device-mode USB driver  (edit `/boot/config.txt` to add)
+   ```
+   dtoverlay=dwc2
+   ```
+7. Enable audio card (edit `/boot/config.txt` to add)
     ```
     # dtparam=audio=on
     dtoverlay=max98357a
     ```
-6. Speed up I2C (edit /boot/config.txt to add)
+8. Optionally, disable Wifi and Bluetooth.  This seems to improve performance on the RPI Zero.
+   ```
+   dtoverlay=disable-wifi
+   dtoverlay=disable-bt
+   ```
+9. Speed up I2C (edit `/boot/config.txt` to add)
     ```
     dtparam=i2c_arm_baudrate=400000
     ```
-7. Install project dependencies
+10. Install project dependencies
     ```
-    apt install libfluidsynth-dev git libasound2-dev
+    apt install libfluidsynth-dev git libasound2-dev i2c-tools
     ```
-9. Install latest stable Rust
+11. Install latest stable Rust
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
 
-    Note: On Raspberry Pi 4 rustup might detect an incorrect architecture.  See [this issue](https://github.com/rust-lang/rustup/issues/3342).  Check the default host:
-
+    Note: On Raspberry Pi 4 rustup might detect an incorrect architecture.  The RPi 3/4 can run in 32-bit or 64-bit.
+    Check `uname -m` to see whether you are running `aarch64` or `armv7l`.  If the later, when installing rust:
     ```
     Current installation options:
 
@@ -88,7 +101,8 @@ read-only most of the time.
     ```
     arm-unknown-linux-gnueabihf
     ```
-10. Automount USB drive, if attached
+    See [this issue](https://github.com/rust-lang/rustup/issues/3342).
+12. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     # for FAT32 formatted drive
@@ -96,15 +110,18 @@ read-only most of the time.
     # for Linux formatted drive
     echo '/dev/sda1       /media/usb        ext4    defaults,nofail        0 2' >> /etc/fstab         
     ```
-11. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-12. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+    Gotcha: If you created the USB partition with e2fsck 1.47, you might encounter [this problem](https://github.com/NixOS/nixpkgs/issues/229450#issuecomment-1616324269).  Avoid it by creating your partition from Raspberry Pi (e.g. `sudo mkfs -t ext4 /dev/sda1`)
+
+13. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+
+14. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-13. [Highly recommended] Make SD Card read-only
+15. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
@@ -129,38 +146,36 @@ This works very well on a Raspberry Pi 3 and 4, but it is very slow on the Pi Ze
 If you configured the Raspberry Pi image as described in the previous section,
 compilation is easy:
 
-
 1. Insert a USB drive and reboot.  It should auto-mount under `/media/usb`
-2. Clone `haxo-rs` on the USB drive
-    ```
-    cd /media/usb
-    git clone https://github.com/jcard0na/haxo-rs.git
-    ```
-3. Install keys (under `/media/usb`, not the SD card) and load them
+2. Install keys (under `/media/usb`, not the SD card) and load them
    ```
    ssh-agent bash
    ssh-add id_ed25519
    ```
-4. Configure git
+3. Clone `haxo-rs` on the USB drive
     ```
-    git config --local user.email my@email.com
-    git config --local "My Name"
-    git config --local core.editor vim
+    cd /media/usb
+    git clone git@github.com:cardonabits/haxo-rs.git
     ```
-
-5. Compile
+4. If you plan to make changes to the code and submit pull requests, configure `git`
     ```
     cd haxo-rs
+    git config --local user.email my@email.com
+    git config --local user.name "My Name"
+    git config --local core.editor vim
+    ```
+5. Compile
+    ```
     cargo build --release
     ```
 6. Only one `haxo` daemon can be running at a time.  Before running your build,
-   you need to stop the pre-installed daemon that is launched at boot.
+   you might need to stop the pre-installed daemon if it was launched at boot.
     ```
    systemctl stop haxo
    ```
 7. Run the tests
    ```
-   cargo tests
+   cargo test -- --test-threads=1
    ```
 
 8. [Optional] Run the interactive tests
@@ -200,7 +215,12 @@ The `haxo` daemon is launched by systemd.  If you need to install a new version,
 
 1. Disable overlay (if previously enabled)
 2. Copy `target/release/haxo001` to `/usr/local/bin/haxo001`
-3. Re-enable overlay
+3. Install systemctl service files
+    ```
+    cd scripts/systemd
+    sudo ./install.sh
+    ```
+4. Re-enable overlay
 
 If you need to modify how systemd launches the `haxo` daemon, you will need to
 edit `/etc/systemd/system/haxo.service`:
@@ -221,8 +241,8 @@ WorkingDir=/usr/share/haxo
 Environment=RUST_LOG=info
 ExecStart=/usr/local/bin/haxo001 \
           --notemap-file /usr/share/haxo/notemap.json \
-          --bank-number 1 \
-          --sf2-file /usr/share/sounds/sf2/TenorSax2.sf2
+          --bank-number 66 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2
 
 [Install]
 WantedBy=multi-user.target
