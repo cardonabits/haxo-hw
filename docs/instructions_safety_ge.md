@@ -13,11 +13,11 @@
 3. **Installation der Software:**
    Lade die vorkompilierte Software-Image von den folgenden Link herunter:
 
-   Raspberry Pi Zero und Zero W: [https://bit.ly/3rVAq5U](https://bit.ly/3rVAq5U)
+   Raspberry Pi Zero und Zero W: [https://bit.ly/haxo-rpiz](https://bit.ly/haxo-rpiz)
 
-   Raspberry Pi 4: [https://bit.ly/3Qq9h5d](https://bit.ly/3Qq9h5d)
+   Raspberry Pi 4: [https://bit.ly/haxo-rpi4](https://bit.ly/haxo-rpi4)
 
-   Raspberry Pi 3: *Demnächst*
+   Raspberry Pi 3: [https://bit.ly/haxo-rpi3](https://bit.ly/haxo-rpi3)
 
    Flashe sie dann auf eine 16-MB-SD-Karte und stecke die Karte in den SD-Kartensteckplatz des Raspberry Pi.
 
