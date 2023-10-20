@@ -1,7 +1,3 @@
-## 📣 Announcement: Crowdfunding campaign in progress 📣
-
-If you would like to have a Haxophone, but would rather skip the building part, you can get one via our [crowdfunding campaign at Crowd Supply](https://www.crowdsupply.com/cardona-bits/haxophone).  The campaign will run until October 19th 2023.
-
 ## Table of Contents
 
 <!-- toc -->
