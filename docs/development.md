@@ -68,7 +68,7 @@ read-only most of the time.
 7. Enable audio card (edit `/boot/config.txt` to add)
     ```
     # dtparam=audio=on
-    dtoverlay=max98357a
+    dtoverlay=max98357a,sdmode-pin=4
     ```
 8. Optionally, disable Wifi and Bluetooth.  This seems to improve performance on the RPI Zero.
    ```
