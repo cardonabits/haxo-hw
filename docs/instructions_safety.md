@@ -20,7 +20,7 @@
 
    Raspberry Pi 3: [https://bit.ly/haxo-rpi3](https://bit.ly/haxo-rpi3)
    
-   Then flash it onto a 16MB SD Card.  Insert card into SD card slot of Raspberry Pi.
+   Then flash it onto a 16GB SD Card.  Insert card into SD card slot of Raspberry Pi.
    
 5. **Powering Up the Haxophone:**
    Insert the USB connector into the USB power port on the Raspberry Pi to power it up.
