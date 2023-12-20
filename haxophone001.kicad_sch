@@ -2120,7 +2120,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d88ad8b-3dd6-4e2b-98c8-e5d318ccaee7)
   )
-  (text "Gain config\n2-1:   6dB\n2-3: 12dB\n2-x:    9dB" (at 49.53 96.52 0)
+  (text "Gain config\n2-1:  12dB\n2-3:   6dB\n2-x:   9dB" (at 49.53 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 85d80ad5-3516-44b4-8408-fda5033f8a68)
   )
