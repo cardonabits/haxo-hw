@@ -57,20 +57,18 @@ read-only most of the time.
 2. Pick SSH password.
 3. Pick a network-unique hostname (`/etc/hostname`).
 4. On raspi-config, enable: `ssh`, `I2C` and (optional) `serial console`
-5. [RP Zero Only] Enable MIDI gadget driver
+5. [RP Zero Only] Enable device-mode USB driver  (edit `/boot/config.txt` to add)
    ```
-   echo g_midi >> /etc/modules
-   ```
-6. [RP Zero Only] Enable device-mode USB driver  (edit `/boot/config.txt` to add)
-   ```
+   [all]
    dtoverlay=dwc2
    ```
-7. Enable audio card (edit `/boot/config.txt` to add)
+   and add `dwc2` to `/etc/modules`
+6. Enable audio card (edit `/boot/config.txt` to add)
     ```
     # dtparam=audio=on
     dtoverlay=max98357a,sdmode-pin=4
     ```
-8. Optionally, disable Wifi and Bluetooth.  This seems to improve performance on the RPI Zero.
+7. Optionally, disable Wifi and Bluetooth.  This seems to improve performance on the RPI Zero.
    ```
    dtoverlay=disable-wifi
    dtoverlay=disable-bt
