@@ -1,4 +1,4 @@
-# Develpment Environment
+# Development Environment
 
 ## Contents
 
@@ -86,7 +86,7 @@ read-only most of the time.
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
 
-    Note: On Raspberry Pi 4 rustup might detect an incorrect architecture.  The RPi 3/4 can run in 32-bit or 64-bit.
+    Note 1: On Raspberry Pi 4 rustup might detect an incorrect architecture.  The RPi 3/4 can run in 32-bit or 64-bit.
     Check `uname -m` to see whether you are running `aarch64` or `armv7l`.  If the later, when installing rust:
     ```
     Current installation options:
@@ -100,7 +100,17 @@ read-only most of the time.
     arm-unknown-linux-gnueabihf
     ```
     See [this issue](https://github.com/rust-lang/rustup/issues/3342).
-12. Automount USB drive, if attached
+
+    Note 2: On Pi Zeros you might need to increase the size of the swap file or else the installation will be killed by insufficient ram.  You do this by:
+    ```
+    sudo dphys-swapfile swapoff
+    sudo vi /etc/dphys-swapfile
+    # Change CONF_SWAPSIZE=100 to CONF_SWAPSIZE=512
+    sudo dphys-swapfile setup
+    sudo dphys-swapfile swapon
+    reboot
+    ```
+13. Automount USB drive, if attached
     ```
     sudo mkdir /media/usb
     # for FAT32 formatted drive
@@ -111,15 +121,15 @@ read-only most of the time.
 
     Gotcha: If you created the USB partition with e2fsck 1.47, you might encounter [this problem](https://github.com/NixOS/nixpkgs/issues/229450#issuecomment-1616324269).  Avoid it by creating your partition from Raspberry Pi (e.g. `sudo mkfs -t ext4 /dev/sda1`)
 
-13. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
+14. [If using VSCode] Connect via VSCode over ssh to target.  This will create folder `/home/pi/.vscode-server`. Move that folder to `/media/usb/`
 
-14. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
+15. [If using VSCode] Symlink `.vscode-server` directory to USB drive.
     ```
     ln -sf /media/usb/.vscode-server /home/pi
     ```
     (This is a workaround for VSCode [issue that requires a writable directory under the user's home directory](https://github.com/microsoft/vscode-remote-release/issues/472)).
 
-15. [Highly recommended] Make SD Card read-only
+16. [Highly recommended] Make SD Card read-only
 
     The SD Card may get corrupted if the Raspberry PI is unplugged while a
     write operation is in progress.  In normal operation, one cannot know if a
