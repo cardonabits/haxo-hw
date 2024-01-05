@@ -79,7 +79,7 @@ read-only most of the time.
     ```
 10. Install project dependencies
     ```
-    apt install libfluidsynth-dev git libasound2-dev i2c-tools
+    apt install libfluidsynth-dev git libasound2-dev i2c-tools fluid-soundfont-gm
     ```
 11. Install latest stable Rust
     ```
