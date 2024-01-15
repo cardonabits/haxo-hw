@@ -51,6 +51,27 @@ The haxophone images are configured with username `pi`, password `haxophone` and
 
 ![](./images/ssh-session.png)
 
+## Checking the logs
+
+Probably the most important log that you want to check is the one for the haxophone service.
+You can do that with the command `journalctl -u haxo`.  See below for the expected output:
+
+```
+pi@haxophone:~ $ journalctl -u haxo
+-- Boot 9ecd1d956b6448adb9348f40065fbd4f --
+Jan 05 22:38:47 haxophone systemd[1]: Started haxophone.
+Jan 05 22:38:52 haxophone create_midi_gadget.sh[468]: created usb midi gadget
+Jan 05 22:38:52 haxophone haxo001[570]: fluidsynth: warning: SDL2 not initialized, SDL2 audio driver won't be usable
+Jan 05 22:38:52 haxophone haxo001[570]: [2024-01-05T22:38:52Z INFO  haxo001::alsa] Found alsa card MAX98357A
+Jan 05 22:39:01 haxophone haxo001[570]: Synth created
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi]
+Jan 05 22:39:02 haxophone haxo001[570]:     Available output ports:
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] 0: Midi Through:Midi Through Port->
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] 1: f_midi:f_midi 24:0
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] Picked the last one
+Jan 05 22:39:02 haxophone haxo001[570]: Starting haxophone (version 2493652)...
+```
+
 ## Conclusion
 
 How many other instruments give you so many ways to peek inside see their internals? You should dive in! 🤿
