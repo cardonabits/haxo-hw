@@ -26,6 +26,13 @@ haxophone-rpiz2.img: OK
 
 That OK means the image in your disk matches what was originally released.
 
+## Obtain an SD Card
+
+The images are generated from 16 GB SD cards.  You should be able to flash onto
+bigger cards without any modifications.  Smaller cards can also work, but that
+will require resizing partitions and other voodoo that's outside the scope of
+this guide.
+
 ## Flash the image
 
 You can use any image flashing command to copy the image onto your SD card, from [`dd`](https://man7.org/linux/man-pages/man1/dd.1.html), to any disk utility on [Linux](https://gitlab.gnome.org/GNOME/gnome-disk-utility), [Mac](https://support.apple.com/guide/disk-utility/welcome/mac) or [Windows](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)
