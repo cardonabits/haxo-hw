@@ -39,7 +39,7 @@ Click on `Choose Storage` and pick your SD Card
 
 ![](./images/rpi-imager-1.png)
 
-Say `No` to any customisations.  **This is important:  your SD Card will not boot correctly if you apply customisations** (#57)
+Say `No` to any customisations.  **This is important:  your SD Card will not boot correctly if you apply customisations** ([#57](https://github.com/cardonabits/haxo-hw/discussions/59))
 
 ![](./images/rpi-imager-2.png)
 
