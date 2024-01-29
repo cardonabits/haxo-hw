@@ -15,7 +15,7 @@ To assemble a haxophone you will need the following parts:
 * 4x M2 flat head phillips 7mm stainless steel machine screws
 * 6x L-shape brackets
 * 3x 7/16in aluminum spacers
-* 30cm silicon tube ID:3mm, OD:6mm
+* 30cm silicon tube ID:2mm, OD:6mm
 * 1x 3D printed neck
 * 2x 3D printed thumb rests
 * [Acrylic Conformal Coating](https://www.mgchemicals.com/downloads/tds/tds-419d-l.pdf)
