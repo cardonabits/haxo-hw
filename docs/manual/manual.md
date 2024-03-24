@@ -52,10 +52,13 @@ There are two ways to get a haxophone:
 
 ### How to Use This Manual
 
-If you are using your haxophone for the first time go to unpacking and setting up.
-If you are a musician and you want to get started playing quickly: Got to section TODO
-if you are a hacker-hobby-musician or a musician-hobby-hacker then go to TODO 
-If you are an advanced hacker go to TODO
+If you are using your haxophone for the first time go to [Unpacking and Setting Up](#unpackung-and-setting-up).
+
+If you are a musician and you want to get started playing quickly: Got to section [Playing](#playing).
+
+if you are a hacker-hobby-musician or a musician-hobby-hacker then go to [Hacking](#hacking).
+ 
+If you are an advanced hacker go to [Hacking](#hacking)
 
  <a name="using-the-haxophone"></a>
 
