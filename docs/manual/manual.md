@@ -59,6 +59,11 @@ There are two ways to get a haxophone:
 
 2. You can build your own! The bits and pieces needed to build the haxophone and how to assemble it can be found here: [Assembly Instructions](https://github.com/cardonabits/haxo-hw/blob/main/docs/assembly.md)
 
+3. You can build your own with an assembly kit that contains most of the bits and pieces:
+Those of you who want to wield your soldering irons, tweezers, voltmeters and screwdrivers, but don't necessarily want to order parts all over the universe, here's your chance to order all most of the parts as a kit. Why most? We left out the keyswitches, which is what people seem be most particular about. But everything else is there: PCBA, screws, tubing, keycaps, etc.
+Before ordering, check out the [assembly instructions](https://github.com/cardonabits/haxo-hw/blob/main/docs/assembly.md) to make sure you are up to the challenge! 
+You can [order the kits here](https://lightnote.cardonabits.com/products/haxophone-as-a-kit).
+
  <a name="howto-use-this-manual"></a>
 
 ### How to Use This Manual
@@ -279,7 +284,8 @@ More information is found here:
  <a name="playing"></a>
 
 ### Playing
-Work in Progress....
+TODO Work in Progress....
+Links to fingering charts and the haxophone fingering chart
 
 <a name="hacking"></a>
 
@@ -288,61 +294,162 @@ Work in Progress....
  <a name="howto-connect"></a>
 
 #### Howto Connect to the Haxophone
-Work in Progress....
+There are several ways to connect to the haxophone. The easiest way is to use SSH over ethernet.
 
-SSH over Ethernet
-The default Haxophone images have WiFi disabled for performance. WiFi activity can introduce delays that affect latency while playing. For that reason, to connect over SSH, you would need to use Ethernet. On the Rapsberry Pi Zero, this means that you will need a serial to Ethernet adapter.
-The haxophone images are configured with username pi, password haxophone and they will appear on your local network as haxophone.local.
+##### SSH over Ethernet
+The easiest way to connect is to use SSH over ethernet (connecting via WiFi is possible, but the default Haxophone images have WiFi disabled for performance. WiFi activity can introduce delays that affect latency while playing). 
+To connect the Rapsberry Pi Zero you need an USB to ethernet adapter as shown in the following picture: the white cable connects to the power supply, the black connects to a micro USB-B to USB A adapter and then to a USB ethernet adapter.
+
+![](./images/haxophone_usb_ethernet.jpg)
 
 <a name="howto-login"></a>
 
 #### Howto login 
-Work in Progress....
+Whith the haxophone connected to ethernet you should be able to login to the haxophone.
+First check if the haxophone appears on your local network:
+Open a command line tool or shell:
 
+```
 ping haxophone.local
+```
 
+You should get a response.
+
+The haxophone images are configured with username pi and password haxophone. So to login to your haxophone use
+
+```
 ssh pi@haxophone.local
-
-User pi
-PW haxophone
+```
+When asked for the password enter haxophone
 
 <a name="howto-permanent-modifications"></a>
 
 #### Howto Make Permanent Modifications
-Work in Progress....
+Now that you logged in successfully to your haxophone you are prepared to make your first changes.
 
-
-Login to the haxophone. 
-1. Disable overlay file system
+1. Login to the haxophone as described above
+2. Disable overlay file system
+On the haxophone issue the following command:
+```
 sudo raspi-config
-Performance Options -> Overlay filesystem -> Enable Overlay? NO
+```
+The Raspberry Pi Software Configuration Tool is started:
 
-exit raspi config and reboot
+![](./images/raspi_config_1.png)
 
-after reboot do again
+There you select the menu Performance Options (using the up and down keys and press enter to select):
 
+![](./images/raspi_config_2_select_performance_option.png)
+
+Next you choose the menu Overlay File System:
+
+![](./images/raspi_config_3_select_overlay_file_system.png)
+
+In the next dialog you choose Enable Overlay? NO:
+
+![](./images/raspi_config_4_enable_overlay_no.png)
+
+Then you press enter and the following confirmation message is shown:
+
+![](./images/raspi_config_5_overlay_confirmation.png)
+
+Then again press enter and another confirmation message is shown:
+
+![](./images/raspi_config_6_confirmation_root_partition.png)
+
+Again press enter. The main menu is shown. Here you move to the finish button using the tab key:
+
+![](./images/raspi_config_7_main_menu_finish.png)
+
+After pressing enter the confirmation for reboot is shown:
+
+![](./images/raspi_config_8_confirmation_reboot.png)
+
+You select the option Yes and the haxophone will reboot. The shell shows that the connection to the haxophone was closed:
+
+```
+update-initramfs: Deleting /boot/initrd.img-6.1.21+-overlay
+Connection to haxophone.local closed by remote host.
+Connection to haxophone.local closed.
+```
+
+2. After reboot: do the changes: (for other examples see [advanced hacking](#advanced-hacking see XYZ))
+
+As a first example we change the default instrument used by the haxophone
+
+First step: make a copy of the original settings:
+```
+sudo cp /etc/systemd/system/haxo.service  /home/pi/haxo.service.backup
+```
+
+Next edit the haxo.service file:
+```
+sudo nano /etc/systemd/system/haxo.service
+```
+
+This shows the file using the editor nano:
+
+![](./images/modifiy_haxo_service_editor_nano.png)
+
+Here change the part that says --prog-number 66 to  --prog-number 73 to get the flute sound after reboot instead of the default tenor sax sound:
+
+```
+ExecStart=/usr/local/bin/haxo001 \
+          --notemap-file /usr/share/haxo/notemap.json \
+          --prog-number 73 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2
+```
+
+Exit the nano dialog with CTRL-X and save the changes.
+Now reboot the haxophone:
+```
+sudo reboot
+```
+
+Now the haxophone startup using the flute sound!
+
+3. When finished: enable the overlay file system again
+Start the Raspberry Pi Software Configuration Tool:
+
+```
 sudo raspi-config
-Performance Options -> Overlay filesystem -> Enable Overlay? NO -> Make Boot Filesystem Writeable? Yes
+```
 
-exit raspi config and reboot
+Go again to Performance Options, then select Overlay filesystem and press enter. The following confirmation dialog is shown:
 
-2. After reboot: do the changes
+![](./images/raspi_config_9_overlay_enable_confirmation.png)
 
-3. When finished: enable the overlay file system
+Select yes and press enter.
+The generating takes some time, this is shown while generating the overlay file system:
 
-sudo raspi-config
-Performance Options -> Overlay filesystem -> Enable Overlay? YES -> Make Boot Filesystem Writprotected? Yes
+```
+update-initramfs: Generating /boot/initrd.img-6.1.21+
+```
 
-exit raspi config and reboot
+When done with generating the overlay file system, the following confirmation message is shown:
 
+![](./images/raspi_config_10_overlay_enabled_done.png)
+
+Press the enter key and proceed to the next confirmation dialog. Here we keep the default setting and root write protection with no:
+
+![](./images/raspi_config_11_confirmation_root_partition.png)
+
+Another confirmation message tells you that the boot partition is kept writable:
+
+![](./images/raspi_config_12_root_is_writable.png)
+
+After that exit the configuration tool using finish. 
+The haxophone will reboot.
 
 <a name="haxo.service-explained"></a>
 
 #### The File haxo.service explained
-Work in Progress....
+As a first example what we can change on the haxophone we have a look at the haxo.service file. You can find it on your haxophone in the path  /etc/systemd/system/haxo.service
 
-Remark: for transpose to work you need to install the newest binary
+Have a look at the file:
 
+```
+pi@haxophone:~ $ cat /etc/systemd/system/haxo.service 
 [Unit]
 Description=haxophone
 After=network.target
@@ -363,16 +470,30 @@ ExecStart=/usr/local/bin/haxo001 \
           --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2 
 [Install]
 WantedBy=multi-user.target
+```
 
-* --prog-number 66: the default instrument: tenor sax
-* change it to 73 then you get the flute
-* add \ after TimGM6mb.sf2 and  --transpose 8 in a new line to change the default transposition offset for a flute
-* Use another notemap.json if you want to (TODO)
+The part that is interesting for first hacks is the following:
+
+```
+ExecStart=/usr/local/bin/haxo001 \
+          --notemap-file /usr/share/haxo/notemap.json \
+          --prog-number 66 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2 
+```
+
+The haxophone softeware consists of the binary haxo001 program that can be started with different options:
+
+* **--notemap-file** here you set the path to the notemap.json file that the haxophone uses (see [Change the notemap.json](#howto-notemap.json))
+
+* **--prog-number** with this option you select the default instrument that is played when the haxophone is started. 66 is the default tenor sax. You can change it for example to 73 you get the flute sound. (see [list of haxophone sounds](#haxophone-sounds) and use the value of preset)
+
+* add \ after TimGM6mb.sf2 and  **--transpose 8** in a new line to change the default transposition offset for a flute (Remark: for transpose to work you need to install the newest binary)
+
 
  <a name="advanced-hacking"></a>
 
 ### Advanced Hacking
-Work in Progress....
+TODO Work in Progress....
 
  <a name="install-newest-binary"></a>
 
@@ -404,7 +525,7 @@ If you want to change the sound set entirely, you’ll need to:
 <a name="howto-notemap.json"></a>
 
 #### Howto Change the notemap.json
-Work in Progress....
+TODO Work in Progress....
 
 
  Modify /etc/systemd/system/haxo.service to point to your new notemap
@@ -579,6 +700,7 @@ For an explanation how to switch between the sounds see
 
 ### Links and Resources
 * [https://www.crowdsupply.com/cardona-bits/haxophone](https://www.crowdsupply.com/cardona-bits/haxophone)
+* [https://lightnote.cardonabits.com/products/haxophone-as-a-kit](https://lightnote.cardonabits.com/products/haxophone-as-a-kit)
 * [https://github.com/cardonabits/haxo-hw](https://github.com/cardonabits/haxo-hw)
 * [https://github.com/cardonabits/haxo-rs](https://github.com/cardonabits/haxo-rs)
 * [https://haxo-notemap.nn.r.appspot.com/](https://haxo-notemap.nn.r.appspot.com/)
