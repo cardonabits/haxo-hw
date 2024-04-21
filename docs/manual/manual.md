@@ -245,10 +245,16 @@ The haxophone uses a tenor sax sound as the default sound. If you want to change
 Here is how it works:
 
 * to enter the command mode play a low Bb and draw air until you hear a confirmation sound 
+![](./images/commando_mode_enter.jpg)
 * when you scroll through the sounds a short sound is played with each sounds
 * to scroll up or down through the sounds use the up and down keys 
+![](./images/command_mode_scroll_1,jpg)
 * to scroll faster use the +10 and -10 keys
+
+![](./images/command_mode_scroll_10,jpg)
+
 * when satisfied with the selected sound, press all three palm keys until you hear a confirmation sound
+![](./images/command_mode_leave.jpg)
 
 Now you are ready to play with the new sound!
 
@@ -328,6 +334,9 @@ When asked for the password enter haxophone
 Now that you logged in successfully to your haxophone you are prepared to make your first changes.
 
 1. Login to the haxophone as described above
+
+<a name="disable-overlay-filesystem"></a>
+
 2. Disable overlay file system
 On the haxophone issue the following command:
 ```
@@ -373,7 +382,7 @@ Connection to haxophone.local closed by remote host.
 Connection to haxophone.local closed.
 ```
 
-2. After reboot: do the changes: (for other examples see [advanced hacking](#advanced-hacking see XYZ))
+2. After reboot: do the changes: (for other examples see [advanced hacking](#advanced-hacking))
 
 As a first example we change the default instrument used by the haxophone
 
@@ -407,6 +416,8 @@ sudo reboot
 ```
 
 Now the haxophone startup using the flute sound!
+
+<a name="enable-overlay-filesystem"></a>
 
 3. When finished: enable the overlay file system again
 Start the Raspberry Pi Software Configuration Tool:
@@ -493,26 +504,32 @@ The haxophone softeware consists of the binary haxo001 program that can be start
  <a name="advanced-hacking"></a>
 
 ### Advanced Hacking
-TODO Work in Progress....
 
  <a name="install-newest-binary"></a>
 
 #### Install the Newest Binary
+To get the newest haxo001-rpiz.zip file do the following steps:
 
-Install the bleeding edge binaries see here:
-https://github.com/cardonabits/haxo-hw/discussions/74
+0. Login to github (otherwise you can not download the artifact)
+1. Open [https://github.com/cardonabits/haxo-rs/actions](https://github.com/cardonabits/haxo-rs/actions)
 
-1. Get the newest haxo001-rpiz.tip file at https://github.com/cardonabits/haxo-rs/actions
-This file replaces the binary file /usr/local/bin/haxo001 on the haxophone
-2. Connect via ssh and disable overlay, reboot (see xyz TODO)
-3. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
+![](./images/github_action_workflow.png)
+
+And select the newest Raspberry Pi Zero Compilation run.
+
+2. Download the artifact: Click on haxo001-rpiz and get the haxo001-rpiz.zip file
+
+![](./images/github_action_download_artifact.png)
+
+3. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
+4. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
 scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
-4. Log in to the haxophone (see login TODO) and save the original version of haxo001:
+5. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
 sudo cp  /usr/local/bin/haxo001 haxo001.orig
-5. Then replace it with the new version:
+6. Then replace it with the new version:
 sudo cp haxo001_new /usr/local/bin/haxo001
-6. sudo reboot
-7. Re-enable overlay (see xyz TODO)
+7. sudo reboot
+8. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
 
 <a name="howto-change-sound-set"></a>
 
