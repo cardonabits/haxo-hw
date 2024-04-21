@@ -259,6 +259,7 @@ Here is how it works:
 
 
 * when satisfied with the selected sound, press all three palm keys until you hear a confirmation sound
+  
 ![](./images/command_mode_leave.jpg)
 
 Now you are ready to play with the new sound!
