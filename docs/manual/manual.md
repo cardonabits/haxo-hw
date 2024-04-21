@@ -244,14 +244,19 @@ The haxophone uses a tenor sax sound as the default sound. If you want to change
 
 Here is how it works:
 
-* to enter the command mode play a low Bb and draw air until you hear a confirmation sound 
+* to enter the command mode play a low Bb and draw air until you hear a confirmation sound
+  
 ![](./images/commando_mode_enter.jpg)
+
 * when you scroll through the sounds a short sound is played with each sounds
-* to scroll up or down through the sounds use the up and down keys 
+* to scroll up or down through the sounds use the up and down keys
+  
 ![](./images/command_mode_scroll_1,jpg)
+
 * to scroll faster use the +10 and -10 keys
 
 ![](./images/command_mode_scroll_10,jpg)
+
 
 * when satisfied with the selected sound, press all three palm keys until you hear a confirmation sound
 ![](./images/command_mode_leave.jpg)
