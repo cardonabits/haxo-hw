@@ -531,7 +531,7 @@ And select the newest Raspberry Pi Zero Compilation run.
 4. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
 scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
 5. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
-sudo cp  /usr/local/bin/haxo001 haxo001.orig
+    sudo cp  /usr/local/bin/haxo001 haxo001.orig
 6. Then replace it with the new version:
     sudo cp haxo001_new /usr/local/bin/haxo001
 7. Reboot
