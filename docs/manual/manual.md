@@ -292,7 +292,7 @@ More information is found here:
 
 * The cheatsheet shows the keys for using the transpose mode:  [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
 
-
+See section ##Howto Make Permanent Modifications below if you want this changes to be permanent, for instance, to configure your haxophone to boot into an alto sax transposition and sound.
  <a name="playing"></a>
 
 ### Playing
