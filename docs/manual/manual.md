@@ -253,7 +253,7 @@ Here is how it works:
   
 ![](./images/command_mode_scroll_1,jpg)
 
-* to scroll faster use the +10 and -10 keys
+* to scroll faster, press the L2 key with the up or down keys:  this will advance 10 sounds at a time
 
 ![](./images/command_mode_scroll_10,jpg)
 
