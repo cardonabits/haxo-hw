@@ -11,11 +11,22 @@
 	* [Unpacking and Setting Up](#unpackung-and-setting-up)
 		+ [Connect and Install the Software](#connect-and-install-software)
 		+ [Start the Haxophone](#start-haxophone)
-	* [Before You Play](before-you-play)
+	* [Before You Play](#before-you-play)
+		+ [Choose a Sound](#choose-sound)
+		+ [ Choose the Transpose Key](#choose-transpose-key)
 	* [Playing](#playing)
 	* [Hacking](#hacking)
+		+ [Howto Connect to the Haxophone](#howto-connect)
+		+ [Howto Login ](#howto-login)
+		+ [Howto Make Permanent Modifications](#howto-permanent-modifications)
+		+ [The File haxo.service Explained](#haxo.service-explained)
+	* [Advanced Hacking](#advanced-hacking)
+		+ [Install the Newest Binary](#install-newest-binary)
+		+ [Howto Change the Sound Set](#howto-change-sound-set)
+		+ [Howto Change the notemap.json](#howto-notemap.json)
 - [Appendix](#appendix)
 	* [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
+	* [Haxophone Sounds](#haxophone-sounds)
 	* [Troubleshooting / FAQ](#troubleshooting-faq)
 	* [Links and Resources](#links-and-resources)
 	* [Caring for the Haxophone](#caring-for-the-haxophone)
@@ -44,9 +55,14 @@ And what is most important: You can have a lot of fun!
 ### Where You Can Get It
 There are two ways to get a haxophone:
 
-1. The fastest way: switch over to crowdsupply and order it there. You need to buy some more stuff as well: a Raspberry Pi Zero (or a Pi 3 or a Pi 4) and an SD card with 16 GB (see [https://www.crowdsupply.com/cardona-bits/haxophone](https://www.crowdsupply.com/cardona-bits/haxophone))
+1. The fastest way: switch over to crowdsupply and order it there. You need to buy some more stuff as well: a Raspberry Pi Zero (or a Pi 3 or a Pi 4) and an SD card with 16 GB or larger(see [https://www.crowdsupply.com/cardona-bits/haxophone](https://www.crowdsupply.com/cardona-bits/haxophone))
 
 2. You can build your own! The bits and pieces needed to build the haxophone and how to assemble it can be found here: [Assembly Instructions](https://github.com/cardonabits/haxo-hw/blob/main/docs/assembly.md)
+
+3. You can build your own with an assembly kit that contains most of the bits and pieces:
+Those of you who want to wield your soldering irons, tweezers, voltmeters and screwdrivers, but don't necessarily want to order parts all over the universe, here's your chance to order all most of the parts as a kit. Why most? We left out the keyswitches, which is what people seem be most particular about. But everything else is there: PCBA, screws, tubing, keycaps, etc.
+Before ordering, check out the [assembly instructions](https://github.com/cardonabits/haxo-hw/blob/main/docs/assembly.md) to make sure you are up to the challenge! 
+You can [order the kits here](https://lightnote.cardonabits.com/products/haxophone-as-a-kit).
 
  <a name="howto-use-this-manual"></a>
 
@@ -108,6 +124,7 @@ You can attach a neck strap using the eyelet just on top of the thumb rest.
 5a) Download the pre-compiled software image from one the following links:
 
 * Raspberry Pi Zero and Zero W: [https://bit.ly/haxo-rpiz](https://bit.ly/haxo-rpiz)
+* Raspberry Pi Zero 2: [https://bit.ly/haxo-rpiz2](https://bit.ly/haxo-rpiz2)
 * Raspberry Pi 4: [https://bit.ly/haxo-rpi4](https://bit.ly/haxo-rpi4)
 * Raspberry Pi 3: [https://bit.ly/haxo-rpi3](https://bit.ly/haxo-rpi3)
    
@@ -137,7 +154,7 @@ sudo apt install rpi-imager
 ```
 
 5c) Use the Raspberry Pi Imager software to copy the
-software image onto a 16 GB SD Card
+software image onto a 16 GB or 32 GB SD Card
 
 ![](./images/raspberry_pi_imager_1.png)
 
@@ -216,27 +233,328 @@ When you have finished playing and want to power off the haxophone, just remove 
  <a name="before-you-play"></a>
 
 ### Before You Play
-Work in Progress....
+With the haxophone you have the full choice of what kind of instrument you want to play, you do not need to stick to the tenor saxophone sound or the fact that the keys are transposed to Bb.
 
+So before you start playing you can choose a different sound and choose another transpose key:
+
+<a name="choose-sound"></a>
+
+#### Choose a Sound
+The haxophone uses a tenor sax sound as the default sound. If you want to change the sound you can switch into command mode and then scroll through the sounds until you find the sound you like. Then you exit the command mode.
+
+Here is how it works:
+
+* to enter the command mode play a low Bb and draw air until you hear a confirmation sound
+  
+![](./images/commando_mode_enter.jpg)
+
+* when you scroll through the sounds a short sound is played with each sound
+* to scroll up or down through the sounds use the up and down keys
+  
+![](./images/command_mode_scroll_1,jpg)
+
+* to scroll faster, press the L2 key with the up or down keys:  this will advance 10 sounds at a time
+
+![](./images/command_mode_scroll_10,jpg)
+
+
+* when satisfied with the selected sound, press all three palm keys until you hear a confirmation sound
+  
+![](./images/command_mode_leave.jpg)
+
+Now you are ready to play with the new sound!
+
+More information is found here:
+
+* The list of existing sounds is described in appendix [Haxophone Sounds](#haxophone-sounds)
+* The cheatsheet shows the keys for using the command mode:  [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
+
+<a name="choose-transpose-key"></a>
+
+#### Choose the Transpose Key
+Note: The transpose mode feature is actually not included in the default software image. You have to install the newest version of the haxophone software. More about this in another chapter, but the work there is still in progress.
+
+The haxophone transposes the keys to Bb by default. 
+If you want to change this then you can switch into transpose mode and then play the key you want to transpose to. Then you exit the transpose mode.
+
+Here is how it works:
+
+* to enter the transpose mode play a low B and draw air until you hear a confirmation sound 
+* next play the key you want to transpose to, so the key that will be the new C. And at the same time blow air. The new key will be played as confirmation. For example:
+	+ play Eb for an alto sax
+	+ play high C for a flute
+	+ play Bb for a tenor sax
+* when satisfied with the transpose key, press all three palm keys until you hear a confirmation sound
+
+Now you are ready to play with the new transposed keys!
+
+More information is found here:
+
+* The cheatsheet shows the keys for using the transpose mode:  [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
+
+See section ##Howto Make Permanent Modifications below if you want this changes to be permanent, for instance, to configure your haxophone to boot into an alto sax transposition and sound.
  <a name="playing"></a>
 
 ### Playing
-Work in Progress....
+TODO Work in Progress....
+Links to fingering charts and the haxophone fingering chart
 
- <a name="howto-use-xy"></a>
-
-### Howto Use the xy Functionality
-Work in Progress....
-
- <a name="hacking"></a>
+<a name="hacking"></a>
 
 ### Hacking
-Work in Progress....
+
+ <a name="howto-connect"></a>
+
+#### Howto Connect to the Haxophone
+There are several ways to connect to the haxophone. The easiest way is to use SSH over ethernet.
+
+##### SSH over Ethernet
+The easiest way to connect is to use SSH over ethernet (connecting via WiFi is possible, but the default Haxophone images have WiFi disabled for performance. WiFi activity can introduce delays that affect latency while playing). 
+To connect the Rapsberry Pi Zero you need an USB to ethernet adapter as shown in the following picture: the white cable connects to the power supply, the black connects to a micro USB-B to USB A adapter and then to a USB ethernet adapter.
+
+![](./images/haxophone_usb_ethernet.jpg)
+
+<a name="howto-login"></a>
+
+#### Howto login 
+Whith the haxophone connected to ethernet you should be able to login to the haxophone.
+First check if the haxophone appears on your local network:
+Open a command line tool or shell:
+
+```
+ping haxophone.local
+```
+
+You should get a response.
+
+The haxophone images are configured with username pi and password haxophone. So to login to your haxophone use
+
+```
+ssh pi@haxophone.local
+```
+When asked for the password enter `haxophone`
+
+<a name="howto-permanent-modifications"></a>
+
+#### Howto Make Permanent Modifications
+Now that you logged in successfully to your haxophone you are prepared to make your first changes.
+
+1. Login to the haxophone as described above
+
+<a name="disable-overlay-filesystem"></a>
+
+2. Disable overlay file system
+On the haxophone issue the following command:
+```
+sudo raspi-config
+```
+The Raspberry Pi Software Configuration Tool is started:
+
+![](./images/raspi_config_1.png)
+
+There you select the menu Performance Options (using the up and down keys and press enter to select):
+
+![](./images/raspi_config_2_select_performance_option.png)
+
+Next you choose the menu Overlay File System:
+
+![](./images/raspi_config_3_select_overlay_file_system.png)
+
+In the next dialog you choose Enable Overlay? NO:
+
+![](./images/raspi_config_4_enable_overlay_no.png)
+
+Then you press enter and the following confirmation message is shown:
+
+![](./images/raspi_config_5_overlay_confirmation.png)
+
+Then again press enter and another confirmation message is shown:
+
+![](./images/raspi_config_6_confirmation_root_partition.png)
+
+Again press enter. The main menu is shown. Here you move to the finish button using the tab key:
+
+![](./images/raspi_config_7_main_menu_finish.png)
+
+After pressing enter the confirmation for reboot is shown:
+
+![](./images/raspi_config_8_confirmation_reboot.png)
+
+You select the option Yes and the haxophone will reboot. The shell shows that the connection to the haxophone was closed:
+
+```
+update-initramfs: Deleting /boot/initrd.img-6.1.21+-overlay
+Connection to haxophone.local closed by remote host.
+Connection to haxophone.local closed.
+```
+
+2. After reboot: do the changes: (for other examples see [advanced hacking](#advanced-hacking))
+
+As a first example we change the default instrument used by the haxophone
+
+First step: make a copy of the original settings:
+```
+sudo cp /etc/systemd/system/haxo.service  /home/pi/haxo.service.backup
+```
+
+Next edit the haxo.service file:
+```
+sudo nano /etc/systemd/system/haxo.service
+```
+
+This shows the file using the editor nano:
+
+![](./images/modifiy_haxo_service_editor_nano.png)
+
+Here change the part that says --prog-number 66 to  --prog-number 73 to get the flute sound after reboot instead of the default tenor sax sound:
+
+```
+ExecStart=/usr/local/bin/haxo001 \
+          --notemap-file /usr/share/haxo/notemap.json \
+          --prog-number 73 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2
+```
+
+Exit the nano dialog with CTRL-X and save the changes.
+Now reboot the haxophone:
+```
+sudo reboot
+```
+
+Now the haxophone startup using the flute sound!
+
+<a name="enable-overlay-filesystem"></a>
+
+3. When finished: enable the overlay file system again
+Start the Raspberry Pi Software Configuration Tool:
+
+```
+sudo raspi-config
+```
+
+Go again to Performance Options, then select Overlay filesystem and press enter. The following confirmation dialog is shown:
+
+![](./images/raspi_config_9_overlay_enable_confirmation.png)
+
+Select yes and press enter.
+The generating takes some time, this is shown while generating the overlay file system:
+
+```
+update-initramfs: Generating /boot/initrd.img-6.1.21+
+```
+
+When done with generating the overlay file system, the following confirmation message is shown:
+
+![](./images/raspi_config_10_overlay_enabled_done.png)
+
+Press the enter key and proceed to the next confirmation dialog. Here we keep the default setting and root write protection with no:
+
+![](./images/raspi_config_11_confirmation_root_partition.png)
+
+Another confirmation message tells you that the boot partition is kept writable:
+
+![](./images/raspi_config_12_root_is_writable.png)
+
+After that exit the configuration tool using finish. 
+The haxophone will reboot.
+
+<a name="haxo.service-explained"></a>
+
+#### The File haxo.service explained
+As a first example what we can change on the haxophone we have a look at the haxo.service file. You can find it on your haxophone in the path  /etc/systemd/system/haxo.service
+
+Have a look at the file:
+
+```
+pi@haxophone:~ $ cat /etc/systemd/system/haxo.service 
+[Unit]
+Description=haxophone
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=1
+User=root
+Group=audio
+WorkingDir=/usr/share/haxo
+Environment=RUST_LOG=info
+ExecStartPre=/usr/local/bin/create_midi_gadget.sh
+ExecStart=/usr/local/bin/haxo001 \
+          --notemap-file /usr/share/haxo/notemap.json \
+          --prog-number 66 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2 
+[Install]
+WantedBy=multi-user.target
+```
+
+The part that is interesting for first hacks is the following:
+
+```
+ExecStart=/usr/local/bin/haxo001 \
+          --notemap-file /usr/share/haxo/notemap.json \
+          --prog-number 66 \
+          --sf2-file /usr/share/sounds/sf2/TimGM6mb.sf2 
+```
+
+The haxophone softeware consists of the binary haxo001 program that can be started with different options:
+
+* **--notemap-file** here you set the path to the notemap.json file that the haxophone uses (see [Change the notemap.json](#howto-notemap.json))
+
+* **--prog-number** with this option you select the default instrument that is played when the haxophone is started. 66 is the default tenor sax. You can change it for example to 73 you get the flute sound. (see [list of haxophone sounds](#haxophone-sounds) and use the value of preset)
+
+* add \ after TimGM6mb.sf2 and  **--transpose 8** in a new line to change the default transposition offset for a flute (Remark: for transpose to work you need to install the newest binary)
+
 
  <a name="advanced-hacking"></a>
 
 ### Advanced Hacking
-Work in Progress....
+
+ <a name="install-newest-binary"></a>
+
+#### Install the Newest Binary
+To get the newest haxo001-rpiz.zip file do the following steps:
+
+0. Login to github (otherwise you can not download the artifact)
+1. Open [https://github.com/cardonabits/haxo-rs/actions](https://github.com/cardonabits/haxo-rs/actions)
+
+![](./images/github_action_workflow.png)
+
+And select the newest Raspberry Pi Zero Compilation run.
+
+2. Download the artifact: Click on haxo001-rpiz and get the haxo001-rpiz.zip file
+
+![](./images/github_action_download_artifact.png)
+
+3. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
+4. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
+    scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
+5. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
+    sudo cp  /usr/local/bin/haxo001 haxo001.orig
+6. Then replace it with the new version:
+    sudo cp haxo001_new /usr/local/bin/haxo001
+7. Reboot
+    sudo reboot
+8. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
+
+<a name="howto-change-sound-set"></a>
+
+#### Howto Change the Sound Set
+If you want to change the sound set entirely, you’ll need to:
+
+* Install a new sound font file on the haxophone filesystem, under /usr/share/sounds/sf2/
+* Modify /etc/systemd/system/haxo.service to load your new sound font instead of the one loaded by default.
+
+<a name="howto-notemap.json"></a>
+
+#### Howto Change the notemap.json
+TODO Work in Progress....
+
+
+ Modify /etc/systemd/system/haxo.service to point to your new notemap
+ --notemap-file /usr/share/haxo/notemap.json \
+ --notemap-file /usr/share/haxo/notemap_c_instrument.json \
 
  <a name="appendix"></a>
 
@@ -251,6 +569,151 @@ Here is a cheat sheet for the haxophone ([or cheatsheet as pdf](./cheatsheet.pdf
 
 This cheat sheet for the haxophone already explains the transpose mode, this feature is actually not included in the software image. You have to install the newest version of the haxophone software. More about this in another chapter, but the work there is still in progress.
 
+ <a name="haxophone-sounds"></a>
+
+### Haxophone Sounds
+
+The default Haxophone image is configured to load the ubiquitous TimGM6mb.sf2 sound set developed by Tim Brechbill. The default sound set has 136 instrument sounds (presets) to choose from. As expected, the Haxophone boots into a tenor sax sound (66) by default. 
+
+For an explanation how to switch between the sounds see 
+
+    Piano 1 (Preset: 0, Bank: 0, Preset bag: 187)
+    Standard (Preset: 0, Bank: 128, Preset bag: 18)
+    Piano 2 (Preset: 1, Bank: 0, Preset bag: 186)
+    Piano 3 (Preset: 2, Bank: 0, Preset bag: 184)
+    Honky Tonk (Preset: 3, Bank: 0, Preset bag: 182)
+    E.Piano 1 (Preset: 4, Bank: 0, Preset bag: 180)
+    E.Piano 2 (Preset: 5, Bank: 0, Preset bag: 179)
+    Harpsichord (Preset: 6, Bank: 0, Preset bag: 178)
+    Clavinet (Preset: 7, Bank: 0, Preset bag: 177)
+    Celesta (Preset: 8, Bank: 0, Preset bag: 176)
+    Room (Preset: 8, Bank: 128, Preset bag: 16)
+    Glockenspiel (Preset: 9, Bank: 0, Preset bag: 175)
+    MusicBox (Preset: 10, Bank: 0, Preset bag: 174)
+    Vibraphone (Preset: 11, Bank: 0, Preset bag: 173)
+    Marimba (Preset: 12, Bank: 0, Preset bag: 172)
+    Xylophone (Preset: 13, Bank: 0, Preset bag: 168)
+    Tubular Bells (Preset: 14, Bank: 0, Preset bag: 167)
+    Dulcimer (Preset: 15, Bank: 0, Preset bag: 165)
+    Organ 1 (Preset: 16, Bank: 0, Preset bag: 164)
+    Power (Preset: 16, Bank: 128, Preset bag: 13)
+    Organ 2 (Preset: 17, Bank: 0, Preset bag: 163)
+    Organ 3 (Preset: 18, Bank: 0, Preset bag: 161)
+    Church Organ (Preset: 19, Bank: 0, Preset bag: 159)
+    Reed Organ (Preset: 20, Bank: 0, Preset bag: 157)
+    Accordion (Preset: 21, Bank: 0, Preset bag: 155)
+    Harmonica (Preset: 22, Bank: 0, Preset bag: 154)
+    Bandoneon (Preset: 23, Bank: 0, Preset bag: 152)
+    Electronic (Preset: 24, Bank: 128, Preset bag: 11)
+    Nylon Guitar (Preset: 24, Bank: 0, Preset bag: 151)
+    Steel Guitar (Preset: 25, Bank: 0, Preset bag: 150)
+    TR 808 (Preset: 25, Bank: 128, Preset bag: 8)
+    Jazz Guitar (Preset: 26, Bank: 0, Preset bag: 149)
+    Clean Guitar (Preset: 27, Bank: 0, Preset bag: 148)
+    Guitar Mutes (Preset: 28, Bank: 0, Preset bag: 147)
+    Overdrive Guitar (Preset: 29, Bank: 0, Preset bag: 145)
+    DistortionGuitar (Preset: 30, Bank: 0, Preset bag: 143)
+    Guitar Harmonics (Preset: 31, Bank: 0, Preset bag: 142)
+    Acoustic Bass (Preset: 32, Bank: 0, Preset bag: 141)
+    Jazz (Preset: 32, Bank: 128, Preset bag: 6)
+    Fingered Bass (Preset: 33, Bank: 0, Preset bag: 140)
+    Picked Bass (Preset: 34, Bank: 0, Preset bag: 139)
+    Fretless Bass (Preset: 35, Bank: 0, Preset bag: 138)
+    Slap Bass 1 (Preset: 36, Bank: 0, Preset bag: 137)
+    Slap Bass 2 (Preset: 37, Bank: 0, Preset bag: 136)
+    Synth Bass 1 (Preset: 38, Bank: 0, Preset bag: 135)
+    Synth Bass 2 (Preset: 39, Bank: 0, Preset bag: 133)
+    Brush (Preset: 40, Bank: 128, Preset bag: 4)
+    Violin (Preset: 40, Bank: 0, Preset bag: 132)
+    Viola (Preset: 41, Bank: 0, Preset bag: 131)
+    Cello (Preset: 42, Bank: 0, Preset bag: 130)
+    Contrabass (Preset: 43, Bank: 0, Preset bag: 129)
+    Strings (Tremelo) (Preset: 44, Bank: 0, Preset bag: 208)
+    Pizzicato (Preset: 45, Bank: 0, Preset bag: 128)
+    Harp LP (Preset: 46, Bank: 0, Preset bag: 127)
+    Timpani (Preset: 47, Bank: 0, Preset bag: 126)
+    Orchestra (Preset: 48, Bank: 128, Preset bag: 1)
+    Strings CLP (Preset: 48, Bank: 0, Preset bag: 202)
+    Slow Strings LP (Preset: 49, Bank: 0, Preset bag: 197)
+    Synth Strings 1 (Preset: 50, Bank: 0, Preset bag: 195)
+    Synth Strings 2 (Preset: 51, Bank: 0, Preset bag: 124)
+    Choir Aahs (Preset: 52, Bank: 0, Preset bag: 192)
+    Voice Oohs (Preset: 53, Bank: 0, Preset bag: 122)
+    Synth Vox (Preset: 54, Bank: 0, Preset bag: 121)
+    Orchestra Hit (Preset: 55, Bank: 0, Preset bag: 119)
+    SoloTrumpet (Preset: 56, Bank: 0, Preset bag: 118)
+    Trombone (Preset: 57, Bank: 0, Preset bag: 117)
+    Tuba (Preset: 58, Bank: 0, Preset bag: 116)
+    Mute Trumpet (Preset: 59, Bank: 0, Preset bag: 115)
+    French Horns (Preset: 60, Bank: 0, Preset bag: 107)
+    Brass (Preset: 61, Bank: 0, Preset bag: 114)
+    Synth Brass 1 (Preset: 62, Bank: 0, Preset bag: 112)
+    Synth Brass 2 (Preset: 63, Bank: 0, Preset bag: 111)
+    SopSax (TB) v2.3 (Preset: 64, Bank: 0, Preset bag: 191)
+    AltoSax (TB) v2.3 (Preset: 65, Bank: 0, Preset bag: 190)
+    Tenor Sax (TB) v2.3 (Preset: 66, Bank: 0, Preset bag: 189)
+    BariSax (TB) v2.3 (Preset: 67, Bank: 0, Preset bag: 188)
+    Oboe (Orch) (Preset: 68, Bank: 0, Preset bag: 106)
+    English Horn (Preset: 69, Bank: 0, Preset bag: 105)
+    Bassoon (Preset: 70, Bank: 0, Preset bag: 104)
+    Clarinet (Preset: 71, Bank: 0, Preset bag: 103)
+    Piccolo (Preset: 72, Bank: 0, Preset bag: 102)
+    Flute TB (Preset: 73, Bank: 0, Preset bag: 0)
+    Recorder (Preset: 74, Bank: 0, Preset bag: 101)
+    Pan Flute (Preset: 75, Bank: 0, Preset bag: 100)
+    Bottle Chiff (Preset: 76, Bank: 0, Preset bag: 98)
+    Shakuhachi (Preset: 77, Bank: 0, Preset bag: 97)
+    Whistle (Preset: 78, Bank: 0, Preset bag: 96)
+    Ocarina (Preset: 79, Bank: 0, Preset bag: 95)
+    Square Wave (Preset: 80, Bank: 0, Preset bag: 93)
+    Saw Wave (Preset: 81, Bank: 0, Preset bag: 91)
+    Synth Calliope (Preset: 82, Bank: 0, Preset bag: 89)
+    Chiffer Lead (Preset: 83, Bank: 0, Preset bag: 87)
+    Charang (Preset: 84, Bank: 0, Preset bag: 85)
+    Solo Vox (Preset: 85, Bank: 0, Preset bag: 83)
+    5th Saw Wave (Preset: 86, Bank: 0, Preset bag: 81)
+    Bass & Lead (Preset: 87, Bank: 0, Preset bag: 79)
+    Fantasia (Preset: 88, Bank: 0, Preset bag: 76)
+    Warm Pad (Preset: 89, Bank: 0, Preset bag: 75)
+    Poly Synth (Preset: 90, Bank: 0, Preset bag: 73)
+    Space Voice (Preset: 91, Bank: 0, Preset bag: 71)
+    Bowed Glass (Preset: 92, Bank: 0, Preset bag: 69)
+    Metal Pad (Preset: 93, Bank: 0, Preset bag: 67)
+    Halo Pad (Preset: 94, Bank: 0, Preset bag: 65)
+    Sweep Pad (Preset: 95, Bank: 0, Preset bag: 63)
+    IceRain (Preset: 96, Bank: 0, Preset bag: 62)
+    Soundtrack (Preset: 97, Bank: 0, Preset bag: 60)
+    Crystal (Preset: 98, Bank: 0, Preset bag: 58)
+    Atmosphere (Preset: 99, Bank: 0, Preset bag: 56)
+    Brightness (Preset: 100, Bank: 0, Preset bag: 54)
+    Goblin (Preset: 101, Bank: 0, Preset bag: 52)
+    Echo Drops (Preset: 102, Bank: 0, Preset bag: 50)
+    Star Theme (Preset: 103, Bank: 0, Preset bag: 48)
+    Sitar (Preset: 104, Bank: 0, Preset bag: 47)
+    Banjo (Preset: 105, Bank: 0, Preset bag: 46)
+    Shamisen (Preset: 106, Bank: 0, Preset bag: 45)
+    Koto (Preset: 107, Bank: 0, Preset bag: 44)
+    Kalimba (Preset: 108, Bank: 0, Preset bag: 43)
+    Bagpipe (Preset: 109, Bank: 0, Preset bag: 41)
+    Fiddle (Preset: 110, Bank: 0, Preset bag: 40)
+    Shenai (Preset: 111, Bank: 0, Preset bag: 39)
+    Tinker Bell (Preset: 112, Bank: 0, Preset bag: 38)
+    Agogo (Preset: 113, Bank: 0, Preset bag: 37)
+    Steel Drum (Preset: 114, Bank: 0, Preset bag: 36)
+    Wood Block (Preset: 115, Bank: 0, Preset bag: 35)
+    Taiko Drum (Preset: 116, Bank: 0, Preset bag: 34)
+    Melodic Tom (Preset: 117, Bank: 0, Preset bag: 33)
+    Synth Drum (Preset: 118, Bank: 0, Preset bag: 32)
+    Reverse Cymbal (Preset: 119, Bank: 0, Preset bag: 31)
+    Fret Noise (Preset: 120, Bank: 0, Preset bag: 30)
+    Breath Noise (Preset: 121, Bank: 0, Preset bag: 28)
+    Seashore (Preset: 122, Bank: 0, Preset bag: 27)
+    Bird (Preset: 123, Bank: 0, Preset bag: 26)
+    Telephone (Preset: 124, Bank: 0, Preset bag: 25)
+    Helicopter (Preset: 125, Bank: 0, Preset bag: 24)
+    Applause (Preset: 126, Bank: 0, Preset bag: 22)
+    Gun Shot (Preset: 127, Bank: 0, Preset bag: 20)
+
  <a name="troubleshooting-faq"></a>
 
 ### Troubleshooting / FAQ
@@ -261,6 +724,7 @@ This cheat sheet for the haxophone already explains the transpose mode, this fea
 
 ### Links and Resources
 * [https://www.crowdsupply.com/cardona-bits/haxophone](https://www.crowdsupply.com/cardona-bits/haxophone)
+* [https://lightnote.cardonabits.com/products/haxophone-as-a-kit](https://lightnote.cardonabits.com/products/haxophone-as-a-kit)
 * [https://github.com/cardonabits/haxo-hw](https://github.com/cardonabits/haxo-hw)
 * [https://github.com/cardonabits/haxo-rs](https://github.com/cardonabits/haxo-rs)
 * [https://haxo-notemap.nn.r.appspot.com/](https://haxo-notemap.nn.r.appspot.com/)
@@ -291,4 +755,4 @@ This cheat sheet for the haxophone already explains the transpose mode, this fea
 
 | Document Version | Changes |
 | --- | --- |
-| 0.1 |     |
+| 0.2 |     |
