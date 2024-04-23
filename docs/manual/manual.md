@@ -248,7 +248,7 @@ Here is how it works:
   
 ![](./images/commando_mode_enter.jpg)
 
-* when you scroll through the sounds a short sound is played with each sounds
+* when you scroll through the sounds a short sound is played with each sound
 * to scroll up or down through the sounds use the up and down keys
   
 ![](./images/command_mode_scroll_1,jpg)
