@@ -529,7 +529,7 @@ And select the newest Raspberry Pi Zero Compilation run.
 
 3. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
 4. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
-scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
+    scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
 5. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
     sudo cp  /usr/local/bin/haxo001 haxo001.orig
 6. Then replace it with the new version:
