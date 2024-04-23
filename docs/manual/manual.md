@@ -332,7 +332,7 @@ The haxophone images are configured with username pi and password haxophone. So 
 ```
 ssh pi@haxophone.local
 ```
-When asked for the password enter haxophone
+When asked for the password enter `haxophone`
 
 <a name="howto-permanent-modifications"></a>
 
