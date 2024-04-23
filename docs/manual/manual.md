@@ -534,7 +534,8 @@ scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
 sudo cp  /usr/local/bin/haxo001 haxo001.orig
 6. Then replace it with the new version:
 sudo cp haxo001_new /usr/local/bin/haxo001
-7. sudo reboot
+7. Reboot
+    sudo reboot
 8. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
 
 <a name="howto-change-sound-set"></a>
