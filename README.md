@@ -157,7 +157,12 @@ and reliability of it.
 
 ## Software
 
-See [haxo-rs](https://github.com/jcard0na/haxo-rs) for details about the software.
+See [haxo-rs](https://github.com/jcard0na/haxo-rs) for details about the software that runs on all Raspberry Pis.
+
+Alternatively, you can explore [haxo-ino](https://github.com/langeroo/haxo-ino), a port of `haxo-rs` for [RP2040 boards](https://www.waveshare.com/rp2040-pizero.htm).  When using this board the audio port of the Haxophone will be disabled and notes will only be sent out as MIDI.  However, if your intent is to use the Haxophone exclusively as a MIDI Controller, this approach has some advantages:
+  * Lower USB latency: while we lack precise data, haxo-ino likely achieves better latency by not running Linux, thereby avoiding the associated USB overhead.
+  * Very fast boot: `haxo-ino` boots in less than 2s, which is way faster, than `haxo-rs`, even on the fastest Pi.
+  * Better connector:  the rp2040-pizero uses a type-C USB connector, which is just better than Micro USB used on the Pi's.
 
 ## Manufacturing
 
