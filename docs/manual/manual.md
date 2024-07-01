@@ -11,7 +11,7 @@
 	* [Unpacking and Setting Up](#unpackung-and-setting-up)
 		+ [Connect and Install the Software](#connect-and-install-software)
 		+ [Start the Haxophone](#start-haxophone)
-		+ [Stop the Haxophone](#stop-haxophone)
+		+ [Shutdown the Haxophone](#stop-haxophone)
 	* [Before You Play](#before-you-play)
 		+ [Choose a Sound](#choose-sound)
 		+ [ Choose the Transpose Key](#choose-transpose-key)
@@ -230,12 +230,14 @@ Now your haxophone is ready to play!
    Blow air through the mouthpiece or tip of the neck to begin playing.
 
 4. **Stop Playing:**
-When you have finished playing and want to power off the haxophone, just remove the USB power. As the SD card is used in readonly mode, there is no danger in corrupting the data on the SD card when removing power.
+When you have finished playing and want to power off the haxophone, just remove the USB power. As the SD card is used in read only mode, there is no danger in corrupting the data on the SD card when removing power.
+
+ <a name="stop-haxophone"></a>
+
+#### Shutdown the Haxophone
+To turn off the Haxophone you just need to unplug the power. You don't need to worry about corrupting files on the SD card, as the SD card is read only per default.
 
  <a name="before-you-play"></a>
-
-#### Stop the Haxophone
-To turn off the Haxophone you just need to unplug the power. You don't need to worry about corrupting files on the SD card, as the SD card is read-only per default. (if you changed this setting, then you can use the command line mode to shutdown)
 
 ### Before You Play
 With the haxophone you have the full choice of what kind of instrument you want to play, you do not need to stick to the tenor saxophone sound or the fact that the keys are transposed to Bb.
