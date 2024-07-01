@@ -11,6 +11,7 @@
 	* [Unpacking and Setting Up](#unpackung-and-setting-up)
 		+ [Connect and Install the Software](#connect-and-install-software)
 		+ [Start the Haxophone](#start-haxophone)
+		+ [Shutdown the Haxophone](#stop-haxophone)
 	* [Before You Play](#before-you-play)
 		+ [Choose a Sound](#choose-sound)
 		+ [ Choose the Transpose Key](#choose-transpose-key)
@@ -24,6 +25,7 @@
 		+ [Install the Newest Binary](#install-newest-binary)
 		+ [Howto Change the Sound Set](#howto-change-sound-set)
 		+ [Howto Change the notemap.json](#howto-notemap.json)
+		+ [Howto trigger an action using fingering](#howto-tigger-action)
 - [Appendix](#appendix)
 	* [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
 	* [Haxophone Sounds](#haxophone-sounds)
@@ -228,7 +230,12 @@ Now your haxophone is ready to play!
    Blow air through the mouthpiece or tip of the neck to begin playing.
 
 4. **Stop Playing:**
-When you have finished playing and want to power off the haxophone, just remove the USB power. As the SD card is used in readonly mode, there is no danger in corrupting the data on the SD card when removing power.
+When you have finished playing and want to power off the haxophone, just remove the USB power. As the SD card is used in read only mode, there is no danger in corrupting the data on the SD card when removing power.
+
+ <a name="stop-haxophone"></a>
+
+#### Shutdown the Haxophone
+To turn off the Haxophone you just need to unplug the power. You don't need to worry about corrupting files on the SD card, as the SD card is read only per default.
 
  <a name="before-you-play"></a>
 
@@ -556,6 +563,15 @@ TODO Work in Progress....
  --notemap-file /usr/share/haxo/notemap.json \
  --notemap-file /usr/share/haxo/notemap_c_instrument.json \
 
+<a name="#howto-tigger-action"></a>
+
+#### Howto trigger an action using fingering
+
+TODO Work in Progress....
+
+Some time ago there existed a [key combination to trigger the shutdown](https://github.com/cardonabits/haxo-rs/commit/9a9a84b224fc8a8fe0d9163508b1aee2d814d735).
+
+
  <a name="appendix"></a>
 
 ## Appendix
@@ -722,6 +738,8 @@ For an explanation how to switch between the sounds see
 
  <a name="links-and-resources"></a>
 
+3. How to turn off the haxophone? Just remove power, as the SD card is read only. Some time ago there existed a [key combination to trigger the shutdown](https://github.com/cardonabits/haxo-rs/commit/9a9a84b224fc8a8fe0d9163508b1aee2d814d735). It was removed, because it was no longer needed (SD card read only) and you could accidentially trigger the shutdown during playing.
+
 ### Links and Resources
 * [https://www.crowdsupply.com/cardona-bits/haxophone](https://www.crowdsupply.com/cardona-bits/haxophone)
 * [https://lightnote.cardonabits.com/products/haxophone-as-a-kit](https://lightnote.cardonabits.com/products/haxophone-as-a-kit)
@@ -755,4 +773,4 @@ For an explanation how to switch between the sounds see
 
 | Document Version | Changes |
 | --- | --- |
-| 0.2 |     |
+| 0.3 | Added howto shutdown  |
