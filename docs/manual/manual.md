@@ -230,8 +230,6 @@ Now your haxophone is ready to play!
    Blow air through the mouthpiece or tip of the neck to begin playing.
 
 4. **Stop Playing:**
-When you have finished playing and want to power off the haxophone, just remove the USB power. As the SD card is used in read only mode, there is no danger in corrupting the data on the SD card when removing power.
-
  <a name="stop-haxophone"></a>
 
 #### Shutdown the Haxophone
