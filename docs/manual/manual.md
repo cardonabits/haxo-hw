@@ -766,5 +766,6 @@ For an explanation how to switch between the sounds see
 
 
 | Document Version | Changes |
-| --- | --- |
+| 0.1 | First version |
+| 0.2 | Added more information |
 | 0.3 | Added howto shutdown  |
