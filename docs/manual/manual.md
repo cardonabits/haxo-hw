@@ -563,15 +563,12 @@ TODO Work in Progress....
  --notemap-file /usr/share/haxo/notemap.json \
  --notemap-file /usr/share/haxo/notemap_c_instrument.json \
 
-<a name="#howto-tigger-action"></a>
+<a name="#howto-tigger-shutdown"></a>
 
-#### Howto trigger an action using fingering
+#### The non-existent Shutdown command
 
-TODO Work in Progress....
-
-Some time ago there existed a [key combination to trigger the shutdown](https://github.com/cardonabits/haxo-rs/commit/9a9a84b224fc8a8fe0d9163508b1aee2d814d735).
-
-
+Some time ago there existed a [shutdown command](https://github.com/cardonabits/haxo-rs/commit/9a9a84b224fc8a8fe0d9163508b1aee2d814d735) but it was removed as it was easy to trigger accidentally while playing.
+Now that we have more robust method to enter Command Mode that is much harder to trigger accidentally, maybe we should bring back the shutdown command.  If you want it, feel free to open an issue, or even better, a Pull Request.
  <a name="appendix"></a>
 
 ## Appendix
