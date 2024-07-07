@@ -229,7 +229,6 @@ Now your haxophone is ready to play!
 3. **Start Playing:**
    Blow air through the mouthpiece or tip of the neck to begin playing.
 
-4. **Stop Playing:**
  <a name="stop-haxophone"></a>
 
 #### Shutdown the Haxophone
