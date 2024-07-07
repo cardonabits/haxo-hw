@@ -25,7 +25,7 @@
 		+ [Install the Newest Binary](#install-newest-binary)
 		+ [Howto Change the Sound Set](#howto-change-sound-set)
 		+ [Howto Change the notemap.json](#howto-notemap.json)
-		+ [Howto trigger an action using fingering](#howto-tigger-action)
+		+ [The non-existent Shutdown command](#howto-tigger-shutdown)
 - [Appendix](#appendix)
 	* [Haxophone Cheat Sheet](#haxophone-cheat-sheet)
 	* [Haxophone Sounds](#haxophone-sounds)
