@@ -532,15 +532,27 @@ And select the newest Raspberry Pi Zero Compilation run.
 ![](./images/github_action_download_artifact.png)
 
 3. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
-4. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
-    scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
-5. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
-    sudo cp  /usr/local/bin/haxo001 haxo001.orig
-6. Then replace it with the new version:
-    sudo cp haxo001_new /usr/local/bin/haxo001
-7. Reboot
+4. Stop the haxo service
+```
+       sudo systemctl stop haxo
+```
+5. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
+```
+       scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
+```
+6. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
+```
+       sudo cp  /usr/local/bin/haxo001 haxo001.orig
+```
+7. Then replace it with the new version:
+```
+       sudo cp haxo001_new /usr/local/bin/haxo001
+```
+8. Reboot
+```
     sudo reboot
-8. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
+```
+9. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
 
 <a name="howto-change-sound-set"></a>
 
