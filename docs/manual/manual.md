@@ -19,6 +19,8 @@
 	* [Hacking](#hacking)
 		+ [Howto Connect to the Haxophone](#howto-connect)
 		+ [Howto Login ](#howto-login)
+		+ [Howto Login: other Methods ](#howto-login-other)
+		+ [Checking the Logs ](#checking-the-logs)
 		+ [Howto Make Permanent Modifications](#howto-permanent-modifications)
 		+ [The File haxo.service Explained](#haxo.service-explained)
 	* [Advanced Hacking](#advanced-hacking)
@@ -96,7 +98,7 @@ To get started, you will need the following additional items:
 4. USB power supply with a micro USB-B plug 
 5. Headphones, earphones or active speaker
 6. Optional: a saxophone mouthpiece
-7. Optional: HDMI cable with HDMI mini connector (not micro)
+7. Optional: HDMI cable (for Pi Zero: with HDMI mini connector)
 8. Optional: USB keyboard
 9. Optional: USB cable, USB network adapter or USB hub with network adapter
 
@@ -306,11 +308,12 @@ Links to fingering charts and the haxophone fingering chart
 <a name="hacking"></a>
 
 ### Hacking
+Your haxophone runs on Linux, and sometimes it is necessary (or fun) to just poke inside. For that you will need to log into your system. There are three supported ways to do so.
 
  <a name="howto-connect"></a>
 
 #### Howto Connect to the Haxophone
-There are several ways to connect to the haxophone. The easiest way is to use SSH over ethernet.
+There are three ways to connect to the haxophone. The easiest way is to use SSH over ethernet.
 
 ##### SSH over Ethernet
 The easiest way to connect is to use SSH over ethernet (connecting via WiFi is possible, but the default Haxophone images have WiFi disabled for performance. WiFi activity can introduce delays that affect latency while playing). 
@@ -337,6 +340,66 @@ The haxophone images are configured with username pi and password haxophone. So 
 ssh pi@haxophone.local
 ```
 When asked for the password enter `haxophone`
+
+![](./images/ssh-session.png)
+
+<a name="howto-login-other"></a>
+
+#### Howto login: other Methods
+
+##### Login via Monitor and Keyboard
+This is probably the method people are most familiar with: attach a monitor to the HDMI port of the haxophone, a USB keyboard, and you are in. On the Zeros, this normally requires a micro-USB to USB adapter. This is not the most portable setup, as not everyone carries a monitor in their pocket.
+
+![](./images/hdmi-port.jpg)
+![](./images/hdmi-session.jpg)
+
+##### Login via Serial Port
+
+This requires a USB to 3.3V TTL adapter.  The most popular brand is
+[FTDI](https://ftdichip.com/products/ttl-232r-3v3/), but there are many other
+alternatives you can use.  
+
+The Haxophone has a 3-pin header that exposes the Raspberry Pi serial port. The pinout matches that of the Raspberry Pi header, so if you prepare a cable for the Haxophone, you can also use it to connect directly to any Raspberry Pi.
+
+![](./images/serial-header.jpg)
+
+
+You need to connect your cable's TxD to the Raspberry Pi RxD and your cable's RxD to the Rasperry Pi TxD.  If you are using an FTDI cable, this is how the colors line up.
+
+![](./images/serial-port.jpg)
+
+Once you do that, you can use a serial terminal program to connect.  For instance, `minicom`.
+
+![](./images/minicom.png)
+
+<a name="checking-the-logs"></a>
+
+#### Checking the Logs
+
+Probably the most important log that you want to check is the one for the haxophone service.
+You can do that with the command 
+
+```
+journalctl -u haxo
+```
+
+See below for the expected output:
+
+```
+pi@haxophone:~ $ journalctl -u haxo
+-- Boot 9ecd1d956b6448adb9348f40065fbd4f --
+Jan 05 22:38:47 haxophone systemd[1]: Started haxophone.
+Jan 05 22:38:52 haxophone create_midi_gadget.sh[468]: created usb midi gadget
+Jan 05 22:38:52 haxophone haxo001[570]: fluidsynth: warning: SDL2 not initialized, SDL2 audio driver won't be usable
+Jan 05 22:38:52 haxophone haxo001[570]: [2024-01-05T22:38:52Z INFO  haxo001::alsa] Found alsa card MAX98357A
+Jan 05 22:39:01 haxophone haxo001[570]: Synth created
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi]
+Jan 05 22:39:02 haxophone haxo001[570]:     Available output ports:
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] 0: Midi Through:Midi Through Port->
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] 1: f_midi:f_midi 24:0
+Jan 05 22:39:02 haxophone haxo001[570]: [2024-01-05T22:39:02Z INFO  haxo001::midi] Picked the last one
+Jan 05 22:39:02 haxophone haxo001[570]: Starting haxophone (version 2493652)...
+```
 
 <a name="howto-permanent-modifications"></a>
 
