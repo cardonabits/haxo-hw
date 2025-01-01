@@ -571,7 +571,7 @@ The haxophone softeware consists of the binary haxo001 program that can be start
 
 * **--prog-number** with this option you select the default instrument that is played when the haxophone is started. 66 is the default tenor sax. You can change it for example to 73 you get the flute sound. (see [list of haxophone sounds](#haxophone-sounds) and use the value of preset)
 
-* add \ after TimGM6mb.sf2 and  **--transpose 8** in a new line to change the default transposition offset for a flute (Remark: for transpose to work you need to install the newest binary)
+* add \ after TimGM6mb.sf2 and  **--transpose 0** in a new line to change the default transposition offset for a flute (Remark: for transpose to work you need to install the newest binary)
 
 
  <a name="advanced-hacking"></a>
@@ -583,38 +583,45 @@ The haxophone softeware consists of the binary haxo001 program that can be start
 #### Install the Newest Binary
 To get the newest haxo001-rpiz.zip file do the following steps:
 
-0. Login to github (otherwise you can not download the artifact)
-1. Open [https://github.com/cardonabits/haxo-rs/actions](https://github.com/cardonabits/haxo-rs/actions)
+1. Login to github (otherwise you can not download the artifact)
+2. Open [https://github.com/cardonabits/haxo-rs/actions](https://github.com/cardonabits/haxo-rs/actions)
 
-![](./images/github_action_workflow.png)
+    ![](./images/github_action_workflow.png)
 
-And select the newest Raspberry Pi Zero Compilation run.
+    And select the newest Raspberry Pi Zero Compilation run.
 
-2. Download the artifact: Click on haxo001-rpiz and get the haxo001-rpiz.zip file
+3. Download the artifact: Click on haxo001-rpiz and get the haxo001-rpiz.zip file
 
-![](./images/github_action_download_artifact.png)
+    ![](./images/github_action_download_artifact.png)
 
-3. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
-4. Stop the haxo service
-```
-       sudo systemctl stop haxo
-```
-5. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
-```
-       scp haxo001 pi@haxophone.local:/home/pi/haxo001_new
-```
+4. Connect via ssh and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
+
+5. Stop the haxo service
+
+    ```
+    sudo systemctl stop haxo
+    ```
+6. Unzip the file on your local pc or laptop and use scp to copy it to the haxophone:
+
+    ```
+    cp haxo001 pi@haxophone.local:/home/pi/haxo001_new
+    ```
 6. Log in to the haxophone ([see howto login](#howto-login)) and save the original version of haxo001:
-```
-       sudo cp  /usr/local/bin/haxo001 haxo001.orig
-```
+
+    ```
+    sudo cp  /usr/local/bin/haxo001 haxo001.orig
+    ```
 7. Then replace it with the new version:
-```
-       sudo cp haxo001_new /usr/local/bin/haxo001
-```
+
+    ```
+    sudo cp haxo001_new /usr/local/bin/haxo001
+    ```
 8. Reboot
-```
+
+    ```
     sudo reboot
-```
+    ```
+
 9. Re-enable overlay ([see enable overlay filesystem](#enable-overlay-filesystem))
 
 <a name="howto-change-sound-set"></a>
@@ -628,12 +635,64 @@ If you want to change the sound set entirely, you’ll need to:
 <a name="howto-notemap.json"></a>
 
 #### Howto Change the notemap.json
-TODO Work in Progress....
+If you want to change the notemap.json, e.g. add some more or alternative fingerings to the existing fingerings, use the following steps:
 
+1. First, find your acutal notemap.json file. This is the original file:
+[https://raw.githubusercontent.com/cardonabits/haxo-rs/main/notemap.json](https://raw.githubusercontent.com/cardonabits/haxo-rs/main/notemap.json)
 
- Modify /etc/systemd/system/haxo.service to point to your new notemap
- --notemap-file /usr/share/haxo/notemap.json \
- --notemap-file /usr/share/haxo/notemap_c_instrument.json \
+2. Go to [https://haxo-notemap.nn.r.appspot.com/](https://haxo-notemap.nn.r.appspot.com/) and load your notemap.json file:
+
+   ![](./images/notemap_1.png)
+
+3. Use the up and down buttons to navigate to the note of which you want to change the fingering:
+
+   ![](./images/notemap_2.png)
+
+4. Select one existing fingering you want to modifiy:
+
+   ![](./images/notemap_3.png)
+
+5. Click on the blue keys to add or remove a fingering position:
+
+   ![](./images/notemap_4.png)
+
+6. When finished editing the fingering for this note click on "Save Fingering":
+
+   ![](./images/notemap_5.png)
+
+7. You will notice that the number of alternate fingerings has increased:
+
+   ![](./images/notemap_6.png)
+
+8. When finished editing, click on "Donwload notemap.json" and save the file on your computer
+
+9. Connect via ssh to your haxophone and disable overlay, reboot ([see disable overlay filesystem](#disable-overlay-filesystem))
+
+10. Login to your haxophone and stop the haxo service
+
+    ```
+    sudo systemctl stop haxo
+    ```
+
+11. On another shell on your computer: Copy the new notemap.json to your haxophone:
+
+    ```
+    scp notemap.json pi@haxophone.local:/home/pi
+    ```
+   and then copy it to the correct location via sudo cp:
+
+    ```
+pi@haxophone:~ $ sudo cp notemap.json /usr/share/haxo/
+    ```
+   
+    or modify /etc/systemd/system/haxo.service to point to your new notemap
+
+    ```
+     --notemap-file /usr/share/haxo/notemap.json \
+    ```
+
+12. Re-enable overlay and reboot ([see enable overlay filesystem](#enable-overlay-filesystem))
+
 
 <a name="#howto-tigger-shutdown"></a>
 
@@ -660,7 +719,7 @@ This cheat sheet for the haxophone already explains the transpose mode, this fea
 
 The default Haxophone image is configured to load the ubiquitous TimGM6mb.sf2 sound set developed by Tim Brechbill. The default sound set has 136 instrument sounds (presets) to choose from. As expected, the Haxophone boots into a tenor sax sound (66) by default. 
 
-For an explanation how to switch between the sounds see 
+For an explanation how to switch between the sounds see [Choose a Sound](#choose-sound)
 
     Piano 1 (Preset: 0, Bank: 0, Preset bag: 187)
     Standard (Preset: 0, Bank: 128, Preset bag: 18)
