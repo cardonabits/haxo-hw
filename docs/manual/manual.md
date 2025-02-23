@@ -302,8 +302,10 @@ See section ##Howto Make Permanent Modifications below if you want this changes 
  <a name="playing"></a>
 
 ### Playing
-TODO Work in Progress....
-Links to fingering charts and the haxophone fingering chart
+Here are some useful links to the haxophone fingering chart and some other fingering charts:
+
+* [https://www.sebulli.com/haxo/notemap/](https://www.sebulli.com/haxo/notemap/)
+* [https://www.windtabmusic.com/free-area-tenor-sax ](https://www.windtabmusic.com/free-area-tenor-sax)
 
 <a name="hacking"></a>
 
@@ -342,6 +344,29 @@ ssh pi@haxophone.local
 When asked for the password enter `haxophone`
 
 ![](./images/ssh-session.png)
+
+To login to the haxophone without need to always enter the password, you can transfer your SSH kay to the haxophone.
+If you don't have any SSH key on your computer you can generate it like this:
+
+```
+ssh-keygen -t rsa -b 4096
+```
+
+For more details on how to work with ssh keys see [https://www.ssh.com/academy/ssh/keygen](https://www.ssh.com/academy/ssh/keygen)
+
+Then you copy your public key to the haxophone like this:
+
+```
+ssh-copy-id pi@haxophone.local
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+pi@haxophone.local's password: 
+```
+
+You will be asked to enter the password one more time.
+The next time you login to the haxophone from your computer, no password is required.
+
+(Attention: if you want this changes to be permanent, then see section ##Howto Make Permanent Modifications below).
 
 <a name="howto-login-other"></a>
 
@@ -679,7 +704,7 @@ If you want to change the notemap.json, e.g. add some more or alternative finger
     ```
     scp notemap.json pi@haxophone.local:/home/pi
     ```
-   and then copy it to the correct location via sudo cp:
+   and then on the haxophone copy it to the correct location via sudo cp:
 
     ```
 pi@haxophone:~ $ sudo cp notemap.json /usr/share/haxo/
@@ -861,7 +886,7 @@ For an explanation how to switch between the sounds see [Choose a Sound](#choose
  <a name="troubleshooting-faq"></a>
 
 ### Troubleshooting / FAQ
-1. Which Raspberry Pi should I use? Pi Zero: usb 2 midi .... TODO others: more power if you want to build the image yourself...
+1. Which Raspberry Pi should I use? Pi Zero is quite fine, but the Zero W or Pi 3 or Pi 4 work, too.
 2. Which mouthpiece should I use? The neck is 16mm in diameter, which works with some alto mouthpieces and all tenor mouthpieces, if you add a bit of washi tape for a snug fit. Do not buy an expensive mouthpiece! In contrast to a real saxophone, the mouthpiece you choose will have no effect on sound quality on the haxophone. If you have a specific mouthpiece you want to use that does not fit, you can always modify and print [another neck](https://github.com/cardonabits/haxo-hw/blob/main/models/neck-neck.stl)!
 
  <a name="links-and-resources"></a>
@@ -875,6 +900,8 @@ For an explanation how to switch between the sounds see [Choose a Sound](#choose
 * [https://github.com/cardonabits/haxo-rs](https://github.com/cardonabits/haxo-rs)
 * [https://haxo-notemap.nn.r.appspot.com/](https://haxo-notemap.nn.r.appspot.com/)
 * [https://www.sebulli.com/haxo/notemap/](https://www.sebulli.com/haxo/notemap/)
+* [https://www.ssh.com/academy/ssh/keygen](https://www.ssh.com/academy/ssh/keygen)
+* [https://www.windtabmusic.com/free-area-tenor-sax ](https://www.windtabmusic.com/free-area-tenor-sax)
 
  <a name="caring-for-the-haxophone"></a>
 
@@ -903,3 +930,4 @@ For an explanation how to switch between the sounds see [Choose a Sound](#choose
 | 0.1 | First version |
 | 0.2 | Added more information |
 | 0.3 | Added howto shutdown  |
+| 0.4 | Some small additions and corrections  |
